@@ -1,0 +1,219 @@
+{
+  "schema": "eon-validation-report/1.0",
+  "modelId": "waterjet",
+  "sources": {
+    "step": {
+      "bytes": 3688384,
+      "sha256": "d127b6060251d9b665b6942a166a3e3881ab17d4297ed76ca978738fb77a278f"
+    },
+    "glb": {
+      "bytes": 2506632,
+      "sha256": "41bf9de53b71bfa0da4213aedca4f9c58219a402870acba82636e4d1f74c84b9"
+    }
+  },
+  "output": {
+    "glb": {
+      "bytes": 14275564,
+      "sha256": "99b054e5a896448ae1bb207216f94e31ba27902a47093882226e61752088ba8b"
+    }
+  },
+  "geometry": {
+    "source": {
+      "nodes": 511,
+      "meshes": 419,
+      "primitives": 492,
+      "triangles": 461290,
+      "bounds": {
+        "min": [
+          -5.812851686371648,
+          -1.1477263612769063e-15,
+          -6.357466220855713
+        ],
+        "max": [
+          0.10016684989929114,
+          3.6319763581131834,
+          8.710932133483887
+        ]
+      }
+    },
+    "output": {
+      "nodes": 28,
+      "meshes": 23,
+      "primitives": 64,
+      "triangles": 461290,
+      "bounds": {
+        "min": [
+          -5.812851686371648,
+          -1.1477263612769062e-15,
+          -6.357466220855713
+        ],
+        "max": [
+          0.10016684989929114,
+          3.631976366043091,
+          8.710932133483887
+        ]
+      }
+    },
+    "exclusions": {
+      "nodes": 0,
+      "primitives": 0,
+      "triangles": 0,
+      "entries": []
+    },
+    "assignments": {
+      "sourceGeometryNodes": 419,
+      "assignedNodes": 419,
+      "excludedNodes": 0,
+      "unassignedNodes": 0,
+      "duplicateAssignments": 0
+    },
+    "absorbedGeometryNodes": 405
+  },
+  "components": {
+    "total": 28,
+    "byLevel": {
+      "1": 1,
+      "2": 7,
+      "3": 20
+    },
+    "maxNameLength": 23
+  },
+  "annotations": {
+    "generated": 28,
+    "technical": 0,
+    "bindings": 0,
+    "unresolvedTargets": 0,
+    "sourceEntityIds": [],
+    "sourceBindings": {}
+  },
+  "cards": {
+    "count": 28,
+    "wordCounts": {
+      "min": 109,
+      "max": 121,
+      "total": 3213
+    },
+    "evidenceCount": 28
+  },
+  "schemas": {
+    "nodeMap": "eon-node-map/1.0",
+    "annotations": "eon-annotations/1.0",
+    "interactions": "eon-interactions/1.0"
+  },
+  "limits": {
+    "fileCount": {
+      "limit": 8,
+      "actual": 8,
+      "passed": true
+    },
+    "glbBytes": {
+      "limit": "< 200 MB",
+      "actual": 14275564,
+      "passed": true
+    },
+    "componentCount": {
+      "limit": "20–80",
+      "actual": 28,
+      "passed": true
+    },
+    "componentNameLength": {
+      "limit": "<= 30",
+      "actual": 23,
+      "passed": true
+    },
+    "embeddedBuffers": {
+      "limit": true,
+      "actual": true,
+      "passed": true
+    },
+    "trianglePreservation": {
+      "limit": 461290,
+      "actual": 461290,
+      "passed": true
+    },
+    "boundsPreservation": {
+      "limit": "within 1e-5 m",
+      "actual": {
+        "min": [
+          -5.812851686371648,
+          -1.1477263612769062e-15,
+          -6.357466220855713
+        ],
+        "max": [
+          0.10016684989929114,
+          3.631976366043091,
+          8.710932133483887
+        ]
+      },
+      "passed": true
+    },
+    "cardCoverage": {
+      "limit": 28,
+      "actual": 28,
+      "passed": true
+    },
+    "technicalAnnotations": {
+      "limit": 0,
+      "actual": 0,
+      "passed": true
+    },
+    "unresolvedTargets": {
+      "limit": 0,
+      "actual": 0,
+      "passed": true
+    },
+    "geometryCoverage": {
+      "limit": 0,
+      "actual": {
+        "unassignedNodes": 0,
+        "duplicateAssignments": 0
+      },
+      "passed": true
+    },
+    "uniqueComponentNames": {
+      "limit": true,
+      "actual": true,
+      "passed": true
+    },
+    "fileHashes": {
+      "limit": 8,
+      "actual": 8,
+      "passed": true
+    }
+  },
+  "files": {
+    "annotations.csv": {
+      "bytes": 42352,
+      "sha256": "f4caa6ac3b43cf18b1eff7ddeb2487d2edb990783a8795ae3a7b89676a199647"
+    },
+    "annotations.json": {
+      "bytes": 57426,
+      "sha256": "4190c0bd29dbe87d0c12043687d68c5ba0a337974a0d852f1343a84f3fcc3fab"
+    },
+    "interactions.json": {
+      "bytes": 5661,
+      "sha256": "2b3e032eeb9e5da8762e5dc6ba0a339551647fbf5324b817d6de05e4d743a811"
+    },
+    "model.glb": {
+      "bytes": 14275564,
+      "sha256": "99b054e5a896448ae1bb207216f94e31ba27902a47093882226e61752088ba8b"
+    },
+    "node-map.csv": {
+      "bytes": 11246,
+      "sha256": "793df8886d6faeecb5b897653ad5d3ca8c9486bac706d419e291c6e833e6481e"
+    },
+    "node-map.json": {
+      "bytes": 27738,
+      "sha256": "d67a4c1b2ae25a590e4dd42eb6f8f538fa31aa040786bb00a336bcd8f061dda7"
+    },
+    "sources.md": {
+      "bytes": 7175,
+      "sha256": "8ea0e4d6a00a97b06a2641e16dd93133112719336839d132b94b6ddc990121cf"
+    },
+    "validation-report.json": {
+      "bytes": 4907,
+      "sha256": "2620ce8762aba121ef3862362f5fade3c71caa2f5a268aed65c70586a6e938d3",
+      "hashScope": "canonical-report-with-zeroed-self-hash"
+    }
+  }
+}

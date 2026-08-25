@@ -1,0 +1,282 @@
+{
+  "schema": "eon-annotations/1.0",
+  "modelId": "vg600",
+  "annotations": [
+    {
+      "id": "generated:C01",
+      "type": "component-label",
+      "componentId": "C01",
+      "title": "Work Tank and Front Machine Enclosure",
+      "category": "Machining-Area Enclosure",
+      "overview": "This is the broad front enclosure around the VG600 work tank. The grouped geometry includes the tank-facing shell, cover panels, rails, and the visible boundary of the machining area.",
+      "function": "The real VG600 performs submerged wire cutting inside its work-tank area. This enclosure contains that wet working region and provides access around it; the simplified STEP does not separate every door, seal, or worktable detail.",
+      "relationships": "It sits in front of the wire-feed housing and around the internal guide-support structure. The main column is behind it, while the operator console is positioned to the side.",
+      "inspection": "Look for the front opening, panel seams, tank rim, rails, and clearance around the internal frame. Treat any concealed worktable, nozzle, seal, or drain detail as unconfirmed unless it is visibly modeled.",
+      "safety": "The real work tank contains dielectric water during submerged cutting. Do not open, drain, enter, or service it from this visualization; use the approved operating and isolation procedures for the installed machine.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Supplied VG600-II-Floor_2.stp STEP AP214 model",
+          "publisher": "Supplied STEP package",
+          "supports": [
+            "title",
+            "category",
+            "overview",
+            "relationships",
+            "inspection"
+          ]
+        },
+        {
+          "kind": "manufacturer-context",
+          "title": "VG600 Model Wire-Cutting EDM",
+          "publisher": "Excetek Technologies Co., Ltd.",
+          "url": "https://www.excetek.com/shop/vg600-42",
+          "supports": [
+            "title",
+            "category",
+            "function",
+            "relationships",
+            "safety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generated:C02",
+      "type": "component-label",
+      "componentId": "C02",
+      "title": "Main Machine Base, Column and Rear Enclosure",
+      "category": "Machine Structure",
+      "overview": "This group forms the broad machine base and the tall central and rear body behind the work tank. It includes the main column-shaped enclosure, rear panels, vented surface, and attached lower housing visible in the supplied model.",
+      "function": "The base, column, and rear enclosure carry and surround major machine structure behind the machining area. The STEP does not identify the hidden axis drives, tanks, pumps, filters, or electrical equipment that may share this region.",
+      "relationships": "The work-tank enclosure is in front, the wire-feed and guide regions align through the center, and the rear service cabinet stands beside it. Those spatial boundaries are visible even though the internal OEM assembly split is absent.",
+      "inspection": "Compare the column profile, enclosure walls, vent, attached housing, and interfaces with the work tank and internal frame. Do not infer lifting points, axis locations, or service access from appearance alone.",
+      "safety": "Never select lifting, jacking, anchoring, or maintenance points from this preview. Follow approved drawings and lockout procedures before working around the real column or rear enclosure.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Supplied VG600-II-Floor_2.stp STEP AP214 model",
+          "publisher": "Supplied STEP package",
+          "supports": [
+            "title",
+            "category",
+            "overview",
+            "relationships",
+            "inspection"
+          ]
+        },
+        {
+          "kind": "manufacturer-context",
+          "title": "VG600 Model Wire-Cutting EDM",
+          "publisher": "Excetek Technologies Co., Ltd.",
+          "url": "https://www.excetek.com/shop/vg600-42",
+          "supports": [
+            "title",
+            "category",
+            "function",
+            "safety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generated:C03",
+      "type": "component-label",
+      "componentId": "C03",
+      "title": "Rear Service Cabinet and Auxiliary Housings",
+      "category": "Service Equipment Enclosure",
+      "overview": "This is the tall cabinet-shaped assembly at the rear service side, together with its attached smaller housings, panel details, and lower cylindrical feature. Its position and external form match the separate service cabinet visible on the VG600.",
+      "function": "The VG600 has control, power, dielectric-water, and filtration services, but the public documentation does not label the exact contents of this CAD cabinet. It is therefore shown as a service enclosure rather than being claimed as one specific hidden system.",
+      "relationships": "The cabinet stands beside the main column and behind the machining enclosure. Attached housings remain grouped with it because the flat STEP provides no reliable internal assembly boundary or connection diagram.",
+      "inspection": "Inspect panel faces, vents, attached boxes, lower features, and clearance to the central machine body. Use the geometry to locate the cabinet only; do not assign unseen modules, cables, filters, or fluid connections.",
+      "safety": "Assume the real cabinet may contain electrical and fluid-service hazards. Do not open or service it without the installed machine’s documentation, energy isolation, and qualified maintenance procedures.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Supplied VG600-II-Floor_2.stp STEP AP214 model",
+          "publisher": "Supplied STEP package",
+          "supports": [
+            "title",
+            "category",
+            "overview",
+            "relationships",
+            "inspection"
+          ]
+        },
+        {
+          "kind": "manufacturer-context",
+          "title": "VG600 Model Wire-Cutting EDM",
+          "publisher": "Excetek Technologies Co., Ltd.",
+          "url": "https://www.excetek.com/shop/vg600-42",
+          "supports": [
+            "title",
+            "function",
+            "relationships",
+            "safety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generated:C04",
+      "type": "component-label",
+      "componentId": "C04",
+      "title": "Wire-Feed Housing and Upper Guide Area",
+      "category": "Wire Handling",
+      "overview": "This compact upper housing contains the visible wire-feed and upper-guide-area geometry: the enclosing shell, routed loop, internal head-like block, and supporting panels. Its position matches the upper wire-handling cabinet shown on the VG600.",
+      "function": "This region routes electrode wire toward the upper guide and machining area. Excetek offers high-speed automatic wire threading for the VG600, but the simplified STEP does not prove which spool, roller, tension, annealing, cutting, or sensor hardware is installed.",
+      "relationships": "It is mounted above the work-tank enclosure and aligned with the guide-support structure below. The exact internal wire path and the boundary between feed and guide hardware are not preserved here.",
+      "inspection": "Study the housing outline, visible routed loop, interior block, openings, and alignment over the work tank. Do not label individual feed mechanisms unless a distinct modeled part and manufacturer reference both support that name.",
+      "safety": "Wire-feed and threading mechanisms can move, pinch, cut, and energize wire. Use the real machine’s operating and lockout instructions before opening this housing or approaching the wire path.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Supplied VG600-II-Floor_2.stp STEP AP214 model",
+          "publisher": "Supplied STEP package",
+          "supports": [
+            "title",
+            "category",
+            "overview",
+            "relationships",
+            "inspection"
+          ]
+        },
+        {
+          "kind": "manufacturer-context",
+          "title": "VG600 Model Wire-Cutting EDM",
+          "publisher": "Excetek Technologies Co., Ltd.",
+          "url": "https://www.excetek.com/shop/vg600-42",
+          "supports": [
+            "title",
+            "category",
+            "function",
+            "relationships",
+            "safety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generated:C05",
+      "type": "component-label",
+      "componentId": "C05",
+      "title": "Machine Casting and Wire-Guide Support Frame",
+      "category": "Machine Structure",
+      "overview": "This group contains the substantial internal casting, horizontal arm-like structure, brackets, and guide-support plates visible inside the enclosure. It is the main internal support region rather than a generic collection of small parts.",
+      "function": "Excetek describes a rigid cast-iron structure, a U/V truss, and a water-cooled lower arm on the VG600. The geometry is consistent with the casting and wire-guide support region, but it does not identify every axis, bearing, coolant passage, or guide component.",
+      "relationships": "The frame sits inside the work-tank enclosure and aligns the upper and lower wire-path regions. It is carried by the main machine body and positioned below the upper wire-feed housing.",
+      "inspection": "Use section and isolate views to examine the horizontal arm, casting faces, mounting holes, brackets, and alignment through the work area. Do not infer adjustment points, precision surfaces, or internal cooling channels that are not visible.",
+      "safety": "Do not use this simplified frame as a lifting, alignment, or servicing diagram. Isolate the actual machine and follow approved instructions before entering the enclosure or working near guide and axis structures.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Supplied VG600-II-Floor_2.stp STEP AP214 model",
+          "publisher": "Supplied STEP package",
+          "supports": [
+            "title",
+            "category",
+            "overview",
+            "relationships",
+            "inspection"
+          ]
+        },
+        {
+          "kind": "manufacturer-context",
+          "title": "VG600 Model Wire-Cutting EDM",
+          "publisher": "Excetek Technologies Co., Ltd.",
+          "url": "https://www.excetek.com/shop/vg600-42",
+          "supports": [
+            "title",
+            "category",
+            "function",
+            "relationships",
+            "safety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generated:C06",
+      "type": "component-label",
+      "componentId": "C06",
+      "title": "Operator Control Console (HMI) and Support Arm",
+      "category": "Operator Controls",
+      "overview": "This is the separate operator console, including its display, keypad or control face, enclosure, and long support arm. Those features match the HMI shown in Excetek’s VG600 documentation.",
+      "function": "The HMI is the operator interface for programming, setup, monitoring, and machine control. The model shows the external console only; screen content, commands, control software, and internal electronics are not represented.",
+      "relationships": "The support arm positions the console beside the main machine body so the operator can view the work area and controls. Concealed wiring, joints, and mounting details are not included in this simplified export.",
+      "inspection": "Inspect the display opening, keypad layout, control-face angle, enclosure, support arm, and clearance to the machine. Do not interpret the modeled keys or screen as an operating procedure.",
+      "safety": "Only trained users should operate the real console. Follow the approved VG600 instructions and site procedures for startup, setup, emergency response, and maintenance; this preview is an orientation aid only.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Supplied VG600-II-Floor_2.stp STEP AP214 model",
+          "publisher": "Supplied STEP package",
+          "supports": [
+            "title",
+            "category",
+            "overview",
+            "relationships",
+            "inspection"
+          ]
+        },
+        {
+          "kind": "manufacturer-context",
+          "title": "VG600 Model Wire-Cutting EDM",
+          "publisher": "Excetek Technologies Co., Ltd.",
+          "url": "https://www.excetek.com/shop/vg600-42",
+          "supports": [
+            "title",
+            "category",
+            "overview",
+            "function",
+            "relationships",
+            "safety"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generated:C07",
+      "type": "component-label",
+      "componentId": "C07",
+      "title": "External Routed Hoses and Cables",
+      "category": "External Routing",
+      "overview": "This group contains the two long flexible lines routed outside the main housings. Their form supports a hose-or-cable description, but the simplified STEP does not identify their medium, signal, endpoints, or ownership.",
+      "function": "They represent external service routing on the machine. One or both may carry a fluid, air, electrical power, or signals, but no specific service can be assigned accurately from geometry or color alone.",
+      "relationships": "The lines run close to the machine body and extend beyond the enclosed groups. Their proximity does not prove which enclosed system, tank, or device they connect to, so they remain a separate neutral group.",
+      "inspection": "Follow each visible bend and exposed section, checking spacing from panels and moving regions. Do not infer connector type, pressure, voltage, contents, or maintenance responsibility from this preview.",
+      "safety": "Treat all real external lines as connected and potentially energized or pressurized until qualified procedures identify and isolate them. Do not disconnect, drain, move, or repair them using this model as guidance.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Supplied VG600-II-Floor_2.stp STEP AP214 model",
+          "publisher": "Supplied STEP package",
+          "supports": [
+            "title",
+            "category",
+            "overview",
+            "relationships",
+            "inspection"
+          ]
+        },
+        {
+          "kind": "manufacturer-context",
+          "title": "VG600 Model Wire-Cutting EDM",
+          "publisher": "Excetek Technologies Co., Ltd.",
+          "url": "https://www.excetek.com/shop/vg600-42",
+          "supports": [
+            "function",
+            "safety"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1908 @@
+{
+  "schema": "eon-node-map/1.0",
+  "modelId": "sa0231",
+  "components": [
+    {
+      "componentId": "C01",
+      "eonShortName": "C01_Guideway_Slide_Group",
+      "title": "Guideway and Slide Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Linear Motion",
+      "sourceNodeIndex": 2,
+      "sourceNodeName": "4246343",
+      "sourceOccurrenceId": "#129475",
+      "sourceProductId": "#129031",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4246343"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 0,
+      "bounds": {
+        "min": [
+          -0.5579999465942382,
+          -0.9899999999287725,
+          -0.8784000481414795
+        ],
+        "max": [
+          1.3210000019073487,
+          0.4366384446620941,
+          0.16284668496376198
+        ]
+      },
+      "center": [
+        0.3815000276565552,
+        -0.2766807776333392,
+        -0.3577766815888588
+      ],
+      "outwardDirection": [
+        -0.20990824401888458,
+        -0.9499933182528699,
+        -0.2311952083582393
+      ]
+    },
+    {
+      "componentId": "C02",
+      "eonShortName": "C02_Live_Center_Group",
+      "title": "Live-Center Support Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Work Support",
+      "sourceNodeIndex": 85,
+      "sourceNodeName": "4061476",
+      "sourceOccurrenceId": "#146174",
+      "sourceProductId": "#145733",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4061476"
+      ],
+      "absorbedGeometryNodeCount": 2,
+      "triangles": 8378,
+      "bounds": {
+        "min": [
+          0.7534999880790711,
+          -0.5675522015928522,
+          -0.2183942952940675
+        ],
+        "max": [
+          1.2134999964237214,
+          0.05350000038743019,
+          0.13708240351072817
+        ]
+      },
+      "center": [
+        0.9834999922513963,
+        -0.257026100602711,
+        -0.04065594589166967
+      ],
+      "outwardDirection": [
+        0.8623749525066239,
+        -0.29241632931270833,
+        0.4132821453202155
+      ]
+    },
+    {
+      "componentId": "C03",
+      "eonShortName": "C03_Fluid_Aux_Group",
+      "title": "12-Station Tool Turret Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Tooling",
+      "sourceNodeIndex": 90,
+      "sourceNodeName": "4218037",
+      "sourceOccurrenceId": "#2427157",
+      "sourceProductId": "#2426716",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4218037"
+      ],
+      "absorbedGeometryNodeCount": 77,
+      "triangles": 63758,
+      "bounds": {
+        "min": [
+          0.802,
+          0.13222896681749988,
+          -0.48931789258110003
+        ],
+        "max": [
+          1.163500017881247,
+          0.480125508977544,
+          -0.1259640040978205
+        ]
+      },
+      "center": [
+        0.9827500089406235,
+        0.30617723789752194,
+        -0.30764094833946026
+      ],
+      "outwardDirection": [
+        0.8289317137208034,
+        0.5593492558229125,
+        -0.0007899355961167337
+      ]
+    },
+    {
+      "componentId": "C04",
+      "eonShortName": "C04_4061844_Support",
+      "title": "Tool Turret Cover Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Protection",
+      "sourceNodeIndex": 959,
+      "sourceNodeName": "4061844",
+      "sourceOccurrenceId": "#2434014",
+      "sourceProductId": "#2433573",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4061844"
+      ],
+      "absorbedGeometryNodeCount": 2,
+      "triangles": 190,
+      "bounds": {
+        "min": [
+          -0.06299999999999994,
+          -0.2361903041601181,
+          -0.5855000019073486
+        ],
+        "max": [
+          1.1885000050067902,
+          0.718999981880188,
+          -0.1156119552890057
+        ]
+      },
+      "center": [
+        0.5627500025033951,
+        0.24140483886003494,
+        -0.35055597859817716
+      ],
+      "outwardDirection": [
+        0.39673404410026025,
+        0.9090445844368602,
+        -0.12743642241474376
+      ]
+    },
+    {
+      "componentId": "C05",
+      "eonShortName": "C05_Filter_Support",
+      "title": "Filtration Support Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Fluid Conditioning",
+      "sourceNodeIndex": 963,
+      "sourceNodeName": "4037047",
+      "sourceOccurrenceId": "#2457797",
+      "sourceProductId": "#2457356",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4037047"
+      ],
+      "absorbedGeometryNodeCount": 2,
+      "triangles": 88,
+      "bounds": {
+        "min": [
+          -0.819999989271164,
+          -0.8400000071525574,
+          -1.2063999999403954
+        ],
+        "max": [
+          0.13999998927116392,
+          0.7700000071525573,
+          -0.8313999996423722
+        ]
+      },
+      "center": [
+        -0.3400000000000001,
+        -0.03500000000000003,
+        -1.0188999997913837
+      ],
+      "outwardDirection": [
+        -0.7328423729580928,
+        0.03198361299999275,
+        -0.6796463086757835
+      ]
+    },
+    {
+      "componentId": "C06",
+      "eonShortName": "C06_Wiper_Cover_Group",
+      "title": "Z-Axis Sliding Guard Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Protection",
+      "sourceNodeIndex": 974,
+      "sourceNodeName": "4247587",
+      "sourceOccurrenceId": "#2554040",
+      "sourceProductId": "#2553529",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4247587"
+      ],
+      "absorbedGeometryNodeCount": 34,
+      "triangles": 11136,
+      "bounds": {
+        "min": [
+          -0.045,
+          -0.7581411530394514,
+          -0.7817065511535888
+        ],
+        "max": [
+          1.5560016223143105,
+          0.7385730321906931,
+          0.047524650135293556
+        ]
+      },
+      "center": [
+        0.7555008111571553,
+        -0.009784060424379126,
+        -0.36709095050914764
+      ],
+      "outwardDirection": [
+        0.9687849818453659,
+        0.1734124452634562,
+        -0.17715468601937467
+      ]
+    },
+    {
+      "componentId": "C07",
+      "eonShortName": "C07_4061823_Rail_Group",
+      "title": "Rail-Side Support Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Structure",
+      "sourceNodeIndex": 1064,
+      "sourceNodeName": "4061823",
+      "sourceOccurrenceId": "#2594509",
+      "sourceProductId": "#2594068",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4061823"
+      ],
+      "absorbedGeometryNodeCount": 4,
+      "triangles": 88,
+      "bounds": {
+        "min": [
+          0.7425,
+          -0.5901796059568335,
+          -0.19291287180622219
+        ],
+        "max": [
+          1.1610000002980234,
+          -0.29036632852765465,
+          0.04679632677893
+        ]
+      },
+      "center": [
+        0.9517500001490118,
+        -0.4402729672422441,
+        -0.07305827251364609
+      ],
+      "outwardDirection": [
+        0.7664628508953757,
+        -0.5435442842570397,
+        0.34219045756542565
+      ]
+    },
+    {
+      "componentId": "C08",
+      "eonShortName": "C08_Main_Frame_Group",
+      "title": "Main Machine Frame Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Structure",
+      "sourceNodeIndex": 1093,
+      "sourceNodeName": "4250109",
+      "sourceOccurrenceId": "#2947282",
+      "sourceProductId": "#2946841",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250109"
+      ],
+      "absorbedGeometryNodeCount": 23,
+      "triangles": 2962,
+      "bounds": {
+        "min": [
+          -0.8350000000949949,
+          -0.765,
+          -1.2064000000000001
+        ],
+        "max": [
+          1.6899999952316285,
+          0.8465696525210011,
+          0.5603641999609059
+        ]
+      },
+      "center": [
+        0.4274999975683168,
+        0.04078482626050056,
+        -0.3230179000195471
+      ],
+      "outwardDirection": [
+        1.4682564357301787e-8,
+        0.9895726837767947,
+        -0.14403438312705602
+      ]
+    },
+    {
+      "componentId": "C09",
+      "eonShortName": "C09_Chuck_Wash_Group",
+      "title": "Chuck-Flushing Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Fluid Delivery",
+      "sourceNodeIndex": 1935,
+      "sourceNodeName": "4065686",
+      "sourceOccurrenceId": "#3289306",
+      "sourceProductId": "#3288865",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4065686"
+      ],
+      "absorbedGeometryNodeCount": 9,
+      "triangles": 5052,
+      "bounds": {
+        "min": [
+          -0.06899999845027924,
+          0.22614359367638825,
+          -0.011900000104308129
+        ],
+        "max": [
+          -0.00800000025331974,
+          0.2538564063236117,
+          0.012100000104308128
+        ]
+      },
+      "center": [
+        -0.038499999351799485,
+        0.24,
+        0.0000999999999999994
+      ],
+      "outwardDirection": [
+        -0.7307118665362823,
+        0.48373782099736756,
+        0.48172387177695614
+      ]
+    },
+    {
+      "componentId": "C10",
+      "eonShortName": "C10_4250415_Member",
+      "title": "Tool Measurement Plate",
+      "level": 1,
+      "parentId": null,
+      "category": "Tool Measurement",
+      "sourceNodeIndex": 1961,
+      "sourceNodeName": "4250415",
+      "sourceOccurrenceId": "#3292602",
+      "sourceProductId": "#3291333",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250415"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 444,
+      "bounds": {
+        "min": [
+          -0.036000000000000004,
+          -0.3385980840994009,
+          0.07449369746979913
+        ],
+        "max": [
+          -0.019999999240040783,
+          -0.21061175284819916,
+          0.2024800287210009
+        ]
+      },
+      "center": [
+        -0.027999999620020394,
+        -0.27460491847380003,
+        0.1384868630954
+      ],
+      "outwardDirection": [
+        -0.6801392484396167,
+        -0.3077555241213809,
+        0.6653548978588549
+      ]
+    },
+    {
+      "componentId": "C11",
+      "eonShortName": "C11_Arm_Garage_Group",
+      "title": "Handling Arm and Garage Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Mechanical Handling",
+      "sourceNodeIndex": 1962,
+      "sourceNodeName": "4250394",
+      "sourceOccurrenceId": "#3301390",
+      "sourceProductId": "#3300949",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250394"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 0,
+      "bounds": {
+        "min": [
+          -0.08700000140070915,
+          -0.3395312137891704,
+          0.044850525903701505
+        ],
+        "max": [
+          0.09300000140070916,
+          0.30819249310897245,
+          0.30225645784416877
+        ]
+      },
+      "center": [
+        0.0030000000000000027,
+        -0.01566936034009897,
+        0.17355349187393515
+      ],
+      "outwardDirection": [
+        -0.6597231941001823,
+        0.08209913089291297,
+        0.7470107361162097
+      ]
+    },
+    {
+      "componentId": "C12",
+      "eonShortName": "C12_ROS250_Assembly",
+      "title": "ROS250 Auxiliary Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Auxiliary",
+      "sourceNodeIndex": 1969,
+      "sourceNodeName": "8865780016_ROS250_ASM",
+      "sourceOccurrenceId": "#3424247",
+      "sourceProductId": "#3423465",
+      "sourcePath": [
+        "SA0138_ASM",
+        "8865780016_ROS250_ASM"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 80542,
+      "bounds": {
+        "min": [
+          -0.017999995231628416,
+          -0.1435000002384186,
+          -0.14350000023841858
+        ],
+        "max": [
+          0.1517999994456768,
+          0.14350000023841855,
+          0.14350000023841858
+        ]
+      },
+      "center": [
+        0.06690000210702418,
+        -2.7755575615628914e-17,
+        0
+      ],
+      "outwardDirection": [
+        -0.7534742000317494,
+        0.1431228735528942,
+        0.6417105834817419
+      ]
+    },
+    {
+      "componentId": "C13",
+      "eonShortName": "C13_Primary_Guideway",
+      "title": "Primary Guideway Assembly",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 3,
+      "sourceNodeName": "4246582",
+      "sourceOccurrenceId": "#43764",
+      "sourceProductId": "#43320",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4246343",
+        "4246582"
+      ],
+      "absorbedGeometryNodeCount": 5,
+      "triangles": 4124,
+      "bounds": {
+        "min": [
+          -0.5579999465942382,
+          -0.9899999999287725,
+          -0.8784000481414795
+        ],
+        "max": [
+          1.3210000019073487,
+          -0.23899997089385994,
+          0.07294153618335725
+        ]
+      },
+      "center": [
+        0.3815000276565552,
+        -0.6144999854113162,
+        -0.4027292559790612
+      ],
+      "outwardDirection": [
+        -0.08270127919164655,
+        -0.981635738284274,
+        -0.17190629931201912
+      ]
+    },
+    {
+      "componentId": "C14",
+      "eonShortName": "C14_AF2_Linear_Rails",
+      "title": "Primary Linear Rail Set",
+      "level": 3,
+      "parentId": "C13",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 7,
+      "sourceNodeName": "3505121",
+      "sourceOccurrenceId": "#33498",
+      "sourceProductId": "#33057",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4246343",
+        "4246582",
+        "3505121"
+      ],
+      "absorbedGeometryNodeCount": 6,
+      "triangles": 31040,
+      "bounds": {
+        "min": [
+          0.09500003337860141,
+          -0.315,
+          -0.7172000007450581
+        ],
+        "max": [
+          1.2550000000000001,
+          -0.2669999998807907,
+          -0.27719999925494193
+        ]
+      },
+      "center": [
+        0.6750000166893008,
+        -0.2909999999403954,
+        -0.4972
+      ],
+      "outwardDirection": [
+        0.645754892014781,
+        -0.5805370331282269,
+        -0.4959610595658237
+      ]
+    },
+    {
+      "componentId": "C15",
+      "eonShortName": "C15_AF3_Linear_Rails",
+      "title": "Secondary Linear Rail Set",
+      "level": 3,
+      "parentId": "C13",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 14,
+      "sourceNodeName": "3505121_AF3_ASM_1",
+      "sourceOccurrenceId": "#35051",
+      "sourceProductId": "#34610",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4246343",
+        "4246582",
+        "3505121_AF3_ASM_1"
+      ],
+      "absorbedGeometryNodeCount": 6,
+      "triangles": 31040,
+      "bounds": {
+        "min": [
+          0.09500003337860141,
+          -0.5685363243999318,
+          -0.23208077577580413
+        ],
+        "max": [
+          1.2550000000000001,
+          -0.32442766285779323,
+          0.012027885766361462
+        ]
+      },
+      "center": [
+        0.6750000166893008,
+        -0.44648199362886254,
+        -0.11002644500472133
+      ],
+      "outwardDirection": [
+        0.5021077986100558,
+        -0.7668266947668236,
+        0.39983068762659063
+      ]
+    },
+    {
+      "componentId": "C16",
+      "eonShortName": "C16_Slide_Support",
+      "title": "Slide Support Assembly",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 26,
+      "sourceNodeName": "4217196",
+      "sourceOccurrenceId": "#106132",
+      "sourceProductId": "#105691",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4246343",
+        "4217196"
+      ],
+      "absorbedGeometryNodeCount": 11,
+      "triangles": 14764,
+      "bounds": {
+        "min": [
+          0.7004999916553498,
+          -0.35200000953674315,
+          -0.8121121525764463
+        ],
+        "max": [
+          1.2455000083446504,
+          0.4366384446620941,
+          -0.14990663528442377
+        ]
+      },
+      "center": [
+        0.9730000000000001,
+        0.04231921756267548,
+        -0.48100939393043507
+      ],
+      "outwardDirection": [
+        0.9354000670760552,
+        0.19002150894916886,
+        -0.2981921203700601
+      ]
+    },
+    {
+      "componentId": "C17",
+      "eonShortName": "C17_THK_X_Guide_Set",
+      "title": "X-Axis Linear Guide Set",
+      "level": 3,
+      "parentId": "C16",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 34,
+      "sourceNodeName": "044__07_THK_LINEAR_GUIDES_X_2",
+      "sourceOccurrenceId": "#79965",
+      "sourceProductId": "#79524",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4246343",
+        "4217196",
+        "4217491",
+        "044__07_THK_LINEAR_GUIDES_X_2"
+      ],
+      "absorbedGeometryNodeCount": 10,
+      "triangles": 15144,
+      "bounds": {
+        "min": [
+          0.8169999998509884,
+          -0.229,
+          -0.8109999856948853
+        ],
+        "max": [
+          1.1290000001490115,
+          -0.17400000000000002,
+          -0.17100000000000004
+        ]
+      },
+      "center": [
+        0.9729999999999999,
+        -0.2015,
+        -0.49099999284744267
+      ],
+      "outwardDirection": [
+        0.9232839882583492,
+        -0.2251151107763487,
+        -0.3112392390523871
+      ]
+    },
+    {
+      "componentId": "C18",
+      "eonShortName": "C18_Secondary_Guides",
+      "title": "Secondary Linear Guide Set",
+      "level": 3,
+      "parentId": "C16",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 49,
+      "sourceNodeName": "3491817",
+      "sourceOccurrenceId": "#83506",
+      "sourceProductId": "#83065",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4246343",
+        "4217196",
+        "4217491",
+        "3491817"
+      ],
+      "absorbedGeometryNodeCount": 10,
+      "triangles": 15144,
+      "bounds": {
+        "min": [
+          0.8169999998509885,
+          -0.1594525791575524,
+          -0.6346283411725218
+        ],
+        "max": [
+          1.1290000001490117,
+          0.3442902921654076,
+          -0.1332896288436936
+        ]
+      },
+      "center": [
+        0.9730000000000001,
+        0.09241885650392759,
+        -0.38395898500810766
+      ],
+      "outwardDirection": [
+        0.9505022285044287,
+        0.2803851572999572,
+        -0.13390174447703534
+      ]
+    },
+    {
+      "componentId": "C19",
+      "eonShortName": "C19_4040070_Interface",
+      "title": "Guideway Interface Assembly",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Technical Interface",
+      "sourceNodeIndex": 71,
+      "sourceNodeName": "4040070",
+      "sourceOccurrenceId": "#128693",
+      "sourceProductId": "#128252",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4246343",
+        "4040070"
+      ],
+      "absorbedGeometryNodeCount": 5,
+      "triangles": 5926,
+      "bounds": {
+        "min": [
+          -0.45899999141693115,
+          -0.6071925903074944,
+          -0.29323718215805944
+        ],
+        "max": [
+          0.014000000432133675,
+          0.15249058788697578,
+          0.16284668496376198
+        ]
+      },
+      "center": [
+        -0.22249999549239874,
+        -0.2273510012102593,
+        -0.06519524859714873
+      ],
+      "outwardDirection": [
+        -0.9135392262589883,
+        -0.22326170594202702,
+        0.3400004305085285
+      ]
+    },
+    {
+      "componentId": "C20",
+      "eonShortName": "C20_4037289_Detail",
+      "title": "Guideway Interface Plate",
+      "level": 3,
+      "parentId": "C19",
+      "category": "Technical Interface",
+      "sourceNodeIndex": 79,
+      "sourceNodeName": "4037289_1",
+      "sourceOccurrenceId": "#123437",
+      "sourceProductId": "#120335",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4246343",
+        "4040070",
+        "4037289",
+        "4037289_1"
+      ],
+      "absorbedGeometryNodeCount": 1,
+      "triangles": 340,
+      "bounds": {
+        "min": [
+          -0.365,
+          -0.6043641658801,
+          -0.019586856152991643
+        ],
+        "max": [
+          -0.04550000071525573,
+          -0.555573799529759,
+          0.029203510197349233
+        ]
+      },
+      "center": [
+        -0.20525000035762786,
+        -0.5799689827049295,
+        0.004808327022178795
+      ],
+      "outwardDirection": [
+        -0.7261623023499173,
+        -0.5869810626388892,
+        0.3579686337504836
+      ]
+    },
+    {
+      "componentId": "C21",
+      "eonShortName": "C21_MK4_Live_Center",
+      "title": "Live Center",
+      "level": 2,
+      "parentId": "C02",
+      "category": "Work Support",
+      "sourceNodeIndex": 88,
+      "sourceNodeName": "AG_2933969_LIVE_CENTER_MK4",
+      "sourceOccurrenceId": "#144207",
+      "sourceProductId": "#143291",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4061476",
+        "AG_2933969_LIVE_CENTER_MK4"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 748,
+      "bounds": {
+        "min": [
+          0.7149999999999982,
+          -0.03750000149011612,
+          -0.03750000149011612
+        ],
+        "max": [
+          0.9129999989271164,
+          0.03750000149011612,
+          0.03750000149011612
+        ]
+      },
+      "center": [
+        0.8139999994635573,
+        0,
+        0
+      ],
+      "outwardDirection": [
+        0.7754985790897032,
+        0.13743516883581613,
+        0.6162089971729736
+      ]
+    },
+    {
+      "componentId": "C22",
+      "eonShortName": "C22_4015515_Unit",
+      "title": "12-Station Tool Turret Module",
+      "level": 2,
+      "parentId": "C03",
+      "category": "Tooling",
+      "sourceNodeIndex": 99,
+      "sourceNodeName": "4015515",
+      "sourceOccurrenceId": "#1939423",
+      "sourceProductId": "#1938975",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4218037",
+        "4015515"
+      ],
+      "absorbedGeometryNodeCount": 615,
+      "triangles": 673333,
+      "bounds": {
+        "min": [
+          0.5295000022649765,
+          0.11432333480444926,
+          -0.4824409113438066
+        ],
+        "max": [
+          0.9799999988079071,
+          0.4546541948119307,
+          -0.11432333480444926
+        ]
+      },
+      "center": [
+        0.7547500005364418,
+        0.28448876480818996,
+        -0.2983821230741279
+      ],
+      "outwardDirection": [
+        0.6797570552825914,
+        0.7332131577837779,
+        0.018133147721255495
+      ]
+    },
+    {
+      "componentId": "C23",
+      "eonShortName": "C23_4008825_Part",
+      "title": "Tool Turret Interface Plate",
+      "level": 2,
+      "parentId": "C03",
+      "category": "Technical Interface",
+      "sourceNodeIndex": 716,
+      "sourceNodeName": "4008825",
+      "sourceOccurrenceId": "#1945645",
+      "sourceProductId": "#1940440",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4218037",
+        "4008825"
+      ],
+      "absorbedGeometryNodeCount": 2,
+      "triangles": 604,
+      "bounds": {
+        "min": [
+          0.992,
+          0.13753226909878521,
+          -0.32420845901601475
+        ],
+        "max": [
+          1.042000000745058,
+          0.1658165397140444,
+          -0.29592418840075563
+        ]
+      },
+      "center": [
+        1.017000000372529,
+        0.1516744044064148,
+        -0.31006632370838516
+      ],
+      "outwardDirection": [
+        0.9367840123944653,
+        0.34987665058035605,
+        -0.004695050670391247
+      ]
+    },
+    {
+      "componentId": "C24",
+      "eonShortName": "C24_4209034_Fluid_Group",
+      "title": "Primary Heavy-Duty Electrical Connector Assembly",
+      "level": 2,
+      "parentId": "C03",
+      "category": "Electrical Connection",
+      "sourceNodeIndex": 815,
+      "sourceNodeName": "4209034",
+      "sourceOccurrenceId": "#2214441",
+      "sourceProductId": "#2214000",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4218037",
+        "4209034"
+      ],
+      "absorbedGeometryNodeCount": 31,
+      "triangles": 89241,
+      "bounds": {
+        "min": [
+          0.9909999974966048,
+          0.34003967234125687,
+          -0.4172716903095432
+        ],
+        "max": [
+          1.0916000016927718,
+          0.4806246977106524,
+          -0.2766866649401476
+        ]
+      },
+      "center": [
+        1.0412999995946883,
+        0.41033218502595464,
+        -0.3469791776248454
+      ],
+      "outwardDirection": [
+        0.7874303004026004,
+        0.6142782080383988,
+        -0.051144942438175
+      ]
+    },
+    {
+      "componentId": "C26",
+      "eonShortName": "C26_4211180_Package",
+      "title": "Secondary Heavy-Duty Electrical Connector Assembly",
+      "level": 2,
+      "parentId": "C03",
+      "category": "Electrical Connection",
+      "sourceNodeIndex": 913,
+      "sourceNodeName": "4211180",
+      "sourceOccurrenceId": "#2426377",
+      "sourceProductId": "#2425936",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4218037",
+        "4211180"
+      ],
+      "absorbedGeometryNodeCount": 26,
+      "triangles": 55523,
+      "bounds": {
+        "min": [
+          1.061599998652935,
+          0.34216645066570517,
+          -0.41514491198509484
+        ],
+        "max": [
+          1.1507752851187085,
+          0.4579007843913941,
+          -0.2994163747681652
+        ]
+      },
+      "center": [
+        1.1061876418858216,
+        0.4000336175285496,
+        -0.35728064337663
+      ],
+      "outwardDirection": [
+        0.8214282262219643,
+        0.5670702951061796,
+        -0.06072025670258378
+      ]
+    },
+    {
+      "componentId": "C27",
+      "eonShortName": "C27_Filter",
+      "title": "Filtration Unit",
+      "level": 2,
+      "parentId": "C05",
+      "category": "Fluid Conditioning",
+      "sourceNodeIndex": 969,
+      "sourceNodeName": "AG_044__41_FILTER",
+      "sourceOccurrenceId": "#2450463",
+      "sourceProductId": "#2449479",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4037047",
+        "4084931",
+        "AG_044__41_FILTER"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 716,
+      "bounds": {
+        "min": [
+          -0.795,
+          -0.5377500008046627,
+          -1.1603499985694885
+        ],
+        "max": [
+          -0.67,
+          -0.2997499990463257,
+          -1.0073500014305115
+        ]
+      },
+      "center": [
+        -0.7325,
+        -0.4187499999254942,
+        -1.08385
+      ],
+      "outwardDirection": [
+        -0.8059443297474672,
+        -0.243349205203079,
+        -0.5396618401137289
+      ]
+    },
+    {
+      "componentId": "C28",
+      "eonShortName": "C28_X_Wiper",
+      "title": "X-Axis Wiper",
+      "level": 2,
+      "parentId": "C06",
+      "category": "Machine Protection",
+      "sourceNodeIndex": 992,
+      "sourceNodeName": "044__32_WIPER_X__V4",
+      "sourceOccurrenceId": "#2483529",
+      "sourceProductId": "#2482519",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4247587",
+        "044__32_WIPER_X__V4"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 44,
+      "bounds": {
+        "min": [
+          0.7845000033378601,
+          0.17999999999999994,
+          -0.5020000000000001
+        ],
+        "max": [
+          1.20399999666214,
+          0.5159999954700469,
+          -0.49599999994784594
+        ]
+      },
+      "center": [
+        0.9942500000000001,
+        0.34799999773502344,
+        -0.498999999973923
+      ],
+      "outwardDirection": [
+        0.7773948336492291,
+        0.57129594613655,
+        -0.26320755031615606
+      ]
+    },
+    {
+      "componentId": "C29",
+      "eonShortName": "C29_4028242_End_Support",
+      "title": "Rail-End Support",
+      "level": 2,
+      "parentId": "C07",
+      "category": "Machine Structure",
+      "sourceNodeIndex": 1065,
+      "sourceNodeName": "4028242",
+      "sourceOccurrenceId": "#2559610",
+      "sourceProductId": "#2559166",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4061823",
+        "4028242"
+      ],
+      "absorbedGeometryNodeCount": 2,
+      "triangles": 148,
+      "bounds": {
+        "min": [
+          -0.044500026226043654,
+          -0.5894724977426541,
+          -0.18230627099986096
+        ],
+        "max": [
+          0.8655,
+          -0.2917805414828083,
+          0.04821054040847464
+        ]
+      },
+      "center": [
+        0.4104999868869782,
+        -0.4406265196127312,
+        -0.06704786529569316
+      ],
+      "outwardDirection": [
+        -0.038359916144512986,
+        -0.8396988745652159,
+        0.5416957789085086
+      ]
+    },
+    {
+      "componentId": "C30",
+      "eonShortName": "C30_4025453_Segments",
+      "title": "Rail Segment Assembly",
+      "level": 2,
+      "parentId": "C07",
+      "category": "Machine Structure",
+      "sourceNodeIndex": 1068,
+      "sourceNodeName": "4025453",
+      "sourceOccurrenceId": "#2587245",
+      "sourceProductId": "#2586804",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4061823",
+        "4025453"
+      ],
+      "absorbedGeometryNodeCount": 15,
+      "triangles": 632,
+      "bounds": {
+        "min": [
+          1.0915000006705522,
+          -0.5908867089699015,
+          -0.18725601610795017
+        ],
+        "max": [
+          1.556000000026077,
+          -0.28895211350466143,
+          0.07154506345663941
+        ]
+      },
+      "center": [
+        1.3237500003483147,
+        -0.43991941123728145,
+        -0.05785547632565538
+      ],
+      "outwardDirection": [
+        0.8947534347954398,
+        -0.37080302019246364,
+        0.24884013168681218
+      ]
+    },
+    {
+      "componentId": "C31",
+      "eonShortName": "C31_4250111_Frame",
+      "title": "Machine Frame Subassembly",
+      "level": 2,
+      "parentId": "C08",
+      "category": "Machine Structure",
+      "sourceNodeIndex": 1101,
+      "sourceNodeName": "4250111",
+      "sourceOccurrenceId": "#2899800",
+      "sourceProductId": "#2899359",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250109",
+        "4250110",
+        "4250111"
+      ],
+      "absorbedGeometryNodeCount": 13,
+      "triangles": 2050,
+      "bounds": {
+        "min": [
+          -0.8350000033378602,
+          -0.8029999976158142,
+          -0.6143999993741512
+        ],
+        "max": [
+          1.5510000007450582,
+          0.8530076322555542,
+          0.5921763611793518
+        ]
+      },
+      "center": [
+        0.357999998703599,
+        0.025003817319870003,
+        -0.011111819097399722
+      ],
+      "outwardDirection": [
+        -0.2184837836966078,
+        0.29393143652647374,
+        0.930520900830872
+      ]
+    },
+    {
+      "componentId": "C32",
+      "eonShortName": "C32_4015660_Primary_Frame",
+      "title": "Primary Machine Frame",
+      "level": 3,
+      "parentId": "C31",
+      "category": "Machine Structure",
+      "sourceNodeIndex": 1102,
+      "sourceNodeName": "4015660",
+      "sourceOccurrenceId": "#2867662",
+      "sourceProductId": "#2867218",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250109",
+        "4250110",
+        "4250111",
+        "4015660"
+      ],
+      "absorbedGeometryNodeCount": 4,
+      "triangles": 398,
+      "bounds": {
+        "min": [
+          0.78449999666214,
+          -0.6889923603249,
+          -0.27490000037252904
+        ],
+        "max": [
+          1.6150000033378602,
+          0.7760076432513787,
+          0.4910999966621399
+        ]
+      },
+      "center": [
+        1.19975,
+        0.04350764146323938,
+        0.10809999814480542
+      ],
+      "outwardDirection": [
+        0.8736643641378601,
+        0.12671252871222993,
+        0.46973877198176983
+      ]
+    },
+    {
+      "componentId": "C33",
+      "eonShortName": "C33_Chuck_Wash_Ext",
+      "title": "Chuck-Flushing Extension",
+      "level": 2,
+      "parentId": "C09",
+      "category": "Fluid Delivery",
+      "sourceNodeIndex": 1952,
+      "sourceNodeName": "048__29_WASHING_CHUCK_EXT",
+      "sourceOccurrenceId": "#3288527",
+      "sourceProductId": "#3288086",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4065686",
+        "048__29_WASHING_CHUCK_EXT"
+      ],
+      "absorbedGeometryNodeCount": 4,
+      "triangles": 2594,
+      "bounds": {
+        "min": [
+          -0.02299999403953551,
+          0.1540000002235174,
+          -0.010899999940395354
+        ],
+        "max": [
+          0.33970170602947475,
+          0.24600000005215406,
+          0.011099999940395356
+        ]
+      },
+      "center": [
+        0.15835085599496962,
+        0.20000000013783573,
+        0.00010000000000000113
+      ],
+      "outwardDirection": [
+        -0.5506495912005619,
+        0.5493137149568932,
+        0.6285216545759671
+      ]
+    },
+    {
+      "componentId": "C34",
+      "eonShortName": "C34_4253368_Arm_Assembly",
+      "title": "Handling Arm Assembly",
+      "level": 2,
+      "parentId": "C11",
+      "category": "Mechanical Handling",
+      "sourceNodeIndex": 1963,
+      "sourceNodeName": "4253368_DT",
+      "sourceOccurrenceId": "#3300610",
+      "sourceProductId": "#3300166",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250394",
+        "4253368_DT"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 0,
+      "bounds": {
+        "min": [
+          -0.08700000140070915,
+          -0.3395312137891704,
+          0.044850525903701505
+        ],
+        "max": [
+          0.09300000140070916,
+          0.30819249310897245,
+          0.30225645784416877
+        ]
+      },
+      "center": [
+        0.0030000000000000027,
+        -0.01566936034009897,
+        0.17355349187393515
+      ],
+      "outwardDirection": [
+        -0.6597231941001823,
+        0.08209913089291297,
+        0.7470107361162097
+      ]
+    },
+    {
+      "componentId": "C35",
+      "eonShortName": "C35_4253368_Actuator",
+      "title": "Handling Arm Actuator",
+      "level": 3,
+      "parentId": "C34",
+      "category": "Actuation",
+      "sourceNodeIndex": 1964,
+      "sourceNodeName": "4253368_ACTUATOR_DT",
+      "sourceOccurrenceId": "#3294994",
+      "sourceProductId": "#3294119",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250394",
+        "4253368_DT",
+        "4253368_ACTUATOR_DT"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 152,
+      "bounds": {
+        "min": [
+          -0.02000000035762787,
+          -0.3395312137891704,
+          0.07226631114069984
+        ],
+        "max": [
+          0.09300000140070916,
+          -0.2085257878752999,
+          0.20327173705457036
+        ]
+      },
+      "center": [
+        0.03650000052154065,
+        -0.2740285008322352,
+        0.13776902409763508
+      ],
+      "outwardDirection": [
+        -0.6236722862806008,
+        0.26995753509941783,
+        0.7335910363196753
+      ]
+    },
+    {
+      "componentId": "C36",
+      "eonShortName": "C36_Turret_Slide_Carriage",
+      "title": "Turret Slide Carriage",
+      "level": 2,
+      "parentId": "C03",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 92,
+      "sourceNodeName": "4040068",
+      "sourceOccurrenceId": "#344355",
+      "sourceProductId": "#343521",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4218037",
+        "4040068"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 172719,
+      "bounds": {
+        "min": [
+          0.7005000114440918,
+          -0.35199999809265137,
+          -0.8121121525764465
+        ],
+        "max": [
+          1.2454999685287476,
+          0.4366384446620941,
+          -0.14990663528442383
+        ]
+      },
+      "center": [
+        0.9729999899864197,
+        0.042319223284721375,
+        -0.4810093939304352
+      ],
+      "outwardDirection": [
+        0.9354000631852082,
+        0.19002152145885182,
+        -0.2981921246035378
+      ]
+    },
+    {
+      "componentId": "C37",
+      "eonShortName": "C37_SME20_Encoder_Module",
+      "title": "SME20 External Encoder Module",
+      "level": 2,
+      "parentId": "C03",
+      "category": "Feedback and Sensing",
+      "sourceNodeIndex": 871,
+      "sourceNodeName": "AG_2322227_SME20",
+      "sourceOccurrenceId": "#2308562",
+      "sourceProductId": "#2308121",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4218037",
+        "AG_2322227_SME20"
+      ],
+      "absorbedGeometryNodeCount": 25,
+      "triangles": 58027,
+      "bounds": {
+        "min": [
+          0.9909999999038877,
+          0.31756312288247845,
+          -0.35489542602592156
+        ],
+        "max": [
+          1.034892483850196,
+          0.4203616385666419,
+          -0.2380739663628764
+        ]
+      },
+      "center": [
+        1.0129462418770419,
+        0.36896238072456017,
+        -0.296484696194399
+      ],
+      "outwardDirection": [
+        0.8009820661605243,
+        0.5985117631852129,
+        0.014539567330063133
+      ]
+    },
+    {
+      "componentId": "C38",
+      "eonShortName": "C38_VDI30_Turret_Head",
+      "title": "VDI30 12-Station Turret Head",
+      "level": 3,
+      "parentId": "C22",
+      "category": "Tooling",
+      "sourceNodeIndex": 100,
+      "sourceNodeName": "4015515_1_1",
+      "sourceOccurrenceId": "#1132414",
+      "sourceProductId": "#1131485",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4218037",
+        "4015515",
+        "4015515_1_1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 386001,
+      "bounds": {
+        "min": [
+          0.5279999992251396,
+          0.10681757640889425,
+          -0.4751757587696882
+        ],
+        "max": [
+          0.989999989271164,
+          0.45961940966787784,
+          -0.10681757640889425
+        ]
+      },
+      "center": [
+        0.7589999942481518,
+        0.28321849303838603,
+        -0.2909966675892912
+      ],
+      "outwardDirection": [
+        0.6855040913113722,
+        0.5378466496799276,
+        -0.49071898498371463
+      ]
+    },
+    {
+      "componentId": "C39",
+      "eonShortName": "C39_Main_Housing_Frame",
+      "title": "Main Housing Frame",
+      "level": 3,
+      "parentId": "C31",
+      "category": "Machine Structure",
+      "sourceNodeIndex": 1103,
+      "sourceNodeName": "4015838",
+      "sourceOccurrenceId": "#2791680",
+      "sourceProductId": "#2791166",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250109",
+        "4250110",
+        "4250111",
+        "4015660",
+        "4015838"
+      ],
+      "absorbedGeometryNodeCount": 467,
+      "triangles": 171540,
+      "bounds": {
+        "min": [
+          -0.8199999928474426,
+          -0.800000011920929,
+          -0.831399993801117
+        ],
+        "max": [
+          1.595,
+          0.7680000066757202,
+          0.49423588643074035
+        ]
+      },
+      "center": [
+        0.3875000035762787,
+        -0.01600000262260437,
+        -0.1685820536851883
+      ],
+      "outwardDirection": [
+        -0.26067426778463415,
+        0.3421101552385878,
+        0.9027788033608091
+      ]
+    },
+    {
+      "componentId": "C40",
+      "eonShortName": "C40_Complete_Access_Door",
+      "title": "Complete Access Door",
+      "level": 3,
+      "parentId": "C31",
+      "category": "Access Guard",
+      "sourceNodeIndex": 1817,
+      "sourceNodeName": "4016022",
+      "sourceOccurrenceId": "#2852041",
+      "sourceProductId": "#2851600",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250109",
+        "4250110",
+        "4250111",
+        "4015660",
+        "4016022"
+      ],
+      "absorbedGeometryNodeCount": 23,
+      "triangles": 9298,
+      "bounds": {
+        "min": [
+          -0.07250000548362734,
+          -0.27005247735977167,
+          -0.2450174308664
+        ],
+        "max": [
+          0.8085,
+          0.7637835968136788,
+          0.48204952211532137
+        ]
+      },
+      "center": [
+        0.36799999725818633,
+        0.24686555972695357,
+        0.11851604562446069
+      ],
+      "outwardDirection": [
+        -0.11161982145765852,
+        0.5916070972590999,
+        0.7984623083968476
+      ]
+    },
+    {
+      "componentId": "C41",
+      "eonShortName": "C41_Front_Center_Cover",
+      "title": "Front Center Cover Assembly",
+      "level": 3,
+      "parentId": "C31",
+      "category": "Machine Protection",
+      "sourceNodeIndex": 1867,
+      "sourceNodeName": "4061088",
+      "sourceOccurrenceId": "#2866879",
+      "sourceProductId": "#2866438",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250109",
+        "4250110",
+        "4250111",
+        "4015660",
+        "4061088"
+      ],
+      "absorbedGeometryNodeCount": 12,
+      "triangles": 6016,
+      "bounds": {
+        "min": [
+          -0.10650000037252903,
+          -0.6888995922470799,
+          0.3979282201900023
+        ],
+        "max": [
+          0.7785000143051147,
+          -0.17871335413898937,
+          0.4910938375632475
+        ]
+      },
+      "center": [
+        0.33600000696629284,
+        -0.4338064731930346,
+        0.44451102887662486
+      ],
+      "outwardDirection": [
+        -0.1088390711399288,
+        -0.43453592742886277,
+        0.8940540164704455
+      ]
+    },
+    {
+      "componentId": "C42",
+      "eonShortName": "C42_Machine_Cabin_Body",
+      "title": "Machine Cabin Body",
+      "level": 2,
+      "parentId": "C09",
+      "category": "Access Guard",
+      "sourceNodeIndex": 1937,
+      "sourceNodeName": "4061866",
+      "sourceOccurrenceId": "#3261140",
+      "sourceProductId": "#3260306",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4065686",
+        "4061866"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 196528,
+      "bounds": {
+        "min": [
+          -0.8199999928474426,
+          -0.800000011920929,
+          -0.8313999772071838
+        ],
+        "max": [
+          1.6150000095367432,
+          0.7760076522827148,
+          0.49423590302467346
+        ]
+      },
+      "center": [
+        0.39750000834465027,
+        -0.011996179819107056,
+        -0.1685820370912552
+      ],
+      "outwardDirection": [
+        -0.1966092447882725,
+        0.37028092370239135,
+        0.907874904601889
+      ]
+    },
+    {
+      "componentId": "C43",
+      "eonShortName": "C43_Handling_Arm",
+      "title": "Handling Arm",
+      "level": 3,
+      "parentId": "C34",
+      "category": "Mechanical Handling",
+      "sourceNodeIndex": 1965,
+      "sourceNodeName": "4253368_ARM_DT",
+      "sourceOccurrenceId": "#3297980",
+      "sourceProductId": "#3297108",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250394",
+        "4253368_DT",
+        "4253368_ARM_DT"
+      ],
+      "absorbedGeometryNodeCount": 1,
+      "triangles": 2098,
+      "bounds": {
+        "min": [
+          -0.058999997437000275,
+          -0.29286367274888486,
+          0.044850525903701505
+        ],
+        "max": [
+          0.0925000003874302,
+          0.2760191311932367,
+          0.30225645784416877
+        ]
+      },
+      "center": [
+        0.01675000147521496,
+        -0.008422270777824092,
+        0.17355349187393515
+      ],
+      "outwardDirection": [
+        -0.6467392636034566,
+        0.6020388776547092,
+        0.46827077071489004
+      ]
+    },
+    {
+      "componentId": "C44",
+      "eonShortName": "C44_Arm_Stowage_Garage",
+      "title": "Arm Stowage Garage",
+      "level": 3,
+      "parentId": "C34",
+      "category": "Mechanical Handling",
+      "sourceNodeIndex": 1968,
+      "sourceNodeName": "4253368_GARAGE_DT",
+      "sourceOccurrenceId": "#3299828",
+      "sourceProductId": "#3298956",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4250394",
+        "4253368_DT",
+        "4253368_GARAGE_DT"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 752,
+      "bounds": {
+        "min": [
+          -0.08700000140070915,
+          0.1809132674377721,
+          0.08022126179684588
+        ],
+        "max": [
+          -0.016999999240040788,
+          0.30819249310897245,
+          0.20750048746804625
+        ]
+      },
+      "center": [
+        -0.05200000032037497,
+        0.2445528802733723,
+        0.14386087463244607
+      ],
+      "outwardDirection": [
+        -0.6578398808853003,
+        0.7411776578868685,
+        0.1337997405309514
+      ]
+    },
+    {
+      "componentId": "C45",
+      "eonShortName": "C45_Left_Z_Sliding_Guard",
+      "title": "Left Z-Axis Sliding Guard",
+      "level": 2,
+      "parentId": "C06",
+      "category": "Machine Protection",
+      "sourceNodeIndex": 993,
+      "sourceNodeName": "4012235",
+      "sourceOccurrenceId": "#2495063",
+      "sourceProductId": "#2494622",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4247587",
+        "4012235"
+      ],
+      "absorbedGeometryNodeCount": 21,
+      "triangles": 12444,
+      "bounds": {
+        "min": [
+          -0.06299999999999994,
+          -0.23965440886467118,
+          -0.5855000019073486
+        ],
+        "max": [
+          0.9370000000000009,
+          0.718999981880188,
+          -0.2315777689218521
+        ]
+      },
+      "center": [
+        0.4370000000000005,
+        0.23967278650775842,
+        -0.4085388854146004
+      ],
+      "outwardDirection": [
+        0.029269489566234052,
+        0.9494678540871445,
+        -0.3124965456380038
+      ]
+    },
+    {
+      "componentId": "C46",
+      "eonShortName": "C46_Right_Z_Sliding_Guard",
+      "title": "Right Z-Axis Sliding Guard",
+      "level": 2,
+      "parentId": "C06",
+      "category": "Machine Protection",
+      "sourceNodeIndex": 1025,
+      "sourceNodeName": "4014481",
+      "sourceOccurrenceId": "#2500836",
+      "sourceProductId": "#2500395",
+      "sourcePath": [
+        "SA0138_ASM",
+        "4246339_ASM_1",
+        "4247587",
+        "4014481"
+      ],
+      "absorbedGeometryNodeCount": 11,
+      "triangles": 6032,
+      "bounds": {
+        "min": [
+          0.9369999852180482,
+          -0.24729758501052856,
+          -0.6104999780654907
+        ],
+        "max": [
+          1.3440000001043082,
+          0.718999981880188,
+          -0.2029794305562973
+        ]
+      },
+      "center": [
+        1.1404999926611783,
+        0.2358511984348297,
+        -0.406739704310894
+      ],
+      "outwardDirection": [
+        0.9122137858843264,
+        0.3893827196146012,
+        -0.12746413812567517
+      ]
+    }
+  ]
+}

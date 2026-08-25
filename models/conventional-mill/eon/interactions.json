@@ -1,0 +1,145 @@
+{
+  "schema": "eon-interactions/1.0",
+  "modelId": "conventional-mill",
+  "overview": {
+    "id": "overview",
+    "componentIds": [
+      "C01",
+      "C02",
+      "C04",
+      "C08",
+      "C12"
+    ],
+    "steps": [
+      {
+        "componentId": "C01",
+        "outwardDirection": [
+          -0.9280128422492848,
+          -0.3133051462101483,
+          0.20157393179337835
+        ]
+      },
+      {
+        "componentId": "C02",
+        "outwardDirection": [
+          -0.34926361113969123,
+          -0.6375320499417498,
+          0.6867079548328625
+        ]
+      },
+      {
+        "componentId": "C04",
+        "outwardDirection": [
+          0,
+          -0.10751904751105879,
+          0.9942030247501336
+        ]
+      },
+      {
+        "componentId": "C08",
+        "outwardDirection": [
+          -0.7443291394141002,
+          0.6678129470286308,
+          0
+        ]
+      },
+      {
+        "componentId": "C12",
+        "outwardDirection": [
+          -0.39997671745928337,
+          0.40244512812056554,
+          0.8234418888680113
+        ]
+      }
+    ]
+  },
+  "subsystems": [
+    {
+      "id": "subsystem:C02",
+      "componentId": "C02",
+      "componentIds": [
+        "C03"
+      ],
+      "steps": [
+        {
+          "componentId": "C03",
+          "outwardDirection": [
+            -0.49821860745943225,
+            -0.746740635761556,
+            0.44063209379664003
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subsystem:C04",
+      "componentId": "C04",
+      "componentIds": [
+        "C05",
+        "C06",
+        "C07"
+      ],
+      "steps": [
+        {
+          "componentId": "C05",
+          "outwardDirection": [
+            -0.4262023202352236,
+            -0.1652544499486759,
+            0.889405727999473
+          ]
+        },
+        {
+          "componentId": "C06",
+          "outwardDirection": [
+            0.12473978805416007,
+            0.26204422148298623,
+            0.9569601931447194
+          ]
+        },
+        {
+          "componentId": "C07",
+          "outwardDirection": [
+            -0.143366496934989,
+            0.1867804909990283,
+            0.9718843016217268
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subsystem:C08",
+      "componentId": "C08",
+      "componentIds": [
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "steps": [
+        {
+          "componentId": "C09",
+          "outwardDirection": [
+            -0.23809631791743072,
+            -0.3780849052877432,
+            0.8946295030836621
+          ]
+        },
+        {
+          "componentId": "C10",
+          "outwardDirection": [
+            -0.3480618418127261,
+            0.8514533517748082,
+            0.3922755970301714
+          ]
+        },
+        {
+          "componentId": "C11",
+          "outwardDirection": [
+            -0.594977356000581,
+            0.7464822280808759,
+            -0.29793661910877817
+          ]
+        }
+      ]
+    }
+  ]
+}

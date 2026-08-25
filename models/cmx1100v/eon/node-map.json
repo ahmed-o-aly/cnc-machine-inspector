@@ -1,0 +1,584 @@
+{
+  "schema": "eon-node-map/1.0",
+  "modelId": "cmx1100v",
+  "components": [
+    {
+      "componentId": "C01",
+      "eonShortName": "CMX1100VMachine",
+      "title": "CMX 1100 V Vertical Machining Center",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Assembly",
+      "sourceNodeIndex": 0,
+      "sourceNodeName": "CMX1100V_CMXV1221036",
+      "sourceOccurrenceId": null,
+      "sourceProductId": "#1356",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 0,
+      "bounds": {
+        "min": [
+          -3.1849005699157713,
+          -1.3520689010620113,
+          -0.8523372185230277
+        ],
+        "max": [
+          1.3639916896820068,
+          1.901000022888186,
+          2.0860050107425767
+        ]
+      },
+      "center": [
+        -0.9104544401168823,
+        0.2744655609130874,
+        0.6168338961097746
+      ],
+      "outwardDirection": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "componentId": "C02",
+      "eonShortName": "MachineBase",
+      "title": "Machine Base",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Machine Structure",
+      "sourceNodeIndex": 2,
+      "sourceNodeName": "CMXV1221036_BASE",
+      "sourceOccurrenceId": "#32",
+      "sourceProductId": "#1351",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_BASE"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 3566,
+      "bounds": {
+        "min": [
+          -1.9180000305175782,
+          -0.18750000000000042,
+          -0.8500000011920947
+        ],
+        "max": [
+          0.8180000305175781,
+          1.6339999437332167,
+          0.8369999456405628
+        ]
+      },
+      "center": [
+        -0.55,
+        0.7232499718666081,
+        -0.006500027775765971
+      ],
+      "outwardDirection": [
+        0.4248350266018112,
+        0.5289415691594569,
+        -0.7346672829161306
+      ]
+    },
+    {
+      "componentId": "C03",
+      "eonShortName": "XAxisSystem",
+      "title": "X-Axis System",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 3,
+      "sourceNodeName": "CMXV1221036_X-AXIS",
+      "sourceOccurrenceId": "#33",
+      "sourceProductId": "#1354",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_X-AXIS"
+      ],
+      "absorbedGeometryNodeCount": 1,
+      "triangles": 648,
+      "bounds": {
+        "min": [
+          -0.699999988079071,
+          -0.2800000011920926,
+          -0.3409999978542329
+        ],
+        "max": [
+          0.699999988079071,
+          0.36500000953674333,
+          -7.152557102152457e-9
+        ]
+      },
+      "center": [
+        0,
+        0.042500004172325356,
+        -0.170500002503395
+      ],
+      "outwardDirection": [
+        0.7427321003295326,
+        -0.18923326370955754,
+        -0.64229261170117
+      ]
+    },
+    {
+      "componentId": "C04",
+      "eonShortName": "YAxisSystem",
+      "title": "Y-Axis System",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 6,
+      "sourceNodeName": "CMXV1221036_Y-AXIS",
+      "sourceOccurrenceId": "#34",
+      "sourceProductId": "#1350",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_Y-AXIS"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 934,
+      "bounds": {
+        "min": [
+          -0.8519999861717225,
+          0.4015000032186523,
+          0.6719999837875363
+        ],
+        "max": [
+          -0.23299999833107,
+          1.409999998092653,
+          1.5380000400543208
+        ]
+      },
+      "center": [
+        -0.5424999922513962,
+        0.9057500006556527,
+        1.1050000119209287
+      ],
+      "outwardDirection": [
+        0.4187207363612634,
+        0.71838209048922,
+        0.5555178818052748
+      ]
+    },
+    {
+      "componentId": "C05",
+      "eonShortName": "ZAxisSystem",
+      "title": "Z-Axis System",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 7,
+      "sourceNodeName": "CMXV1221036_Z-AXIS",
+      "sourceOccurrenceId": "#35",
+      "sourceProductId": "#1349",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_Z-AXIS"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 7249,
+      "bounds": {
+        "min": [
+          -0.7089999943971634,
+          0.027252407550813484,
+          0.639679947037132
+        ],
+        "max": [
+          -0.26500000357627873,
+          0.4340000020265617,
+          2.0860050107425767
+        ]
+      },
+      "center": [
+        -0.4869999989867211,
+        0.2306262047886876,
+        1.3628424788898543
+      ],
+      "outwardDirection": [
+        0.4930010642282629,
+        -0.051039373130030694,
+        0.8685303293842385
+      ]
+    },
+    {
+      "componentId": "C06",
+      "eonShortName": "SpindleAssembly",
+      "title": "Spindle Assembly",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Spindle System",
+      "sourceNodeIndex": 8,
+      "sourceNodeName": "CMXV1221036_SPINDLE",
+      "sourceOccurrenceId": "#36",
+      "sourceProductId": "#1348",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_SPINDLE"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 854,
+      "bounds": {
+        "min": [
+          -0.6043611384928227,
+          0.2255064563751234,
+          0.6300000335163191
+        ],
+        "max": [
+          -0.49551543518900876,
+          0.334493534445764,
+          0.9671800519413066
+        ]
+      },
+      "center": [
+        -0.5499382868409157,
+        0.27999999541044374,
+        0.7985900427288128
+      ],
+      "outwardDirection": [
+        0.8928541958477418,
+        0.013706578797390399,
+        0.45013721758454156
+      ]
+    },
+    {
+      "componentId": "C07",
+      "eonShortName": "ToolChangerHousing",
+      "title": "Tool Changer Housing",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Tool-Changing System",
+      "sourceNodeIndex": 9,
+      "sourceNodeName": "CMXV1221036_TC_CASE",
+      "sourceOccurrenceId": "#37",
+      "sourceProductId": "#1353",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_TC_CASE"
+      ],
+      "absorbedGeometryNodeCount": 1,
+      "triangles": 18250,
+      "bounds": {
+        "min": [
+          -1.8989999771118165,
+          -0.6529999971389755,
+          0.40000002861022854
+        ],
+        "max": [
+          -0.7482000023126603,
+          1.8059999942779559,
+          1.3689998912811288
+        ]
+      },
+      "center": [
+        -1.3235999897122384,
+        0.5764999985694902,
+        0.8844999599456786
+      ],
+      "outwardDirection": [
+        -0.7153467982516072,
+        0.5229618669518424,
+        0.463454252268137
+      ]
+    },
+    {
+      "componentId": "C08",
+      "eonShortName": "OperatorControlConsole",
+      "title": "Operator Control Console",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Machine Controls",
+      "sourceNodeIndex": 12,
+      "sourceNodeName": "CMXV1221036_CONTROLLER",
+      "sourceOccurrenceId": "#38",
+      "sourceProductId": "#1352",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_CONTROLLER"
+      ],
+      "absorbedGeometryNodeCount": 1,
+      "triangles": 186746,
+      "bounds": {
+        "min": [
+          0.7085364580154419,
+          -1.3520689010620113,
+          -0.6791109234839666
+        ],
+        "max": [
+          1.3639916896820068,
+          -0.4755096137523658,
+          0.7949842739105237
+        ]
+      },
+      "center": [
+        1.0362640738487243,
+        -0.9137892574071885,
+        0.057936675213278555
+      ],
+      "outwardDirection": [
+        0.829026956881051,
+        -0.5060286163429935,
+        -0.2380112270598586
+      ]
+    },
+    {
+      "componentId": "C10",
+      "eonShortName": "XAxisMeasurement",
+      "title": "X-Axis Measurement System",
+      "level": 3,
+      "parentId": "C03",
+      "category": "Position Measurement",
+      "sourceNodeIndex": 4,
+      "sourceNodeName": "CMXV1221036_MEASURING",
+      "sourceOccurrenceId": "#31",
+      "sourceProductId": "#1347",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_X-AXIS",
+        "CMXV1221036_MEASURING"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 7686,
+      "bounds": {
+        "min": [
+          -0.7365000247955322,
+          0.021999999880790863,
+          -0.11000002145767251
+        ],
+        "max": [
+          -0.43470001220703125,
+          0.27575001120567355,
+          0.1069999861717219
+        ]
+      },
+      "center": [
+        -0.5856000185012817,
+        0.14887500554323221,
+        -0.0015000176429753043
+      ],
+      "outwardDirection": [
+        0.4577502429046671,
+        -0.8712902776845638,
+        0.17696883096487287
+      ]
+    },
+    {
+      "componentId": "C11",
+      "eonShortName": "RotaryToolChanger",
+      "title": "Rotary Tool Changer",
+      "level": 3,
+      "parentId": "C07",
+      "category": "Tool-Changing System",
+      "sourceNodeIndex": 10,
+      "sourceNodeName": "CMXV1221036_TC_ROT",
+      "sourceOccurrenceId": "#30",
+      "sourceProductId": "#1346",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_TC_CASE",
+        "CMXV1221036_TC_ROT"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 1116,
+      "bounds": {
+        "min": [
+          -0.8862141847610474,
+          -0.54379630088806,
+          0.6003000068664546
+        ],
+        "max": [
+          -0.7461858123540879,
+          0.07379630208015583,
+          0.899099998474121
+        ]
+      },
+      "center": [
+        -0.8161999985575676,
+        -0.23499999940395205,
+        0.7497000026702878
+      ],
+      "outwardDirection": [
+        0.17621733105651627,
+        0.2484053833285947,
+        0.9524926339708313
+      ]
+    },
+    {
+      "componentId": "C12",
+      "eonShortName": "MachineEnclosure",
+      "title": "Machine Enclosure",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Operator Protection",
+      "sourceNodeIndex": 13,
+      "sourceNodeName": "CMXV1221036_CASE",
+      "sourceOccurrenceId": "#25",
+      "sourceProductId": "#1345",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_CONTROLLER",
+        "CMXV1221036_CASE"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 8455,
+      "bounds": {
+        "min": [
+          -1.925,
+          -0.701499998569488,
+          -0.8100000020861634
+        ],
+        "max": [
+          0.8239999532699585,
+          1.901000022888186,
+          1.8430001068115238
+        ]
+      },
+      "center": [
+        -0.5505000233650208,
+        0.5997500121593491,
+        0.5165000523626802
+      ],
+      "outwardDirection": [
+        0.7265596318548794,
+        0.6565791115393451,
+        -0.20252153379111698
+      ]
+    },
+    {
+      "componentId": "C13",
+      "eonShortName": "AccessDoor",
+      "title": "Access Door",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Access Guard",
+      "sourceNodeIndex": 14,
+      "sourceNodeName": "CMXV1221036_DOOR",
+      "sourceOccurrenceId": "#26",
+      "sourceProductId": "#1344",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_CONTROLLER",
+        "CMXV1221036_DOOR"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 4076,
+      "bounds": {
+        "min": [
+          -0.9809999942779541,
+          -0.8522990942001321,
+          -0.3650152754783619
+        ],
+        "max": [
+          0.5625197410583496,
+          -0.44639998674392684,
+          1.4572998809814461
+        ]
+      },
+      "center": [
+        -0.2092401266098023,
+        -0.6493495404720294,
+        0.5461423027515422
+      ],
+      "outwardDirection": [
+        0.6034794295713655,
+        -0.7950542361649531,
+        -0.0608386360825281
+      ]
+    },
+    {
+      "componentId": "C14",
+      "eonShortName": "ChipConveyor",
+      "title": "Chip Conveyor",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Chip Management",
+      "sourceNodeIndex": 15,
+      "sourceNodeName": "CMXV1221036_CHIP_CONVEYOR",
+      "sourceOccurrenceId": "#27",
+      "sourceProductId": "#1343",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_CONTROLLER",
+        "CMXV1221036_CHIP_CONVEYOR"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 5160,
+      "bounds": {
+        "min": [
+          -3.1849005699157713,
+          -0.59032565355301,
+          -0.8523372185230277
+        ],
+        "max": [
+          0.7603256225585937,
+          1.2353256940841661,
+          0.7408638525009157
+        ]
+      },
+      "center": [
+        -1.2122874736785887,
+        0.32250002026557806,
+        -0.055736683011056
+      ],
+      "outwardDirection": [
+        -0.40856884961738726,
+        0.06502066247705147,
+        -0.9104085942989391
+      ]
+    },
+    {
+      "componentId": "C15",
+      "eonShortName": "MZPAuxiliaryModule",
+      "title": "MZP Auxiliary Module",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Machine Auxiliary",
+      "sourceNodeIndex": 16,
+      "sourceNodeName": "CMXV1221036_MZP",
+      "sourceOccurrenceId": "#28",
+      "sourceProductId": "#1342",
+      "sourcePath": [
+        "CMX1100V_CMXV1221036",
+        "CMXV1221036_ASM",
+        "CMXV1221036_CONTROLLER",
+        "CMXV1221036_MZP"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 3705,
+      "bounds": {
+        "min": [
+          -0.6236809745430947,
+          0.23878511786461015,
+          0.5897499847412102
+        ],
+        "max": [
+          -0.40699999332427983,
+          0.42300000786781444,
+          0.7730000543594353
+        ]
+      },
+      "center": [
+        -0.5153404839336873,
+        0.33089256286621227,
+        0.6813750195503228
+      ],
+      "outwardDirection": [
+        0.9772608705164965,
+        0.13956454887606992,
+        0.1596337296888057
+      ]
+    }
+  ]
+}

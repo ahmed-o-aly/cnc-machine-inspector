@@ -1,0 +1,1151 @@
+{
+  "schema": "eon-node-map/1.0",
+  "modelId": "waterjet",
+  "components": [
+    {
+      "componentId": "C01",
+      "eonShortName": "WaterjetFullLayout",
+      "title": "Waterjet Cutting System Layout",
+      "level": 1,
+      "parentId": null,
+      "category": "Complete Installation",
+      "sourceNodeIndex": 0,
+      "sourceNodeName": "WATERJET FULL LAYOUT",
+      "sourceOccurrenceId": null,
+      "sourceProductId": "#69027",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 0,
+      "bounds": {
+        "min": [
+          -5.812851686371648,
+          -1.1477263612769063e-15,
+          -6.357466220855713
+        ],
+        "max": [
+          0.10016684989929114,
+          3.6319763581131834,
+          8.710932133483887
+        ]
+      },
+      "center": [
+        -2.8563424182361783,
+        1.815988179056591,
+        1.176732956314087
+      ],
+      "outwardDirection": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "componentId": "C02",
+      "eonShortName": "StepPlatform",
+      "title": "Step Platform",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Access and Support",
+      "sourceNodeIndex": 1,
+      "sourceNodeName": "STEP PLATFORM:1",
+      "sourceOccurrenceId": "#1387",
+      "sourceProductId": "#69028",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "STEP PLATFORM:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 116,
+      "bounds": {
+        "min": [
+          -0.2921000123023987,
+          0,
+          1.8157958958653353e-7
+        ],
+        "max": [
+          4.5796701585585055e-18,
+          0.44449999928474426,
+          7.0104
+        ]
+      },
+      "center": [
+        -0.14605000615119934,
+        0.22224999964237213,
+        3.5052000907897947
+      ],
+      "outwardDirection": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "componentId": "C03",
+      "eonShortName": "CuttingTableAssembly",
+      "title": "Waterjet Cutting Table",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Cutting System",
+      "sourceNodeIndex": 2,
+      "sourceNodeName": "WATERJET ASSY:1",
+      "sourceOccurrenceId": "#1388",
+      "sourceProductId": "#69029",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "WATERJET ASSY:1"
+      ],
+      "absorbedGeometryNodeCount": 154,
+      "triangles": 95984,
+      "bounds": {
+        "min": [
+          -3.6449000004708765,
+          0.08898052890354258,
+          -0.22845863369810027
+        ],
+        "max": [
+          -0.78898746509552,
+          3.6319763581131834,
+          7.670331755361163
+        ]
+      },
+      "center": [
+        -2.2169437327831982,
+        1.860478443508363,
+        3.7209365608315315
+      ],
+      "outwardDirection": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "componentId": "C04",
+      "eonShortName": "HighPressurePump1",
+      "title": "High-Pressure Pump 1",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Pressure Generation",
+      "sourceNodeIndex": 176,
+      "sourceNodeName": "PUMP:1",
+      "sourceOccurrenceId": "#1389",
+      "sourceProductId": "#69049",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 0,
+      "bounds": {
+        "min": [
+          -4.889500012159322,
+          3.4608630019103176e-15,
+          5.765799992752099
+        ],
+        "max": [
+          -4.1274999878406256,
+          0.9524999856948902,
+          7.340600007247949
+        ]
+      },
+      "center": [
+        -4.508499999999974,
+        0.47624999284744685,
+        6.5532000000000235
+      ],
+      "outwardDirection": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865475
+      ]
+    },
+    {
+      "componentId": "C05",
+      "eonShortName": "HighPressurePump2",
+      "title": "High-Pressure Pump 2",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Pressure Generation",
+      "sourceNodeIndex": 284,
+      "sourceNodeName": "PUMP:2",
+      "sourceOccurrenceId": "#1390",
+      "sourceProductId": "#69050",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:2"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 0,
+      "bounds": {
+        "min": [
+          -4.94029999017713,
+          1.989693792382315e-16,
+          2.99720002689364
+        ],
+        "max": [
+          -4.02590000122783,
+          0.9778999996930368,
+          4.67359997310641
+        ]
+      },
+      "center": [
+        -4.48309999570248,
+        0.4889499998465185,
+        3.835400000000025
+      ],
+      "outwardDirection": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "componentId": "C06",
+      "eonShortName": "HighPressurePump3",
+      "title": "High-Pressure Pump 3",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Pressure Generation",
+      "sourceNodeIndex": 393,
+      "sourceNodeName": "PUMP:3",
+      "sourceOccurrenceId": "#1391",
+      "sourceProductId": "#69052",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:3"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 0,
+      "bounds": {
+        "min": [
+          -4.889500012159322,
+          1.4926142635506762e-16,
+          0.5333999927521139
+        ],
+        "max": [
+          -4.1274999878406256,
+          0.9524999856948863,
+          2.1082000072479645
+        ]
+      },
+      "center": [
+        -4.508499999999974,
+        0.4762499928474432,
+        1.3208000000000393
+      ],
+      "outwardDirection": [
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "componentId": "C07",
+      "eonShortName": "SplashCurtainSystem",
+      "title": "Splash Curtain System",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Splash Containment",
+      "sourceNodeIndex": 501,
+      "sourceNodeName": "SPLASH-CURTAIN:1",
+      "sourceOccurrenceId": "#1392",
+      "sourceProductId": "#69083",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "SPLASH-CURTAIN:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 0,
+      "bounds": {
+        "min": [
+          -4.079874994468689,
+          0,
+          -0.40798599702715843
+        ],
+        "max": [
+          -0.7492998859405517,
+          3.149600028991699,
+          7.188200096130373
+        ]
+      },
+      "center": [
+        -2.4145874402046203,
+        1.5748000144958496,
+        3.3901070495516072
+      ],
+      "outwardDirection": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ]
+    },
+    {
+      "componentId": "C08",
+      "eonShortName": "WaterjetDrainHose",
+      "title": "Waterjet Drain Hose",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Drainage",
+      "sourceNodeIndex": 510,
+      "sourceNodeName": "WATERJET DRAIN HOSE:1",
+      "sourceOccurrenceId": "#1393",
+      "sourceProductId": "#69092",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "WATERJET DRAIN HOSE:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 2456,
+      "bounds": {
+        "min": [
+          -5.812851686371648,
+          0.19147906284332294,
+          -6.357466220855713
+        ],
+        "max": [
+          -2.953112965790712,
+          0.9639220500320196,
+          2.9550727530484863e-18
+        ]
+      },
+      "center": [
+        -4.38298232608118,
+        0.5777005564376713,
+        -3.1787331104278564
+      ],
+      "outwardDirection": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "componentId": "C09",
+      "eonShortName": "CatcherTank",
+      "title": "Catcher Tank",
+      "level": 3,
+      "parentId": "C03",
+      "category": "Cutting System",
+      "sourceNodeIndex": 3,
+      "sourceNodeName": "WATERJET CATCHER TANK:1",
+      "sourceOccurrenceId": "#1161",
+      "sourceProductId": "#69030",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "WATERJET ASSY:1",
+        "WATERJET CATCHER TANK:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 4616,
+      "bounds": {
+        "min": [
+          -3.314699955177306,
+          -1.1477263612769063e-15,
+          -1.1811000129699698
+        ],
+        "max": [
+          0.10016684989929114,
+          1.9177000522613532,
+          8.710932133483887
+        ]
+      },
+      "center": [
+        -1.6072665526390075,
+        0.958850026130676,
+        3.7649160602569585
+      ],
+      "outwardDirection": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "componentId": "C10",
+      "eonShortName": "PrimaryGantry",
+      "title": "Primary Gantry",
+      "level": 3,
+      "parentId": "C03",
+      "category": "Motion Structure",
+      "sourceNodeIndex": 4,
+      "sourceNodeName": "GANTRY-1:1",
+      "sourceOccurrenceId": "#1162",
+      "sourceProductId": "#69031",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "WATERJET ASSY:1",
+        "GANTRY-1:1"
+      ],
+      "absorbedGeometryNodeCount": 3,
+      "triangles": 6764,
+      "bounds": {
+        "min": [
+          -3.5418329881274806,
+          0.48260000348091125,
+          6.215235373116642
+        ],
+        "max": [
+          -0.25876254577636715,
+          2.824867500029912,
+          6.675610375345856
+        ]
+      },
+      "center": [
+        -1.9002977669519239,
+        1.6537337517554116,
+        6.44542287423125
+      ],
+      "outwardDirection": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865475
+      ]
+    },
+    {
+      "componentId": "C11",
+      "eonShortName": "PrimaryCuttingHead",
+      "title": "Primary Cutting Head",
+      "level": 3,
+      "parentId": "C03",
+      "category": "Cutting System",
+      "sourceNodeIndex": 6,
+      "sourceNodeName": "CUTTING HEAD:1",
+      "sourceOccurrenceId": "#1152",
+      "sourceProductId": "#69035",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "WATERJET ASSY:1",
+        "GANTRY-1:1",
+        "CUTTING HEAD:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 462,
+      "bounds": {
+        "min": [
+          -1.3172797327135983,
+          0.9397999879837036,
+          6.039022874344498
+        ],
+        "max": [
+          -1.1650031869505826,
+          1.866899990749359,
+          6.31842287283054
+        ]
+      },
+      "center": [
+        -1.2411414598320905,
+        1.4033499893665313,
+        6.178722873587519
+      ],
+      "outwardDirection": [
+        0,
+        0.7071067811865475,
+        0.7071067811865475
+      ]
+    },
+    {
+      "componentId": "C12",
+      "eonShortName": "PrimaryAbrasiveHopper",
+      "title": "Primary Abrasive Hopper",
+      "level": 3,
+      "parentId": "C03",
+      "category": "Abrasive Delivery",
+      "sourceNodeIndex": 7,
+      "sourceNodeName": "ABRASIVE HOPPER:1",
+      "sourceOccurrenceId": "#1153",
+      "sourceProductId": "#69036",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "WATERJET ASSY:1",
+        "GANTRY-1:1",
+        "ABRASIVE HOPPER:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 152,
+      "bounds": {
+        "min": [
+          -1.3173414607738438,
+          1.2065000000000001,
+          6.674084675682692
+        ],
+        "max": [
+          -1.1651885499452534,
+          1.6636999907493593,
+          6.8263610724340955
+        ]
+      },
+      "center": [
+        -1.2412650053595486,
+        1.4350999953746797,
+        6.750222874058394
+      ],
+      "outwardDirection": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ]
+    },
+    {
+      "componentId": "C13",
+      "eonShortName": "SecondaryGantry",
+      "title": "Secondary Gantry",
+      "level": 3,
+      "parentId": "C03",
+      "category": "Motion Structure",
+      "sourceNodeIndex": 10,
+      "sourceNodeName": "GANTRY-2:1",
+      "sourceOccurrenceId": "#1163",
+      "sourceProductId": "#69033",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "WATERJET ASSY:1",
+        "GANTRY-2:1"
+      ],
+      "absorbedGeometryNodeCount": 3,
+      "triangles": 6908,
+      "bounds": {
+        "min": [
+          -3.5465361790011123,
+          0.48260000348091114,
+          4.068654050122347
+        ],
+        "max": [
+          -0.25876254577636715,
+          3.004585523529804,
+          4.529029052351557
+        ]
+      },
+      "center": [
+        -1.9026493623887397,
+        1.7435927635053576,
+        4.298841551236952
+      ],
+      "outwardDirection": [
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "componentId": "C14",
+      "eonShortName": "SecondaryCuttingHead",
+      "title": "Secondary Cutting Head",
+      "level": 3,
+      "parentId": "C03",
+      "category": "Cutting System",
+      "sourceNodeIndex": 12,
+      "sourceNodeName": "CUTTING HEAD:1",
+      "sourceOccurrenceId": "#1157",
+      "sourceProductId": "#69035",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "WATERJET ASSY:1",
+        "GANTRY-2:1",
+        "CUTTING HEAD:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 462,
+      "bounds": {
+        "min": [
+          -1.7826712066109083,
+          0.9397999879837036,
+          3.8924415513502018
+        ],
+        "max": [
+          -1.6303946608478925,
+          1.866899990749359,
+          4.171841549836244
+        ]
+      },
+      "center": [
+        -1.7065329337294004,
+        1.4033499893665313,
+        4.032141550593223
+      ],
+      "outwardDirection": [
+        0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "componentId": "C15",
+      "eonShortName": "SecondaryAbrasiveHopper",
+      "title": "Secondary Abrasive Hopper",
+      "level": 3,
+      "parentId": "C03",
+      "category": "Abrasive Delivery",
+      "sourceNodeIndex": 13,
+      "sourceNodeName": "ABRASIVE HOPPER:1",
+      "sourceOccurrenceId": "#1158",
+      "sourceProductId": "#69036",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "WATERJET ASSY:1",
+        "GANTRY-2:1",
+        "ABRASIVE HOPPER:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 152,
+      "bounds": {
+        "min": [
+          -1.7827329346711538,
+          1.2065000000000001,
+          4.527503352688398
+        ],
+        "max": [
+          -1.6305800238425634,
+          1.6636999907493593,
+          4.679779749439802
+        ]
+      },
+      "center": [
+        -1.7066564792568586,
+        1.4350999953746797,
+        4.6036415510641
+      ],
+      "outwardDirection": [
+        0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "componentId": "C16",
+      "eonShortName": "OverflowDrain",
+      "title": "Catcher-Tank Overflow Drain",
+      "level": 3,
+      "parentId": "C03",
+      "category": "Drainage",
+      "sourceNodeIndex": 174,
+      "sourceNodeName": "WATERJET OVERFLOW DRAIN:1",
+      "sourceOccurrenceId": "#1318",
+      "sourceProductId": "#69047",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "WATERJET ASSY:1",
+        "WATERJET OVERFLOW DRAIN:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 492,
+      "bounds": {
+        "min": [
+          -3.0395532775772467,
+          0.9125767480969408,
+          0.0063499999999945414
+        ],
+        "max": [
+          -2.3064664531601324,
+          0.9653700609147527,
+          0.05904737914204626
+        ]
+      },
+      "center": [
+        -2.6730098653686896,
+        0.9389734045058468,
+        0.0326986895710204
+      ],
+      "outwardDirection": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "componentId": "C17",
+      "eonShortName": "OverflowPipe",
+      "title": "Catcher-Tank Overflow Pipe",
+      "level": 3,
+      "parentId": "C03",
+      "category": "Drainage",
+      "sourceNodeIndex": 175,
+      "sourceNodeName": "WATERJET OVERFLOW-PIPE:1",
+      "sourceOccurrenceId": "#1319",
+      "sourceProductId": "#69048",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "WATERJET ASSY:1",
+        "WATERJET OVERFLOW-PIPE:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 208,
+      "bounds": {
+        "min": [
+          -3.0013729653937475,
+          0.9158459344834089,
+          -0.10795000094175311
+        ],
+        "max": [
+          -2.9531129657907145,
+          0.963754065516591,
+          0.044450000941753665
+        ]
+      },
+      "center": [
+        -2.977242965592231,
+        0.9398,
+        -0.03174999999999972
+      ],
+      "outwardDirection": [
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "componentId": "C18",
+      "eonShortName": "Pump1Housing",
+      "title": "Pump 1 Housing",
+      "level": 3,
+      "parentId": "C04",
+      "category": "Pump Structure",
+      "sourceNodeIndex": 177,
+      "sourceNodeName": "PUMP-HOUSING:1",
+      "sourceOccurrenceId": "#1372",
+      "sourceProductId": "#69053",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:1",
+        "PUMP-HOUSING:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 40,
+      "bounds": {
+        "min": [
+          -4.889500012159322,
+          3.4608630019103176e-15,
+          5.765799992752099
+        ],
+        "max": [
+          -4.1274999878406256,
+          0.9524999856948902,
+          7.340600007247949
+        ]
+      },
+      "center": [
+        -4.508499999999974,
+        0.47624999284744685,
+        6.5532000000000235
+      ],
+      "outwardDirection": [
+        -3.3306690738754706e-16,
+        -1,
+        1.8488927466117473e-31
+      ]
+    },
+    {
+      "componentId": "C19",
+      "eonShortName": "Pump1WetEnd",
+      "title": "Pump 1 Wet-End Assembly",
+      "level": 3,
+      "parentId": "C04",
+      "category": "Pressure Generation",
+      "sourceNodeIndex": 178,
+      "sourceNodeName": "EnduroMAX WET-END ASSY:1",
+      "sourceOccurrenceId": "#1373",
+      "sourceProductId": "#69054",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:1",
+        "EnduroMAX WET-END ASSY:1"
+      ],
+      "absorbedGeometryNodeCount": 51,
+      "triangles": 72672,
+      "bounds": {
+        "min": [
+          -4.624387500470852,
+          0.5548312525033996,
+          6.15316626119616
+        ],
+        "max": [
+          -4.392612499529098,
+          0.7715250001177237,
+          6.548843900488783
+        ]
+      },
+      "center": [
+        -4.508499999999975,
+        0.6631781263105616,
+        6.351005080842471
+      ],
+      "outwardDirection": [
+        3.3306690738754706e-16,
+        1,
+        -1.8488927466117473e-31
+      ]
+    },
+    {
+      "componentId": "C20",
+      "eonShortName": "PressureManifold",
+      "title": "Pressure Manifold Assembly",
+      "level": 3,
+      "parentId": "C04",
+      "category": "High-Pressure Flow",
+      "sourceNodeIndex": 179,
+      "sourceNodeName": "Pressure Manifold Assembly #317917:1",
+      "sourceOccurrenceId": "#1349",
+      "sourceProductId": "#69055",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:1",
+        "EnduroMAX WET-END ASSY:1",
+        "Pressure Manifold Assembly #317917:1"
+      ],
+      "absorbedGeometryNodeCount": 6,
+      "triangles": 16034,
+      "bounds": {
+        "min": [
+          -4.657724999999975,
+          0.7270750011205714,
+          6.508888521266008
+        ],
+        "max": [
+          -4.3592749999999745,
+          0.8064499999284788,
+          6.597511478734041
+        ]
+      },
+      "center": [
+        -4.508499999999975,
+        0.7667625005245251,
+        6.553200000000024
+      ],
+      "outwardDirection": [
+        1,
+        -4.440892098500626e-16,
+        -5.551115123125784e-16
+      ]
+    },
+    {
+      "componentId": "C21",
+      "eonShortName": "Pump1PressurePlumbing",
+      "title": "Pump 1 Pressure Plumbing",
+      "level": 3,
+      "parentId": "C04",
+      "category": "High-Pressure Flow",
+      "sourceNodeIndex": 254,
+      "sourceNodeName": "ADO SIDE OF PUMP ASSY:1",
+      "sourceOccurrenceId": "#1371",
+      "sourceProductId": "#69075",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:1",
+        "EnduroMAX WET-END ASSY:1",
+        "ADO SIDE OF PUMP ASSY:1"
+      ],
+      "absorbedGeometryNodeCount": 23,
+      "triangles": 24108,
+      "bounds": {
+        "min": [
+          -4.772837800235413,
+          0.5544439001445466,
+          6.527800000306988
+        ],
+        "max": [
+          -4.639081401156305,
+          0.7747000002354427,
+          6.7254627996930605
+        ]
+      },
+      "center": [
+        -4.705959600695859,
+        0.6645719501899947,
+        6.626631400000024
+      ],
+      "outwardDirection": [
+        -1,
+        4.440892098500626e-16,
+        5.551115123125784e-16
+      ]
+    },
+    {
+      "componentId": "C22",
+      "eonShortName": "Pump2Housing",
+      "title": "Pump 2 Housing",
+      "level": 3,
+      "parentId": "C05",
+      "category": "Pump Structure",
+      "sourceNodeIndex": 285,
+      "sourceNodeName": "PUMP-HOUSING:1",
+      "sourceOccurrenceId": "#1374",
+      "sourceProductId": "#69053",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:2",
+        "PUMP-HOUSING:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 40,
+      "bounds": {
+        "min": [
+          -4.889500012159322,
+          1.989693792382315e-16,
+          3.0479999927520987
+        ],
+        "max": [
+          -4.1274999878406256,
+          0.9524999856948864,
+          4.62280000724795
+        ]
+      },
+      "center": [
+        -4.508499999999974,
+        0.4762499928474433,
+        3.835400000000024
+      ],
+      "outwardDirection": [
+        -3.3306690738754706e-16,
+        -1,
+        3.697785493223495e-32
+      ]
+    },
+    {
+      "componentId": "C23",
+      "eonShortName": "Pump2TopCover",
+      "title": "Pump 2 Top Cover",
+      "level": 3,
+      "parentId": "C05",
+      "category": "Pump Guarding",
+      "sourceNodeIndex": 286,
+      "sourceNodeName": "PUMP-COVER:1",
+      "sourceOccurrenceId": "#1375",
+      "sourceProductId": "#69051",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:2",
+        "PUMP-COVER:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 576,
+      "bounds": {
+        "min": [
+          -4.94029999017713,
+          0.9525000000000007,
+          2.99720002689364
+        ],
+        "max": [
+          -4.02590000122783,
+          0.9778999996930368,
+          4.67359997310641
+        ]
+      },
+      "center": [
+        -4.48309999570248,
+        0.9651999998465187,
+        3.835400000000025
+      ],
+      "outwardDirection": [
+        -3.697785493223495e-32,
+        -1.1102230246251568e-16,
+        1
+      ]
+    },
+    {
+      "componentId": "C24",
+      "eonShortName": "Pump2WetEnd",
+      "title": "Pump 2 Wet-End Assembly",
+      "level": 3,
+      "parentId": "C05",
+      "category": "Pressure Generation",
+      "sourceNodeIndex": 287,
+      "sourceNodeName": "EnduroMAX WET-END ASSY:1",
+      "sourceOccurrenceId": "#1376",
+      "sourceProductId": "#69054",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:2",
+        "EnduroMAX WET-END ASSY:1"
+      ],
+      "absorbedGeometryNodeCount": 80,
+      "triangles": 112814,
+      "bounds": {
+        "min": [
+          -4.772837800235413,
+          0.5544439001445429,
+          3.4353662611961613
+        ],
+        "max": [
+          -4.3592749999999745,
+          0.8064499999284752,
+          4.007662799693062
+        ]
+      },
+      "center": [
+        -4.566056400117693,
+        0.6804469500365091,
+        3.721514530444612
+      ],
+      "outwardDirection": [
+        3.3306690738754706e-16,
+        1,
+        -3.697785493223495e-32
+      ]
+    },
+    {
+      "componentId": "C25",
+      "eonShortName": "Pump3Housing",
+      "title": "Pump 3 Housing",
+      "level": 3,
+      "parentId": "C06",
+      "category": "Pump Structure",
+      "sourceNodeIndex": 394,
+      "sourceNodeName": "PUMP-HOUSING:1",
+      "sourceOccurrenceId": "#1377",
+      "sourceProductId": "#69053",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:3",
+        "PUMP-HOUSING:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 40,
+      "bounds": {
+        "min": [
+          -4.889500012159322,
+          1.4926142635506762e-16,
+          0.5333999927521139
+        ],
+        "max": [
+          -4.1274999878406256,
+          0.9524999856948863,
+          2.1082000072479645
+        ]
+      },
+      "center": [
+        -4.508499999999974,
+        0.4762499928474432,
+        1.3208000000000393
+      ],
+      "outwardDirection": [
+        -3.3306690738754706e-16,
+        -1,
+        3.697785493223495e-32
+      ]
+    },
+    {
+      "componentId": "C26",
+      "eonShortName": "Pump3WetEnd",
+      "title": "Pump 3 Wet-End Assembly",
+      "level": 3,
+      "parentId": "C06",
+      "category": "Pressure Generation",
+      "sourceNodeIndex": 395,
+      "sourceNodeName": "EnduroMAX WET-END ASSY:1",
+      "sourceOccurrenceId": "#1378",
+      "sourceProductId": "#69054",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "PUMP:3",
+        "EnduroMAX WET-END ASSY:1"
+      ],
+      "absorbedGeometryNodeCount": 80,
+      "triangles": 112814,
+      "bounds": {
+        "min": [
+          -4.772837800235413,
+          0.5544439001445428,
+          0.9207662611961762
+        ],
+        "max": [
+          -4.3592749999999745,
+          0.8064499999284751,
+          1.4930627996930765
+        ]
+      },
+      "center": [
+        -4.566056400117693,
+        0.6804469500365089,
+        1.2069145304446263
+      ],
+      "outwardDirection": [
+        3.3306690738754706e-16,
+        1,
+        -3.697785493223495e-32
+      ]
+    },
+    {
+      "componentId": "C27",
+      "eonShortName": "MainSplashCurtain",
+      "title": "Main Splash Curtain",
+      "level": 3,
+      "parentId": "C07",
+      "category": "Splash Containment",
+      "sourceNodeIndex": 502,
+      "sourceNodeName": "SPLASH-CURTAIN-EXISTING:1",
+      "sourceOccurrenceId": "#1385",
+      "sourceProductId": "#69084",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "SPLASH-CURTAIN:1",
+        "SPLASH-CURTAIN-EXISTING:1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 1820,
+      "bounds": {
+        "min": [
+          -4.051300001883506,
+          0,
+          -0.3302000961303695
+        ],
+        "max": [
+          -3.746499998116493,
+          3.149600028991699,
+          7.188200096130373
+        ]
+      },
+      "center": [
+        -3.8988999999999994,
+        1.5748000144958496,
+        3.429000000000002
+      ],
+      "outwardDirection": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "componentId": "C28",
+      "eonShortName": "YAxisSplashGuard",
+      "title": "Y-Axis Splash Guard",
+      "level": 3,
+      "parentId": "C07",
+      "category": "Splash Containment",
+      "sourceNodeIndex": 503,
+      "sourceNodeName": "Y-AXIS SPLASH GUARD:1",
+      "sourceOccurrenceId": "#1386",
+      "sourceProductId": "#69085",
+      "sourcePath": [
+        "WATERJET FULL LAYOUT",
+        "SPLASH-CURTAIN:1",
+        "Y-AXIS SPLASH GUARD:1"
+      ],
+      "absorbedGeometryNodeCount": 5,
+      "triangles": 1560,
+      "bounds": {
+        "min": [
+          -4.079874994468689,
+          0.6350000549316408,
+          -0.40798599702715843
+        ],
+        "max": [
+          -0.7492998859405517,
+          3.0860999998465184,
+          -0.06350000665187897
+        ]
+      },
+      "center": [
+        -2.4145874402046203,
+        1.8605500273890796,
+        -0.23574300183951868
+      ],
+      "outwardDirection": [
+        0,
+        0,
+        -1
+      ]
+    }
+  ]
+}

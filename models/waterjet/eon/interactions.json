@@ -1,0 +1,297 @@
+{
+  "schema": "eon-interactions/1.0",
+  "modelId": "waterjet",
+  "overview": {
+    "id": "overview",
+    "componentIds": [
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08"
+    ],
+    "steps": [
+      {
+        "componentId": "C02",
+        "outwardDirection": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "componentId": "C03",
+        "outwardDirection": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "componentId": "C04",
+        "outwardDirection": [
+          -0.7071067811865475,
+          0,
+          0.7071067811865475
+        ]
+      },
+      {
+        "componentId": "C05",
+        "outwardDirection": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "componentId": "C06",
+        "outwardDirection": [
+          -0.7071067811865475,
+          0,
+          -0.7071067811865475
+        ]
+      },
+      {
+        "componentId": "C07",
+        "outwardDirection": [
+          0.7071067811865475,
+          0,
+          0.7071067811865475
+        ]
+      },
+      {
+        "componentId": "C08",
+        "outwardDirection": [
+          0,
+          0,
+          -1
+        ]
+      }
+    ],
+    "title": "Major systems"
+  },
+  "subsystems": [
+    {
+      "id": "subsystem:C03",
+      "componentId": "C03",
+      "componentIds": [
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17"
+      ],
+      "steps": [
+        {
+          "componentId": "C09",
+          "outwardDirection": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "componentId": "C10",
+          "outwardDirection": [
+            -0.7071067811865475,
+            0,
+            0.7071067811865475
+          ]
+        },
+        {
+          "componentId": "C11",
+          "outwardDirection": [
+            0,
+            0.7071067811865475,
+            0.7071067811865475
+          ]
+        },
+        {
+          "componentId": "C12",
+          "outwardDirection": [
+            0.7071067811865475,
+            0,
+            0.7071067811865475
+          ]
+        },
+        {
+          "componentId": "C13",
+          "outwardDirection": [
+            -0.7071067811865475,
+            0,
+            -0.7071067811865475
+          ]
+        },
+        {
+          "componentId": "C14",
+          "outwardDirection": [
+            0,
+            0.7071067811865475,
+            -0.7071067811865475
+          ]
+        },
+        {
+          "componentId": "C15",
+          "outwardDirection": [
+            0.7071067811865475,
+            0,
+            -0.7071067811865475
+          ]
+        },
+        {
+          "componentId": "C16",
+          "outwardDirection": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "componentId": "C17",
+          "outwardDirection": [
+            -0.7071067811865475,
+            0,
+            -0.7071067811865475
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subsystem:C04",
+      "componentId": "C04",
+      "componentIds": [
+        "C18",
+        "C19",
+        "C20",
+        "C21"
+      ],
+      "steps": [
+        {
+          "componentId": "C18",
+          "outwardDirection": [
+            -3.3306690738754706e-16,
+            -1,
+            1.8488927466117473e-31
+          ]
+        },
+        {
+          "componentId": "C19",
+          "outwardDirection": [
+            3.3306690738754706e-16,
+            1,
+            -1.8488927466117473e-31
+          ]
+        },
+        {
+          "componentId": "C20",
+          "outwardDirection": [
+            1,
+            -4.440892098500626e-16,
+            -5.551115123125784e-16
+          ]
+        },
+        {
+          "componentId": "C21",
+          "outwardDirection": [
+            -1,
+            4.440892098500626e-16,
+            5.551115123125784e-16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subsystem:C05",
+      "componentId": "C05",
+      "componentIds": [
+        "C22",
+        "C23",
+        "C24"
+      ],
+      "steps": [
+        {
+          "componentId": "C22",
+          "outwardDirection": [
+            -3.3306690738754706e-16,
+            -1,
+            3.697785493223495e-32
+          ]
+        },
+        {
+          "componentId": "C23",
+          "outwardDirection": [
+            -3.697785493223495e-32,
+            -1.1102230246251568e-16,
+            1
+          ]
+        },
+        {
+          "componentId": "C24",
+          "outwardDirection": [
+            3.3306690738754706e-16,
+            1,
+            -3.697785493223495e-32
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subsystem:C06",
+      "componentId": "C06",
+      "componentIds": [
+        "C25",
+        "C26"
+      ],
+      "steps": [
+        {
+          "componentId": "C25",
+          "outwardDirection": [
+            -3.3306690738754706e-16,
+            -1,
+            3.697785493223495e-32
+          ]
+        },
+        {
+          "componentId": "C26",
+          "outwardDirection": [
+            3.3306690738754706e-16,
+            1,
+            -3.697785493223495e-32
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subsystem:C07",
+      "componentId": "C07",
+      "componentIds": [
+        "C27",
+        "C28"
+      ],
+      "steps": [
+        {
+          "componentId": "C27",
+          "outwardDirection": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "componentId": "C28",
+          "outwardDirection": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ]
+    }
+  ]
+}

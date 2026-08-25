@@ -1,0 +1,1686 @@
+{
+  "schema": "eon-node-map/1.0",
+  "modelId": "dmu50",
+  "components": [
+    {
+      "componentId": "C01",
+      "eonShortName": "C01_Base_Column",
+      "title": "Base and Column System",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Structure",
+      "sourceNodeIndex": 1,
+      "sourceNodeName": "2627893_GRUNDMASCHINE",
+      "sourceOccurrenceId": "#52697",
+      "sourceProductId": "#52493",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2627893_GRUNDMASCHINE"
+      ],
+      "absorbedGeometryNodeCount": 13,
+      "triangles": 1500,
+      "bounds": {
+        "min": [
+          -0.687,
+          1.2135000028610228,
+          -0.8280000000000001
+        ],
+        "max": [
+          0.5369999771118164,
+          2.1165,
+          0.5325413224366142
+        ]
+      },
+      "center": [
+        -0.07500001144409185,
+        1.6650000014305113,
+        -0.14772933878169292
+      ],
+      "outwardDirection": [
+        0.07579578859509854,
+        0.7647044339219471,
+        -0.6399079052264955
+      ]
+    },
+    {
+      "componentId": "C02",
+      "eonShortName": "C02_Machine_Bed",
+      "title": "Machine Bed",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Structure",
+      "sourceNodeIndex": 42,
+      "sourceNodeName": "2572244_BETT",
+      "sourceOccurrenceId": "#62045",
+      "sourceProductId": "#61818",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2572244_BETT"
+      ],
+      "absorbedGeometryNodeCount": 10,
+      "triangles": 6880,
+      "bounds": {
+        "min": [
+          -0.7350000014007092,
+          -0.049,
+          -0.6165
+        ],
+        "max": [
+          0.5850000014007092,
+          0.04,
+          0.3935
+        ]
+      },
+      "center": [
+        -0.07500000000000001,
+        -0.0045000000000000005,
+        -0.11150000000000002
+      ],
+      "outwardDirection": [
+        0.05437733876221834,
+        -0.9023332274136082,
+        -0.4275954299738021
+      ]
+    },
+    {
+      "componentId": "C03",
+      "eonShortName": "C03_Rotary_Table",
+      "title": "Swivel Rotary Table",
+      "level": 1,
+      "parentId": null,
+      "category": "Rotary Workholding System",
+      "sourceNodeIndex": 59,
+      "sourceNodeName": "3016797_SRT_SIMULTAN",
+      "sourceOccurrenceId": "#95111",
+      "sourceProductId": "#94902",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3016797_SRT_SIMULTAN"
+      ],
+      "absorbedGeometryNodeCount": 6,
+      "triangles": 3046,
+      "bounds": {
+        "min": [
+          -0.20399999618530262,
+          0.3600046145915986,
+          0.05049999999999998
+        ],
+        "max": [
+          0.20399999618530268,
+          0.8694999971985817,
+          0.7584160048843268
+        ]
+      },
+      "center": [
+        2.7755575615628914e-17,
+        0.6147523058950901,
+        0.4044580024421634
+      ],
+      "outwardDirection": [
+        0.31148417145873125,
+        -0.9487021585273809,
+        0.0542385963697058
+      ]
+    },
+    {
+      "componentId": "C04",
+      "eonShortName": "C04_SK40_Spindle",
+      "title": "SK40 Spindle Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Spindle System",
+      "sourceNodeIndex": 77,
+      "sourceNodeName": "2850201_SPINDEL_SK40_14K",
+      "sourceOccurrenceId": "#108649",
+      "sourceProductId": "#108474",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2850201_SPINDEL_SK40_14K"
+      ],
+      "absorbedGeometryNodeCount": 3,
+      "triangles": 1548,
+      "bounds": {
+        "min": [
+          -0.11400551070094754,
+          1.0819999992400409,
+          0.3559944892990525
+        ],
+        "max": [
+          0.01400551070094748,
+          1.1178000000864268,
+          0.4840055107009475
+        ]
+      },
+      "center": [
+        -0.05000000000000003,
+        1.0998999996632337,
+        0.42
+      ],
+      "outwardDirection": [
+        0.7507803625392289,
+        0.5671485736775617,
+        0.3386315735441275
+      ]
+    },
+    {
+      "componentId": "C05",
+      "eonShortName": "C05_Tool_Magazine",
+      "title": "Tool Magazine Mechanism",
+      "level": 1,
+      "parentId": null,
+      "category": "Tool-Changing System",
+      "sourceNodeIndex": 85,
+      "sourceNodeName": "2612912_WZM_30-60",
+      "sourceOccurrenceId": "#114448",
+      "sourceProductId": "#114247",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2612912_WZM_30-60"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 0,
+      "bounds": {
+        "min": [
+          -0.7599999999999999,
+          1.208299996483326,
+          0.08189999999999985
+        ],
+        "max": [
+          -0.574999997615814,
+          1.7300000136375429,
+          0.7788999999999998
+        ]
+      },
+      "center": [
+        -0.6674999988079069,
+        1.4691500050604345,
+        0.43039999999999984
+      ],
+      "outwardDirection": [
+        -0.7706189702787257,
+        0.6331521121153391,
+        0.0725589799435037
+      ]
+    },
+    {
+      "componentId": "C06",
+      "eonShortName": "C06_Way_Protection",
+      "title": "Guideway Protection",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Protection",
+      "sourceNodeIndex": 88,
+      "sourceNodeName": "3032368_FUEHRUNGSB-ABD",
+      "sourceOccurrenceId": "#127235",
+      "sourceProductId": "#127034",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3032368_FUEHRUNGSB-ABD"
+      ],
+      "absorbedGeometryNodeCount": 7,
+      "triangles": 970,
+      "bounds": {
+        "min": [
+          -0.725,
+          1.204499999627471,
+          -0.24300001192092896
+        ],
+        "max": [
+          0.47500004768371584,
+          2.1105,
+          0.6084999935626983
+        ]
+      },
+      "center": [
+        -0.12499997615814207,
+        1.6574999998137354,
+        0.1827499908208847
+      ],
+      "outwardDirection": [
+        0.019203565657115843,
+        0.9530641220973383,
+        -0.30215890229626313
+      ]
+    },
+    {
+      "componentId": "C07",
+      "eonShortName": "C07_Enclosure",
+      "title": "Machine Enclosure",
+      "level": 1,
+      "parentId": null,
+      "category": "Operator Protection",
+      "sourceNodeIndex": 101,
+      "sourceNodeName": "4843_KABINE_30-60WZ",
+      "sourceOccurrenceId": "#240133",
+      "sourceProductId": "#239932",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "4843_KABINE_30-60WZ"
+      ],
+      "absorbedGeometryNodeCount": 4,
+      "triangles": 442,
+      "bounds": {
+        "min": [
+          -0.7720000147819519,
+          0.3892056345939636,
+          -0.5690000057220459
+        ],
+        "max": [
+          0.6549999713897705,
+          2.009999990463257,
+          1.0180000066757202
+        ]
+      },
+      "center": [
+        -0.0585000216960907,
+        1.1996028125286102,
+        0.22450000047683716
+      ],
+      "outwardDirection": [
+        0.32804106422812274,
+        0.6880973594795112,
+        -0.6472334077111632
+      ]
+    },
+    {
+      "componentId": "C08",
+      "eonShortName": "C08_ATC_Covers",
+      "title": "Tool-Changer Covers",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Protection",
+      "sourceNodeIndex": 208,
+      "sourceNodeName": "3020755_KPLNG_30WZ",
+      "sourceOccurrenceId": "#243609",
+      "sourceProductId": "#243408",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3020755_KPLNG_30WZ"
+      ],
+      "absorbedGeometryNodeCount": 5,
+      "triangles": 148,
+      "bounds": {
+        "min": [
+          -1.4550000429153442,
+          0.16,
+          -1.096
+        ],
+        "max": [
+          -0.72,
+          2.010000000094995,
+          0.888
+        ]
+      },
+      "center": [
+        -1.087500021457672,
+        1.0850000000474975,
+        -0.10400000000000004
+      ],
+      "outwardDirection": [
+        -0.889793961716013,
+        0.04800548266319734,
+        -0.45383056235559566
+      ]
+    },
+    {
+      "componentId": "C09",
+      "eonShortName": "C09_Roof",
+      "title": "Roof Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Operator Protection",
+      "sourceNodeIndex": 214,
+      "sourceNodeName": "3072621_DACH",
+      "sourceOccurrenceId": "#247824",
+      "sourceProductId": "#247623",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3072621_DACH"
+      ],
+      "absorbedGeometryNodeCount": 4,
+      "triangles": 136,
+      "bounds": {
+        "min": [
+          -0.7160000085830689,
+          1.8240000002384187,
+          -0.024999999716877937
+        ],
+        "max": [
+          0.657,
+          1.9429999980330468,
+          0.9500000023841858
+        ]
+      },
+      "center": [
+        -0.029500004291534432,
+        1.8834999991357328,
+        0.46250000133365393
+      ],
+      "outwardDirection": [
+        0.1255861160002515,
+        0.9874959417256658,
+        0.09528847014886792
+      ]
+    },
+    {
+      "componentId": "C10",
+      "eonShortName": "C10_Coolant_Support",
+      "title": "Coolant Support Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Coolant Delivery",
+      "sourceNodeIndex": 225,
+      "sourceNodeName": "2590726_KS-BEH_ZEI",
+      "sourceOccurrenceId": "#288552",
+      "sourceProductId": "#288181",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2590726_KS-BEH_ZEI"
+      ],
+      "absorbedGeometryNodeCount": 7,
+      "triangles": 8048,
+      "bounds": {
+        "min": [
+          0.495,
+          0.020000000149011612,
+          0.45000000067055224
+        ],
+        "max": [
+          1.1748999991059303,
+          1.186392377633058,
+          1.4243801233280582
+        ]
+      },
+      "center": [
+        0.8349499995529652,
+        0.6031961888910349,
+        0.9371900619993052
+      ],
+      "outwardDirection": [
+        0.8101313375134928,
+        -0.35866184544115326,
+        0.46373364834066727
+      ]
+    },
+    {
+      "componentId": "C11",
+      "eonShortName": "C11_Pipe_Support_Module",
+      "title": "Pipe Support and Auxiliary Module",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Auxiliary",
+      "sourceNodeIndex": 249,
+      "sourceNodeName": "3755454",
+      "sourceOccurrenceId": "#433077",
+      "sourceProductId": "#432640",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3755454"
+      ],
+      "absorbedGeometryNodeCount": 1,
+      "triangles": 110,
+      "bounds": {
+        "min": [
+          -0.505000006556511,
+          0.638000003695488,
+          0.025000000357627866
+        ],
+        "max": [
+          -0.32599999956786635,
+          0.8230000000260771,
+          0.2559999991059303
+        ]
+      },
+      "center": [
+        -0.4155000030621887,
+        0.7305000018607826,
+        0.14049999973177907
+      ],
+      "outwardDirection": [
+        -0.5835914623628704,
+        -0.6367534829925087,
+        -0.503950401283773
+      ]
+    },
+    {
+      "componentId": "C12",
+      "eonShortName": "C12_Machine_Column",
+      "title": "Machine Column",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Machine Structure",
+      "sourceNodeIndex": 5,
+      "sourceNodeName": "2608307_STAENDER",
+      "sourceOccurrenceId": "#22355",
+      "sourceProductId": "#22110",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2627893_GRUNDMASCHINE",
+        "2608307_STAENDER"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 4914,
+      "bounds": {
+        "min": [
+          -0.6700000166893005,
+          0.38999998569488525,
+          -0.5565000176429749
+        ],
+        "max": [
+          0.5,
+          1.277999997138977,
+          0.02500000037252903
+        ]
+      },
+      "center": [
+        -0.08500000834465027,
+        0.8339999914169312,
+        -0.2657500086352229
+      ],
+      "outwardDirection": [
+        0.07748157829411312,
+        -0.29441713838892164,
+        -0.9525309200482323
+      ]
+    },
+    {
+      "componentId": "C13",
+      "eonShortName": "C13_X_Carriage",
+      "title": "X-Axis Carriage",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 15,
+      "sourceNodeName": "2527663_X_SCHLITTEN",
+      "sourceOccurrenceId": "#31715",
+      "sourceProductId": "#31494",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2627893_GRUNDMASCHINE",
+        "2527663_X_SCHLITTEN"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 824,
+      "bounds": {
+        "min": [
+          -0.2950000047683717,
+          1.1879999980926514,
+          -0.8449999809265134
+        ],
+        "max": [
+          0.19500000476837154,
+          1.467500005722046,
+          0.05000000000000006
+        ]
+      },
+      "center": [
+        -0.05000000000000007,
+        1.3277500019073487,
+        -0.3974999904632567
+      ],
+      "outwardDirection": [
+        0.10470927666001949,
+        0.351549582033339,
+        -0.9302950385514911
+      ]
+    },
+    {
+      "componentId": "C14",
+      "eonShortName": "C14_Y_Carriage",
+      "title": "Y-Axis Carriage",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Linear Motion",
+      "sourceNodeIndex": 27,
+      "sourceNodeName": "2716987_Y_SCHLITTEN",
+      "sourceOccurrenceId": "#41260",
+      "sourceProductId": "#41037",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2627893_GRUNDMASCHINE",
+        "2716987_Y_SCHLITTEN"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 1108,
+      "bounds": {
+        "min": [
+          -0.23170000612735747,
+          1.4374999998100102,
+          -0.8829999904632568
+        ],
+        "max": [
+          0.1570000022649765,
+          2.05749999666214,
+          0.2780000005364418
+        ]
+      },
+      "center": [
+        -0.03735000193119048,
+        1.747499998236075,
+        -0.3024999949634075
+      ],
+      "outwardDirection": [
+        0.10092828814905078,
+        0.718807977532959,
+        -0.6878434211986616
+      ]
+    },
+    {
+      "componentId": "C15",
+      "eonShortName": "C15_Coolant_Nozzles",
+      "title": "Coolant Nozzle Array",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Coolant Delivery",
+      "sourceNodeIndex": 29,
+      "sourceNodeName": "2280059_SPRITZDUESE",
+      "sourceOccurrenceId": "#51492",
+      "sourceProductId": "#51345",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2627893_GRUNDMASCHINE",
+        "2280059_SPRITZDUESE"
+      ],
+      "absorbedGeometryNodeCount": 11,
+      "triangles": 2620,
+      "bounds": {
+        "min": [
+          -0.15000000149011616,
+          1.2108381844062701,
+          0.5569999986874312
+        ],
+        "max": [
+          0.05000000149011616,
+          1.2614409522032286,
+          0.6043303651621628
+        ]
+      },
+      "center": [
+        -0.05,
+        1.2361395683047494,
+        0.580665181924797
+      ],
+      "outwardDirection": [
+        0.29403404868373434,
+        0.6795788297176354,
+        0.6720986478295137
+      ]
+    },
+    {
+      "componentId": "C16",
+      "eonShortName": "C16_Rotary_Drive_Hsg",
+      "title": "Rotary Drive Housing",
+      "level": 2,
+      "parentId": "C03",
+      "category": "Rotary Motion",
+      "sourceNodeIndex": 61,
+      "sourceNodeName": "2596436_ANTRIEBS-GEH",
+      "sourceOccurrenceId": "#67602",
+      "sourceProductId": "#67343",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3016797_SRT_SIMULTAN",
+        "2596436_ANTRIEBS-GEH"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 4136,
+      "bounds": {
+        "min": [
+          -0.3799999952316284,
+          0.4350000107288361,
+          -0.20300000691413878
+        ],
+        "max": [
+          0.3799999952316284,
+          1.144999989271164,
+          0.030499996900558476
+        ]
+      },
+      "center": [
+        0,
+        0.79,
+        -0.08625000500679014
+      ],
+      "outwardDirection": [
+        0.252770780497822,
+        -0.4478718507502741,
+        -0.857623307654384
+      ]
+    },
+    {
+      "componentId": "C17",
+      "eonShortName": "C17_Table_Cradle",
+      "title": "Rotary Table Cradle",
+      "level": 2,
+      "parentId": "C03",
+      "category": "Rotary Workholding System",
+      "sourceNodeIndex": 63,
+      "sourceNodeName": "2635172_KONSOLE",
+      "sourceOccurrenceId": "#79695",
+      "sourceProductId": "#79483",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3016797_SRT_SIMULTAN",
+        "2635172_KONSOLE"
+      ],
+      "absorbedGeometryNodeCount": 2,
+      "triangles": 6916,
+      "bounds": {
+        "min": [
+          -0.31599971652030945,
+          0.4739999854564667,
+          -0.08150000357627868
+        ],
+        "max": [
+          0.31599971652030945,
+          1.1060000145435334,
+          0.7600135407447814
+        ]
+      },
+      "center": [
+        0,
+        0.79,
+        0.33925676858425136
+      ],
+      "outwardDirection": [
+        0.4862541392088052,
+        -0.8615692875320514,
+        -0.14579188895071285
+      ]
+    },
+    {
+      "componentId": "C18",
+      "eonShortName": "C18_Table_Plate",
+      "title": "Rotary Table Plate",
+      "level": 2,
+      "parentId": "C03",
+      "category": "Workholding Interface",
+      "sourceNodeIndex": 68,
+      "sourceNodeName": "2596435_TISCHPLATTE",
+      "sourceOccurrenceId": "#90282",
+      "sourceProductId": "#90064",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3016797_SRT_SIMULTAN",
+        "2596435_TISCHPLATTE"
+      ],
+      "absorbedGeometryNodeCount": 2,
+      "triangles": 6192,
+      "bounds": {
+        "min": [
+          -0.3149999976158142,
+          0.6240000033378601,
+          0.195
+        ],
+        "max": [
+          0.3149999976158142,
+          0.74,
+          0.6950000000000001
+        ]
+      },
+      "center": [
+        0,
+        0.68200000166893,
+        0.44500000000000006
+      ],
+      "outwardDirection": [
+        0.35903407910948615,
+        -0.9180198056601615,
+        0.16832755702404323
+      ]
+    },
+    {
+      "componentId": "C19",
+      "eonShortName": "C19_Spindle_Body",
+      "title": "Milling Spindle Body",
+      "level": 2,
+      "parentId": "C04",
+      "category": "Spindle System",
+      "sourceNodeIndex": 80,
+      "sourceNodeName": "2709396_FRAESSPINDEL",
+      "sourceOccurrenceId": "#105517",
+      "sourceProductId": "#105143",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2850201_SPINDEL_SK40_14K",
+        "2709396_FRAESSPINDEL"
+      ],
+      "absorbedGeometryNodeCount": 2,
+      "triangles": 5396,
+      "bounds": {
+        "min": [
+          -0.09749999940395357,
+          1.09,
+          0.37250000059604643
+        ],
+        "max": [
+          -0.002500000596046499,
+          1.145799998342991,
+          0.46749999940395354
+        ]
+      },
+      "center": [
+        -0.05000000000000003,
+        1.1178999991714955,
+        0.42
+      ],
+      "outwardDirection": [
+        0.6589240867997906,
+        -0.6856889867858147,
+        0.3092727942055443
+      ]
+    },
+    {
+      "componentId": "C20",
+      "eonShortName": "C20_Magazine_Gear",
+      "title": "Magazine Drive Gear",
+      "level": 2,
+      "parentId": "C05",
+      "category": "Tool-Changing System",
+      "sourceNodeIndex": 86,
+      "sourceNodeName": "2612912_GEAR_1",
+      "sourceOccurrenceId": "#112093",
+      "sourceProductId": "#111865",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2612912_WZM_30-60",
+        "2612912_GEAR_1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 2414,
+      "bounds": {
+        "min": [
+          -0.7599999999999999,
+          1.208299996483326,
+          0.2899000073909759
+        ],
+        "max": [
+          -0.574999997615814,
+          1.7300000136375429,
+          0.7788999999999998
+        ]
+      },
+      "center": [
+        -0.6674999988079069,
+        1.4691500050604345,
+        0.5344000036954879
+      ],
+      "outwardDirection": [
+        0.21894161401214213,
+        0.6194232746228913,
+        0.7539093954244186
+      ]
+    },
+    {
+      "componentId": "C21",
+      "eonShortName": "C21_Rotary_Gripper",
+      "title": "Rotary Tool Gripper",
+      "level": 2,
+      "parentId": "C05",
+      "category": "Tool-Changing System",
+      "sourceNodeIndex": 87,
+      "sourceNodeName": "2612912_ROTATE_GRAB",
+      "sourceOccurrenceId": "#114218",
+      "sourceProductId": "#113993",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2612912_WZM_30-60",
+        "2612912_ROTATE_GRAB"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 536,
+      "bounds": {
+        "min": [
+          -0.685,
+          1.2531160000000001,
+          0.08189999999999985
+        ],
+        "max": [
+          -0.5849999985098838,
+          1.2831159993294479,
+          0.771899997615814
+        ]
+      },
+      "center": [
+        -0.634999999254942,
+        1.268115999664724,
+        0.4268999988079069
+      ],
+      "outwardDirection": [
+        0.08407751799572884,
+        0.42470533431743146,
+        0.9014190756634768
+      ]
+    },
+    {
+      "componentId": "C22",
+      "eonShortName": "C22_Right_Way_Bellows",
+      "title": "Right Guideway Bellows",
+      "level": 2,
+      "parentId": "C06",
+      "category": "Machine Protection",
+      "sourceNodeIndex": 89,
+      "sourceNodeName": "2376252_FALTENBALG",
+      "sourceOccurrenceId": "#115855",
+      "sourceProductId": "#115575",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3032368_FUEHRUNGSB-ABD",
+        "2376252_FALTENBALG"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 162,
+      "bounds": {
+        "min": [
+          0.21049999997625127,
+          1.211000000447035,
+          -0.13346707892417903
+        ],
+        "max": [
+          0.6169999883174895,
+          1.8730000195503236,
+          0.06649999994039545
+        ]
+      },
+      "center": [
+        0.41374999414687036,
+        1.5420000099986793,
+        -0.03348353949189179
+      ],
+      "outwardDirection": [
+        0.6436597461613726,
+        0.5933780847873602,
+        -0.48332657661829603
+      ]
+    },
+    {
+      "componentId": "C23",
+      "eonShortName": "C23_Left_Way_Bellows",
+      "title": "Left Guideway Bellows",
+      "level": 2,
+      "parentId": "C06",
+      "category": "Machine Protection",
+      "sourceNodeIndex": 90,
+      "sourceNodeName": "2376253_FALTENBALG",
+      "sourceOccurrenceId": "#117262",
+      "sourceProductId": "#116985",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3032368_FUEHRUNGSB-ABD",
+        "2376253_FALTENBALG"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 162,
+      "bounds": {
+        "min": [
+          -0.7669999982118607,
+          1.211000000447035,
+          -0.13346707892417903
+        ],
+        "max": [
+          -0.3104999895095827,
+          1.8730000195503236,
+          0.06649999994039543
+        ]
+      },
+      "center": [
+        -0.5387499938607216,
+        1.5420000099986793,
+        -0.0334835394918918
+      ],
+      "outwardDirection": [
+        -0.5220068246429522,
+        0.6613209001681551,
+        -0.5386683042717135
+      ]
+    },
+    {
+      "componentId": "C24",
+      "eonShortName": "C24_Work_Enclosure",
+      "title": "Main Working Enclosure",
+      "level": 2,
+      "parentId": "C07",
+      "category": "Operator Protection",
+      "sourceNodeIndex": 102,
+      "sourceNodeName": "3021094_KABINE",
+      "sourceOccurrenceId": "#191871",
+      "sourceProductId": "#191667",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "4843_KABINE_30-60WZ",
+        "3021094_KABINE"
+      ],
+      "absorbedGeometryNodeCount": 9,
+      "triangles": 15205,
+      "bounds": {
+        "min": [
+          -0.7975000143051147,
+          0.22696632385253968,
+          -1.0959999561309814
+        ],
+        "max": [
+          0.7269999980926514,
+          2.078033702969551,
+          1.1684218836098614
+        ]
+      },
+      "center": [
+        -0.03525000810623169,
+        1.1525000134110455,
+        0.036210963739439994
+      ],
+      "outwardDirection": [
+        0.270471042263252,
+        0.3139077416964297,
+        -0.9101139186937411
+      ]
+    },
+    {
+      "componentId": "C25",
+      "eonShortName": "C25_Front_Door",
+      "title": "Front Access Door",
+      "level": 3,
+      "parentId": "C24",
+      "category": "Access Guard",
+      "sourceNodeIndex": 104,
+      "sourceNodeName": "3021101_TUER_VO_KPL",
+      "sourceOccurrenceId": "#143747",
+      "sourceProductId": "#143543",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "4843_KABINE_30-60WZ",
+        "3021094_KABINE",
+        "3021098_KABINE",
+        "3021101_TUER_VO_KPL"
+      ],
+      "absorbedGeometryNodeCount": 12,
+      "triangles": 1616,
+      "bounds": {
+        "min": [
+          -0.5590000152587891,
+          0.23499999940395355,
+          0.8199999928474426
+        ],
+        "max": [
+          0.616,
+          2.069999933242798,
+          1.090000033378601
+        ]
+      },
+      "center": [
+        0.028499992370605465,
+        1.1524999663233757,
+        0.9550000131130219
+      ],
+      "outwardDirection": [
+        0.27237946754847386,
+        0.19476982556811687,
+        0.9422707364161189
+      ]
+    },
+    {
+      "componentId": "C26",
+      "eonShortName": "C26_Side_View_Panel",
+      "title": "Side Viewing Panel",
+      "level": 3,
+      "parentId": "C24",
+      "category": "Access Guard",
+      "sourceNodeIndex": 119,
+      "sourceNodeName": "3021102_SEITENWAND",
+      "sourceOccurrenceId": "#151081",
+      "sourceProductId": "#150880",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "4843_KABINE_30-60WZ",
+        "3021094_KABINE",
+        "3021098_KABINE",
+        "3021102_SEITENWAND"
+      ],
+      "absorbedGeometryNodeCount": 6,
+      "triangles": 1012,
+      "bounds": {
+        "min": [
+          0.4930513203144071,
+          0.23499999940395333,
+          0.029999999329447732
+        ],
+        "max": [
+          0.7419999837875363,
+          2.0699999332427974,
+          1.0900000333786006
+        ]
+      },
+      "center": [
+        0.6175256520509718,
+        1.1524999663233753,
+        0.5600000163540242
+      ],
+      "outwardDirection": [
+        0.9616983009585326,
+        0.15124167184718623,
+        0.22860956810759148
+      ]
+    },
+    {
+      "componentId": "C27",
+      "eonShortName": "C27_ATC_Enclosure",
+      "title": "Tool-Magazine Enclosure",
+      "level": 2,
+      "parentId": "C07",
+      "category": "Machine Protection",
+      "sourceNodeIndex": 143,
+      "sourceNodeName": "2994600_ZBS",
+      "sourceOccurrenceId": "#226296",
+      "sourceProductId": "#225925",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "4843_KABINE_30-60WZ",
+        "2994600_ZBS"
+      ],
+      "absorbedGeometryNodeCount": 7,
+      "triangles": 1406,
+      "bounds": {
+        "min": [
+          -1.4549999994635583,
+          0.28,
+          -0.6499999761581421
+        ],
+        "max": [
+          -0.527,
+          2.009999990463257,
+          0.9900000095367432
+        ]
+      },
+      "center": [
+        -0.9909999997317791,
+        1.1449999952316285,
+        0.17000001668930054
+      ],
+      "outwardDirection": [
+        -0.9632179768479019,
+        0.12556127191757604,
+        -0.237582608941554
+      ]
+    },
+    {
+      "componentId": "C28",
+      "eonShortName": "C28_ATC_Access_Door",
+      "title": "Tool-Magazine Access Door",
+      "level": 3,
+      "parentId": "C27",
+      "category": "Access Guard",
+      "sourceNodeIndex": 151,
+      "sourceNodeName": "2994823_TUER_WZW_KPL",
+      "sourceOccurrenceId": "#216784",
+      "sourceProductId": "#216583",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "4843_KABINE_30-60WZ",
+        "2994600_ZBS",
+        "2994816_ABDECKUNG",
+        "2994823_TUER_WZW_KPL"
+      ],
+      "absorbedGeometryNodeCount": 20,
+      "triangles": 10442,
+      "bounds": {
+        "min": [
+          -1.4549999704360963,
+          1.1214999961853027,
+          0.6090000021457672
+        ],
+        "max": [
+          -0.9000000219345093,
+          1.792999963760376,
+          0.9900000143051148
+        ]
+      },
+      "center": [
+        -1.1774999961853028,
+        1.4572499799728393,
+        0.799500008225441
+      ],
+      "outwardDirection": [
+        -0.8677046370896386,
+        0.3533624618629126,
+        0.3496049675266645
+      ]
+    },
+    {
+      "componentId": "C29",
+      "eonShortName": "C29_Side_Service_Door",
+      "title": "Side Service Door",
+      "level": 3,
+      "parentId": "C27",
+      "category": "Access Guard",
+      "sourceNodeIndex": 180,
+      "sourceNodeName": "2586948_TUER_KPLT",
+      "sourceOccurrenceId": "#225896",
+      "sourceProductId": "#225695",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "4843_KABINE_30-60WZ",
+        "2994600_ZBS",
+        "2586948_TUER_KPLT"
+      ],
+      "absorbedGeometryNodeCount": 6,
+      "triangles": 476,
+      "bounds": {
+        "min": [
+          -1.4549999999999994,
+          0.159999976158142,
+          -1.0959999785423282
+        ],
+        "max": [
+          -1.435000000447034,
+          0.7599999999999999,
+          -0.13600000000000056
+        ]
+      },
+      "center": [
+        -1.4450000002235166,
+        0.45999998807907094,
+        -0.6159999892711644
+      ],
+      "outwardDirection": [
+        -0.7509034898027509,
+        -0.32952453188897113,
+        -0.5723264207472903
+      ]
+    },
+    {
+      "componentId": "C30",
+      "eonShortName": "C30_Coolant_Catch_Pan",
+      "title": "Enclosure Catch Pan",
+      "level": 2,
+      "parentId": "C07",
+      "category": "Coolant Containment",
+      "sourceNodeIndex": 192,
+      "sourceNodeName": "2994606_KPLNG",
+      "sourceOccurrenceId": "#236327",
+      "sourceProductId": "#235956",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "4843_KABINE_30-60WZ",
+        "2994606_KPLNG"
+      ],
+      "absorbedGeometryNodeCount": 5,
+      "triangles": 236,
+      "bounds": {
+        "min": [
+          -1.3920000050067902,
+          0.38680000000000003,
+          -0.02999998807907056
+        ],
+        "max": [
+          -0.6249999804496766,
+          1.3058000295639038,
+          0.7950000000000003
+        ]
+      },
+      "center": [
+        -1.0084999927282334,
+        0.8463000147819519,
+        0.38250000596046485
+      ],
+      "outwardDirection": [
+        -0.9776105866512071,
+        -0.21041035550415552,
+        0.0022412416418667526
+      ]
+    },
+    {
+      "componentId": "C31",
+      "eonShortName": "C31_Rear_Service_Hsg",
+      "title": "Rear Service Housing",
+      "level": 2,
+      "parentId": "C07",
+      "category": "Service Enclosure",
+      "sourceNodeIndex": 201,
+      "sourceNodeName": "2889519_GEHAEUSE",
+      "sourceOccurrenceId": "#238519",
+      "sourceProductId": "#238318",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "4843_KABINE_30-60WZ",
+        "2889519_GEHAEUSE"
+      ],
+      "absorbedGeometryNodeCount": 3,
+      "triangles": 116,
+      "bounds": {
+        "min": [
+          -0.8019999713897705,
+          0.167,
+          -1.0960000007599593
+        ],
+        "max": [
+          0.728,
+          1.1069999976158142,
+          -0.5760000000000001
+        ]
+      },
+      "center": [
+        -0.03699998569488527,
+        0.6369999988079071,
+        -0.8360000003799797
+      ],
+      "outwardDirection": [
+        0.07835380963722159,
+        -0.3091126399997347,
+        -0.9477922010165142
+      ]
+    },
+    {
+      "componentId": "C32",
+      "eonShortName": "C32_Support_Arm",
+      "title": "Pivoting Support Arm",
+      "level": 2,
+      "parentId": "C10",
+      "category": "Coolant Delivery",
+      "sourceNodeIndex": 228,
+      "sourceNodeName": "2603326_AUSLEGEARM",
+      "sourceOccurrenceId": "#255429",
+      "sourceProductId": "#254995",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2590726_KS-BEH_ZEI",
+        "2572244_BETT",
+        "3034510_ABT",
+        "2603326_AUSLEGEARM"
+      ],
+      "absorbedGeometryNodeCount": 2,
+      "triangles": 6432,
+      "bounds": {
+        "min": [
+          0.5461228390038013,
+          0.04212830713213528,
+          0.7389999716486789
+        ],
+        "max": [
+          0.6438771609961986,
+          1.0363923768950796,
+          1.4248967685179945
+        ]
+      },
+      "center": [
+        0.595,
+        0.5392603420136074,
+        1.0819483700833368
+      ],
+      "outwardDirection": [
+        0.6492313532903214,
+        -0.43823665214005386,
+        0.621648845109436
+      ]
+    },
+    {
+      "componentId": "C33",
+      "eonShortName": "C33_Lower_Vessel_Shell",
+      "title": "Lower Coolant Vessel Shell",
+      "level": 2,
+      "parentId": "C10",
+      "category": "Coolant Containment",
+      "sourceNodeIndex": 243,
+      "sourceNodeName": "2912561_UNTERSCHALE-VEREINF",
+      "sourceOccurrenceId": "#275229",
+      "sourceProductId": "#274822",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2590726_KS-BEH_ZEI",
+        "2912561_UNTERSCHALE-VEREINF"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 868,
+      "bounds": {
+        "min": [
+          0.6547058519722302,
+          0.9210446435625992,
+          1.3244486435191474
+        ],
+        "max": [
+          1.1447058615089751,
+          1.1863238582317925,
+          1.8570066663303126
+        ]
+      },
+      "center": [
+        0.8997058567406027,
+        1.053684250897196,
+        1.59072765492473
+      ],
+      "outwardDirection": [
+        0.6507183583771365,
+        0.012505455270907089,
+        0.7592161955987451
+      ]
+    },
+    {
+      "componentId": "C34",
+      "eonShortName": "C34_Upper_Vessel_Shell",
+      "title": "Upper Coolant Vessel Shell",
+      "level": 2,
+      "parentId": "C10",
+      "category": "Coolant Containment",
+      "sourceNodeIndex": 244,
+      "sourceNodeName": "2917630_OBERSCHALE-VEREINFACHT",
+      "sourceOccurrenceId": "#276676",
+      "sourceProductId": "#276251",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2590726_KS-BEH_ZEI",
+        "2917630_OBERSCHALE-VEREINFACHT"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 328,
+      "bounds": {
+        "min": [
+          0.6199361490249634,
+          1.0864078433896287,
+          1.317049735765919
+        ],
+        "max": [
+          1.1798638509750368,
+          1.5841710597545409,
+          1.4844754795707056
+        ]
+      },
+      "center": [
+        0.8999000000000001,
+        1.3352894515720848,
+        1.4007626076683124
+      ],
+      "outwardDirection": [
+        0.6981617175815743,
+        0.2029202654480751,
+        0.6865810818643557
+      ]
+    },
+    {
+      "componentId": "C35",
+      "eonShortName": "C35_Coolant_Elbow",
+      "title": "Coolant Vessel Elbow Joint",
+      "level": 2,
+      "parentId": "C10",
+      "category": "Coolant Delivery",
+      "sourceNodeIndex": 245,
+      "sourceNodeName": "2931353_L-GELENK",
+      "sourceOccurrenceId": "#287374",
+      "sourceProductId": "#286900",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2590726_KS-BEH_ZEI",
+        "2931353_L-GELENK"
+      ],
+      "absorbedGeometryNodeCount": 2,
+      "triangles": 7446,
+      "bounds": {
+        "min": [
+          0.536410323466748,
+          0.9713923767865644,
+          1.3244431344125396
+        ],
+        "max": [
+          0.6718631453175247,
+          1.186304369331804,
+          1.4243171242330197
+        ]
+      },
+      "center": [
+        0.6041367343921363,
+        1.0788483730591842,
+        1.3743801293227795
+      ],
+      "outwardDirection": [
+        0.5976922926165754,
+        0.036341882759284655,
+        0.8009014863915863
+      ]
+    },
+    {
+      "componentId": "C36",
+      "eonShortName": "C36_DS04_Aux_Module",
+      "title": "DS04 Auxiliary Module",
+      "level": 2,
+      "parentId": "C11",
+      "category": "Machine Auxiliary",
+      "sourceNodeIndex": 253,
+      "sourceNodeName": "DS04BD0FC642",
+      "sourceOccurrenceId": "#432180",
+      "sourceProductId": "#431848",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3755454",
+        "2831032_3707180",
+        "DS04BD0FC642"
+      ],
+      "absorbedGeometryNodeCount": 102,
+      "triangles": 136164,
+      "bounds": {
+        "min": [
+          -0.7139750057697296,
+          0.7285000002013148,
+          0.19375
+        ],
+        "max": [
+          -0.3036964619398117,
+          0.8237499981188775,
+          0.25625
+        ]
+      },
+      "center": [
+        -0.5088357338547707,
+        0.7761249991600961,
+        0.22499999999999998
+      ],
+      "outwardDirection": [
+        -0.7768676627993262,
+        -0.5390734657658756,
+        -0.3253865900799847
+      ]
+    },
+    {
+      "componentId": "C37",
+      "eonShortName": "C37_Spray_Unit",
+      "title": "Spray Unit",
+      "level": 2,
+      "parentId": "C01",
+      "category": "Coolant Delivery",
+      "sourceNodeIndex": 28,
+      "sourceNodeName": "3223650_SPISTO",
+      "sourceOccurrenceId": "#49560",
+      "sourceProductId": "#49321",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2627893_GRUNDMASCHINE",
+        "3223650_SPISTO"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 1934,
+      "bounds": {
+        "min": [
+          -0.18799999654293065,
+          1.225,
+          0.17200000065565108
+        ],
+        "max": [
+          0.13000000715255733,
+          2.1105000138282777,
+          0.5660000019073486
+        ]
+      },
+      "center": [
+        -0.02899999469518666,
+        1.6677500069141389,
+        0.3690000012814998
+      ],
+      "outwardDirection": [
+        0.16875919793722127,
+        0.9854951077024376,
+        -0.01788087822637542
+      ]
+    },
+    {
+      "componentId": "C38",
+      "eonShortName": "C38_Machine_Bed_Body",
+      "title": "Machine Bed Body",
+      "level": 2,
+      "parentId": "C02",
+      "category": "Machine Structure",
+      "sourceNodeIndex": 43,
+      "sourceNodeName": "2572244_BETT_01",
+      "sourceOccurrenceId": "#57619",
+      "sourceProductId": "#57423",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2572244_BETT",
+        "2572244_BETT_01"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 672,
+      "bounds": {
+        "min": [
+          -0.7450000166893005,
+          0.019999999552965164,
+          -0.7065000059604645
+        ],
+        "max": [
+          0.5950000166893006,
+          0.41999998688697815,
+          0.8935000476837158
+        ]
+      },
+      "center": [
+        -0.07499999999999996,
+        0.21999999321997166,
+        0.09350002086162568
+      ],
+      "outwardDirection": [
+        0.07232099034560457,
+        -0.9405944910349721,
+        -0.33174037708740356
+      ]
+    },
+    {
+      "componentId": "C39",
+      "eonShortName": "C39_Spindle_Mount_Flange",
+      "title": "Spindle Mounting Flange",
+      "level": 2,
+      "parentId": "C04",
+      "category": "Spindle System",
+      "sourceNodeIndex": 78,
+      "sourceNodeName": "2849731_FLANSCH",
+      "sourceOccurrenceId": "#97240",
+      "sourceProductId": "#96812",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2850201_SPINDEL_SK40_14K",
+        "2849731_FLANSCH"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 3606,
+      "bounds": {
+        "min": [
+          -0.175,
+          1.1148000032901764,
+          0.29524665892124174
+        ],
+        "max": [
+          0.07499999999999997,
+          1.3291999967098236,
+          0.5447533410787582
+        ]
+      },
+      "center": [
+        -0.05000000000000001,
+        1.222,
+        0.41999999999999993
+      ],
+      "outwardDirection": [
+        0.8907285677082125,
+        -0.41433946720016074,
+        0.18688345188582958
+      ]
+    },
+    {
+      "componentId": "C40",
+      "eonShortName": "C40_Coolant_Support_Profile",
+      "title": "Coolant Support Profile",
+      "level": 2,
+      "parentId": "C10",
+      "category": "Coolant Delivery",
+      "sourceNodeIndex": 239,
+      "sourceNodeName": "2603337_PROFIL_1",
+      "sourceOccurrenceId": "#272040",
+      "sourceProductId": "#271649",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "2590726_KS-BEH_ZEI",
+        "2603337_PROFIL_1"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 4304,
+      "bounds": {
+        "min": [
+          0.5549066617131233,
+          0.06299997631922127,
+          0.7389999837323699
+        ],
+        "max": [
+          0.6348908721446992,
+          0.8689360996732793,
+          1.3854737500114378
+        ]
+      },
+      "center": [
+        0.5948987669289112,
+        0.4659680379962503,
+        1.0622368668719038
+      ],
+      "outwardDirection": [
+        0.6366522433200893,
+        -0.4935099157873868,
+        0.5925553848333709
+      ]
+    },
+    {
+      "componentId": "C41",
+      "eonShortName": "C41_Auxiliary_Pipe",
+      "title": "Auxiliary Pipe",
+      "level": 2,
+      "parentId": "C11",
+      "category": "Machine Auxiliary",
+      "sourceNodeIndex": 251,
+      "sourceNodeName": "2644101_ROHR",
+      "sourceOccurrenceId": "#292923",
+      "sourceProductId": "#292692",
+      "sourcePath": [
+        "DMU50_4843_ASM",
+        "3755454",
+        "2644101_ROHR"
+      ],
+      "absorbedGeometryNodeCount": 0,
+      "triangles": 5824,
+      "bounds": {
+        "min": [
+          -0.7554260019073487,
+          0.7075908720970153,
+          0.025499996380529202
+        ],
+        "max": [
+          -0.3564493033895493,
+          0.8508014321804046,
+          0.19594175054284074
+        ]
+      },
+      "center": [
+        -0.555937652648449,
+        0.77919615213871,
+        0.11072087346168497
+      ],
+      "outwardDirection": [
+        -0.7482665540294164,
+        -0.45527722443858565,
+        -0.4825140547470509
+      ]
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "schema": "eon-node-map/1.0",
+  "modelId": "conventional-lathe",
+  "components": [
+    {
+      "componentId": "C01",
+      "eonShortName": "BedWaysPedestal",
+      "title": "Bed, Ways, and Pedestal Base",
+      "level": 1,
+      "parentId": null,
+      "category": "Machine Structure",
+      "sourceBranchIndices": [
+        5,
+        10,
+        13,
+        140,
+        155
+      ],
+      "absorbedGeometryNodeCount": 18,
+      "triangles": 19820,
+      "bounds": {
+        "min": [
+          -1.640112323460844,
+          -0.8279977848416986,
+          -0.4594974431343136
+        ],
+        "max": [
+          2.4651122367612253,
+          0.6530022855020269,
+          0.5304206794492035
+        ]
+      },
+      "center": [
+        0.4124999566501907,
+        -0.08749774966983587,
+        0.03546161815744492
+      ],
+      "outwardDirection": [
+        0.9771791594049775,
+        -0.046453322650770915,
+        -0.207275129331247
+      ]
+    },
+    {
+      "componentId": "C02",
+      "eonShortName": "HeadstockDrive",
+      "title": "Headstock and Drive System",
+      "level": 1,
+      "parentId": null,
+      "category": "Headstock and Drive",
+      "sourceBranchIndices": [
+        87,
+        92
+      ],
+      "absorbedGeometryNodeCount": 3,
+      "triangles": 14256,
+      "bounds": {
+        "min": [
+          -2.4651123607388925,
+          -0.4049977609355794,
+          -0.4590678013455651
+        ],
+        "max": [
+          -0.12221222504305018,
+          0.6776885697861346,
+          0.5120153441436416
+        ]
+      },
+      "center": [
+        -1.2936622928909713,
+        0.1363454044252776,
+        0.026473771399038254
+      ],
+      "outwardDirection": [
+        -0.9944586547502052,
+        -0.00816503450832858,
+        0.10481085918877796
+      ]
+    },
+    {
+      "componentId": "C03",
+      "eonShortName": "SpindleWorkholding",
+      "title": "Spindle, Chuck, and Workpiece",
+      "level": 2,
+      "parentId": "C02",
+      "category": "Spindle and Workholding",
+      "sourceBranchIndices": [
+        116,
+        119,
+        122
+      ],
+      "absorbedGeometryNodeCount": 3,
+      "triangles": 11040,
+      "bounds": {
+        "min": [
+          -0.8452122593837075,
+          0.2075891517056583,
+          -0.3018642111151236
+        ],
+        "max": [
+          -0.12221222504305018,
+          0.603589170514649,
+          0.09413580769386706
+        ]
+      },
+      "center": [
+        -0.48371224221337883,
+        0.40558916111015364,
+        -0.10386420171062828
+      ],
+      "outwardDirection": [
+        -0.7528541598690268,
+        0.1863275967951328,
+        0.6312627350322941
+      ]
+    },
+    {
+      "componentId": "C04",
+      "eonShortName": "SpeedFeedControls",
+      "title": "Speed and Feed Selector Controls",
+      "level": 2,
+      "parentId": "C02",
+      "category": "Machine Controls",
+      "sourceBranchIndices": [
+        81,
+        98,
+        101,
+        104,
+        107,
+        110,
+        113
+      ],
+      "absorbedGeometryNodeCount": 7,
+      "triangles": 8278,
+      "bounds": {
+        "min": [
+          -1.4839201652095002,
+          -0.28341856166981294,
+          0.13603581281921473
+        ],
+        "max": [
+          -0.7901122811806616,
+          0.6776885697861346,
+          0.5120153441436416
+        ]
+      },
+      "center": [
+        -1.1370162231950809,
+        0.1971350040581608,
+        0.32402557848142816
+      ],
+      "outwardDirection": [
+        -0.9519400886899644,
+        -0.2580109965452534,
+        0.16504663948916892
+      ]
+    },
+    {
+      "componentId": "C05",
+      "eonShortName": "ChuckSafetyGuard",
+      "title": "Chuck Safety Guard",
+      "level": 2,
+      "parentId": "C02",
+      "category": "Machine Guarding",
+      "sourceBranchIndices": [
+        134
+      ],
+      "absorbedGeometryNodeCount": 1,
+      "triangles": 672,
+      "bounds": {
+        "min": [
+          -0.8451122837930215,
+          0.15565897345785729,
+          -0.353830796835357
+        ],
+        "max": [
+          -0.5951122719186586,
+          0.6455891725095421,
+          0.14611795737968344
+        ]
+      },
+      "center": [
+        -0.72011227785584,
+        0.4006240729836997,
+        -0.10385641972783678
+      ],
+      "outwardDirection": [
+        -0.8647906033205557,
+        0.14375928485280465,
+        0.4811137915577554
+      ]
+    },
+    {
+      "componentId": "C06",
+      "eonShortName": "CarriageApron",
+      "title": "Carriage and Apron Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Carriage and Feed",
+      "sourceBranchIndices": [
+        31,
+        44,
+        64,
+        78
+      ],
+      "absorbedGeometryNodeCount": 12,
+      "triangles": 25965,
+      "bounds": {
+        "min": [
+          -0.12011231039252823,
+          -0.32301824196607776,
+          -0.5627214470159192
+        ],
+        "max": [
+          0.8247158594843995,
+          0.8279978201276501,
+          0.5944256797839964
+        ]
+      },
+      "center": [
+        0.35230177454593564,
+        0.2524897890807862,
+        0.015852116384038606
+      ],
+      "outwardDirection": [
+        0.8128097117369307,
+        1.2934748582626643e-16,
+        0.582529288968484
+      ]
+    },
+    {
+      "componentId": "C07",
+      "eonShortName": "CompoundToolPost",
+      "title": "Compound Rest and Tool Post",
+      "level": 2,
+      "parentId": "C06",
+      "category": "Tool Positioning",
+      "sourceBranchIndices": [
+        51,
+        69,
+        84
+      ],
+      "absorbedGeometryNodeCount": 8,
+      "triangles": 25462,
+      "bounds": {
+        "min": [
+          -0.03153151280442912,
+          0.11009383915251625,
+          -0.5627214470159192
+        ],
+        "max": [
+          0.5928030066722556,
+          0.5380668056471327,
+          0.5944256797839964
+        ]
+      },
+      "center": [
+        0.28063574693391324,
+        0.3240803223998245,
+        0.015852116384038606
+      ],
+      "outwardDirection": [
+        0.654619056664923,
+        1.6785660001345284e-16,
+        0.7559589212722646
+      ]
+    },
+    {
+      "componentId": "C08",
+      "eonShortName": "HalfNutFeedControls",
+      "title": "Half-Nut and Feed Controls",
+      "level": 2,
+      "parentId": "C06",
+      "category": "Threading and Feed",
+      "sourceBranchIndices": [
+        72,
+        75
+      ],
+      "absorbedGeometryNodeCount": 2,
+      "triangles": 2184,
+      "bounds": {
+        "min": [
+          0.2296445082839645,
+          -0.27885429516530663,
+          0.34727859620676144
+        ],
+        "max": [
+          0.5513310167586145,
+          0.08229876382203065,
+          0.4496162170343344
+        ]
+      },
+      "center": [
+        0.39048776252128947,
+        -0.09827776567163798,
+        0.3984474066205479
+      ],
+      "outwardDirection": [
+        0.7030188142880871,
+        -0.6888094081594199,
+        -0.17693542886613128
+      ]
+    },
+    {
+      "componentId": "C09",
+      "eonShortName": "Tailstock",
+      "title": "Tailstock Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Tailstock",
+      "sourceBranchIndices": [
+        16
+      ],
+      "absorbedGeometryNodeCount": 3,
+      "triangles": 2954,
+      "bounds": {
+        "min": [
+          1.30307960596034,
+          0.11700225622869541,
+          -0.3343174215799084
+        ],
+        "max": [
+          2.377422460943963,
+          0.5831812639667122,
+          0.1288745865053494
+        ]
+      },
+      "center": [
+        1.8402510334521516,
+        0.3500917600977038,
+        -0.10272141753727951
+      ],
+      "outwardDirection": [
+        0.9804188235946568,
+        0.06317166441286218,
+        0.18651614181238524
+      ]
+    },
+    {
+      "componentId": "C10",
+      "eonShortName": "TailstockQuillHandwheel",
+      "title": "Tailstock Quill and Handwheel",
+      "level": 2,
+      "parentId": "C09",
+      "category": "Tailstock",
+      "sourceBranchIndices": [
+        23,
+        28
+      ],
+      "absorbedGeometryNodeCount": 3,
+      "triangles": 5148,
+      "bounds": {
+        "min": [
+          1.30307960596034,
+          0.2507280782017297,
+          -0.2575826148870439
+        ],
+        "max": [
+          2.377422460943963,
+          0.5604504576416346,
+          0.05213976455286093
+        ]
+      },
+      "center": [
+        1.8402510334521516,
+        0.40558926792168215,
+        -0.1027214251670915
+      ],
+      "outwardDirection": [
+        0.9746351140456136,
+        0.0627990047003801,
+        0.21480847161584468
+      ]
+    },
+    {
+      "componentId": "C11",
+      "eonShortName": "SteadyRest",
+      "title": "Steady Rest",
+      "level": 1,
+      "parentId": null,
+      "category": "Work Support",
+      "sourceBranchIndices": [
+        131
+      ],
+      "absorbedGeometryNodeCount": 1,
+      "triangles": 1752,
+      "bounds": {
+        "min": [
+          -0.230112315617248,
+          0.13200214250023373,
+          -0.3439383555695929
+        ],
+        "max": [
+          -0.1601123122924264,
+          0.665589173459491,
+          0.13620995214833626
+        ]
+      },
+      "center": [
+        -0.1951123139548372,
+        0.3987956579798624,
+        -0.10386420171062832
+      ],
+      "outwardDirection": [
+        -0.4243187761482933,
+        0.26035208484887934,
+        0.8672775611779983
+      ]
+    },
+    {
+      "componentId": "C12",
+      "eonShortName": "WorkLight",
+      "title": "Work Light Assembly",
+      "level": 1,
+      "parentId": null,
+      "category": "Auxiliary Equipment",
+      "sourceBranchIndices": [
+        125,
+        128,
+        137
+      ],
+      "absorbedGeometryNodeCount": 3,
+      "triangles": 3106,
+      "bounds": {
+        "min": [
+          -0.46605361100354514,
+          0.10999779270020058,
+          -0.5149369751417865
+        ],
+        "max": [
+          0.7555726982412914,
+          0.6995653805175989,
+          0.05290148610625703
+        ]
+      },
+      "center": [
+        0.1447595436188731,
+        0.40478158660889973,
+        -0.23101774451776474
+      ],
+      "outwardDirection": [
+        0.2920130276169766,
+        0.4979926216756673,
+        0.8165364293517848
+      ]
+    },
+    {
+      "componentId": "C13",
+      "eonShortName": "CoolantNozzle",
+      "title": "Coolant Delivery Nozzle",
+      "level": 1,
+      "parentId": null,
+      "category": "Coolant System",
+      "sourceBranchIndices": [
+        95
+      ],
+      "absorbedGeometryNodeCount": 1,
+      "triangles": 284,
+      "bounds": {
+        "min": [
+          -1.899112333855335,
+          -0.1499977488237291,
+          -0.247143566426189
+        ],
+        "max": [
+          -1.7251123255907785,
+          -0.10513704799300908,
+          -0.23414356580872214
+        ]
+      },
+      "center": [
+        -1.8121123297230568,
+        -0.1275673984083691,
+        -0.24064356611745558
+      ],
+      "outwardDirection": [
+        -0.9877340412265578,
+        0.13980895198681081,
+        -0.06953359437424489
+      ]
+    }
+  ]
+}

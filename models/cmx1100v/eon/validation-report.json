@@ -1,0 +1,230 @@
+{
+  "schema": "eon-validation-report/1.0",
+  "modelId": "cmx1100v",
+  "sources": {
+    "step": {
+      "bytes": 16121101,
+      "sha256": "a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d"
+    },
+    "glb": {
+      "bytes": 6541472,
+      "sha256": "f577d7db9f6d2ebc3a0337d3aec48c03899c4deca45e32acc41ba76cb1dfb589"
+    }
+  },
+  "output": {
+    "glb": {
+      "bytes": 6784812,
+      "sha256": "a60119761b603cb6290442440125bb1eb15f93b256ce9d7a51cf702067e7e534"
+    }
+  },
+  "geometry": {
+    "source": {
+      "nodes": 19,
+      "meshes": 14,
+      "primitives": 87,
+      "triangles": 248457,
+      "bounds": {
+        "min": [
+          -3.1849005699157713,
+          -1.3520689010620113,
+          -0.8523372185230277
+        ],
+        "max": [
+          1.3639916896820068,
+          1.901000022888186,
+          2.0860050107425767
+        ]
+      }
+    },
+    "output": {
+      "nodes": 14,
+      "meshes": 13,
+      "primitives": 86,
+      "triangles": 248445,
+      "bounds": {
+        "min": [
+          -3.1849005699157713,
+          -1.3520689010620113,
+          -0.8523372185230277
+        ],
+        "max": [
+          1.3639916896820068,
+          1.901000022888186,
+          2.0860050107425767
+        ]
+      }
+    },
+    "exclusions": {
+      "nodes": 1,
+      "primitives": 1,
+      "triangles": 12,
+      "entries": [
+        {
+          "sourceNodeIndex": 17,
+          "sourceNodeName": "CMXV1221036_WORK_AREA",
+          "sourceMeshIndex": 12,
+          "primitives": 1,
+          "triangles": 12,
+          "classification": "non-physical-reference-volume",
+          "disposition": "omitted",
+          "reason": "The source node is a work-envelope reference volume, not machine hardware."
+        }
+      ]
+    },
+    "assignments": {
+      "sourceGeometryNodes": 14,
+      "assignedNodes": 13,
+      "excludedNodes": 1,
+      "unassignedNodes": 0,
+      "duplicateAssignments": 0
+    },
+    "absorbedGeometryNodes": 3
+  },
+  "components": {
+    "total": 14,
+    "byLevel": {
+      "1": 1,
+      "2": 11,
+      "3": 2
+    },
+    "maxNameLength": 22
+  },
+  "annotations": {
+    "generated": 14,
+    "technical": 0,
+    "bindings": 0,
+    "unresolvedTargets": 0,
+    "sourceEntityIds": [],
+    "sourceBindings": {}
+  },
+  "cards": {
+    "count": 14,
+    "wordCounts": {
+      "min": 107,
+      "max": 125,
+      "total": 1623
+    },
+    "evidenceCount": 14
+  },
+  "schemas": {
+    "nodeMap": "eon-node-map/1.0",
+    "annotations": "eon-annotations/1.0",
+    "interactions": "eon-interactions/1.0"
+  },
+  "limits": {
+    "fileCount": {
+      "limit": 8,
+      "actual": 8,
+      "passed": true
+    },
+    "glbBytes": {
+      "limit": "< 200 MB",
+      "actual": 6784812,
+      "passed": true
+    },
+    "componentCount": {
+      "limit": "14–80",
+      "actual": 14,
+      "passed": true
+    },
+    "componentNameLength": {
+      "limit": "<= 30",
+      "actual": 22,
+      "passed": true
+    },
+    "embeddedBuffers": {
+      "limit": true,
+      "actual": true,
+      "passed": true
+    },
+    "trianglePreservation": {
+      "limit": 248445,
+      "actual": 248445,
+      "passed": true
+    },
+    "boundsPreservation": {
+      "limit": "within 1e-5 m",
+      "actual": {
+        "min": [
+          -3.1849005699157713,
+          -1.3520689010620113,
+          -0.8523372185230277
+        ],
+        "max": [
+          1.3639916896820068,
+          1.901000022888186,
+          2.0860050107425767
+        ]
+      },
+      "passed": true
+    },
+    "cardCoverage": {
+      "limit": 14,
+      "actual": 14,
+      "passed": true
+    },
+    "technicalAnnotations": {
+      "limit": 0,
+      "actual": 0,
+      "passed": true
+    },
+    "unresolvedTargets": {
+      "limit": 0,
+      "actual": 0,
+      "passed": true
+    },
+    "geometryCoverage": {
+      "limit": 0,
+      "actual": {
+        "unassignedNodes": 0,
+        "duplicateAssignments": 0
+      },
+      "passed": true
+    },
+    "uniqueComponentNames": {
+      "limit": true,
+      "actual": true,
+      "passed": true
+    },
+    "fileHashes": {
+      "limit": 8,
+      "actual": 8,
+      "passed": true
+    }
+  },
+  "files": {
+    "annotations.csv": {
+      "bytes": 21965,
+      "sha256": "19e70bbcb1f9d2f1d8f424ce002ba2d3edc255e912cb0e6cc9b9f98911331c45"
+    },
+    "annotations.json": {
+      "bytes": 29491,
+      "sha256": "b641c0e3baaf2befab2f0fe654e85682bdab9ab2e8a4a0f5b2dc35a46b8ad933"
+    },
+    "interactions.json": {
+      "bytes": 2971,
+      "sha256": "340385197fe10d689525017ff8a80662d5209032277ab18327a248dddad7b8ba"
+    },
+    "model.glb": {
+      "bytes": 6784812,
+      "sha256": "a60119761b603cb6290442440125bb1eb15f93b256ce9d7a51cf702067e7e534"
+    },
+    "node-map.csv": {
+      "bytes": 6189,
+      "sha256": "6ce8e9d6a7217647d77565a47eefc30555e98c64663e5b77c65c53e45b9f0f66"
+    },
+    "node-map.json": {
+      "bytes": 14428,
+      "sha256": "9ec7fd308bd653662a2bbc913103d70049ffbad2e88d468cd4bc1d68cc06f9d2"
+    },
+    "sources.md": {
+      "bytes": 4037,
+      "sha256": "ad10ea151e42e1f41d583a0687e9056b4dc4a025cbda5360784184b9fc1fbbb1"
+    },
+    "validation-report.json": {
+      "bytes": 5285,
+      "sha256": "d56efd17d8c60d4d71cf186323a64ffd098ae5eab224da551eac03e9da941171",
+      "hashScope": "canonical-report-with-zeroed-self-hash"
+    }
+  }
+}

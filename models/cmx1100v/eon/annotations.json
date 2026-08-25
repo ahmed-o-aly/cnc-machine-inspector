@@ -1,0 +1,622 @@
+{
+  "schema": "eon-annotations/1.0",
+  "modelId": "cmx1100v",
+  "annotations": [
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#1356",
+      "type": "component-label",
+      "componentId": "C01",
+      "title": "CMX 1100 V Vertical Machining Center",
+      "category": "Machine Assembly",
+      "overview": "This is the complete CMX 1100 V vertical machining center represented by the supplied assembly, organized here into major structural, motion, spindle, tool-changing, guarding, and auxiliary systems.",
+      "function": "The whole-machine view gives learners a reference for where the main systems sit before they isolate individual assemblies or open a nested group.",
+      "relationships": "It contains the machine base, three axis systems, spindle assembly, tool changer housing, operator control console, enclosure, access door, chip conveyor, and MZP auxiliary module.",
+      "inspection": "Begin in the assembled view. Locate the machining region, access door, chip conveyor, spindle region, and service clearances, then examine each system in context.",
+      "safety": "Use this model for orientation only. Follow the installed machine instructions, guarding, site authorization, and energy-isolation procedure before operating, entering, cleaning, or servicing the real machine.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMX1100V_CMXV1221036 at occurrence path CMX1100V_CMXV1221036",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.9104544401168823,
+          0.2744655609130874,
+          2.0860050107425767
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#32",
+      "type": "component-label",
+      "componentId": "C02",
+      "title": "Machine Base",
+      "category": "Machine Structure",
+      "overview": "The machine base is the large lower structural member identified by name in the supplied assembly. It provides the visual foundation for understanding the machine layout.",
+      "function": "As a structural boundary, it supports the machine systems positioned above and around it and provides a stable reference for their arrangement.",
+      "relationships": "The axis groups, spindle region, tool-changing system, and guarding are organized around this base within the complete machine assembly.",
+      "inspection": "From an authorized position, look for visible damage, loose covers, trapped chips or fluid, and obstructions around the base and its neighboring interfaces.",
+      "safety": "Do not enter guarded areas or reach beneath machine members during operation. Use approved isolation and support procedures before cleaning or servicing near the base.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_BASE at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_BASE",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0,
+          -0.1550000011920929,
+          -0.7232499718666077
+        ],
+        "direction": [
+          0.4248350266018111,
+          -0.7346672829161297,
+          -0.5289415691594582
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#33",
+      "type": "component-label",
+      "componentId": "C03",
+      "title": "X-Axis System",
+      "category": "Linear Motion",
+      "overview": "The X-axis system is a named motion group in the supplied assembly. It is presented as one major unit so learners can identify it without separating construction details.",
+      "function": "It represents one controlled linear-motion direction of the machining center; the model shows its physical grouping but not its internal drive design.",
+      "relationships": "The X-axis system contains the separately identified X-axis measurement system and works within the larger machine structure alongside the Y- and Z-axis groups.",
+      "inspection": "Observe its mounting region, covers, exposed interfaces, and clearance to nearby members. Note debris, visible damage, or interference before use.",
+      "safety": "Keep clear of the axis path and pinch points. Inspection beyond an external visual check requires authorized isolation and the machine maker's maintenance instructions.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_X-AXIS at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_X-AXIS",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.699999988079071,
+          0.5244999974966049,
+          -0.042500004172325134
+        ],
+        "direction": [
+          0.7427321003295326,
+          -0.6422926117011705,
+          0.18923326370955645
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#34",
+      "type": "component-label",
+      "componentId": "C04",
+      "title": "Y-Axis System",
+      "category": "Linear Motion",
+      "overview": "The Y-axis system is a named linear-motion group in the supplied machine assembly. Its geometry is kept together as a clear major-system boundary.",
+      "function": "It represents a controlled linear-motion direction used to position the machining relationship; hidden drive, bearing, and feedback details are not established by this model.",
+      "relationships": "It is one of three named axis systems arranged with the machine base, spindle assembly, and work area in the complete machining center.",
+      "inspection": "Check the visible axis region for obstructions, accumulated chips or fluid, damaged covers, and inadequate clearance to surrounding parts before operation.",
+      "safety": "Never place hands or tools in the axis path while motion is possible. Isolate stored and supplied energy before access beyond routine external observation.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_Y-AXIS at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_Y-AXIS",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.007500007748603821,
+          1.800000011920929,
+          -0.8519999980926514
+        ],
+        "direction": [
+          0.4187207363612634,
+          0.5555178818052762,
+          -0.7183820904892191
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#35",
+      "type": "component-label",
+      "componentId": "C05",
+      "title": "Z-Axis System",
+      "category": "Linear Motion",
+      "overview": "The Z-axis system is the named vertical-motion group shown in the supplied assembly. It remains a single teaching unit rather than many small construction pieces.",
+      "function": "It represents the controlled vertical positioning relationship associated with the machining system; the file does not reveal every internal drive or guide element.",
+      "relationships": "This system is positioned with the spindle assembly and works alongside the X- and Y-axis systems within the machine structure.",
+      "inspection": "From outside the hazard zone, examine visible covers, mounting regions, interfaces, and clearances for damage, contamination, or obstruction.",
+      "safety": "The vertical system can create crushing hazards and may move under stored energy. Apply approved isolation and blocking procedures before any service access.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_Z-AXIS at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_Z-AXIS",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.06300000101327896,
+          2.780025005340576,
+          0.32737379521131516
+        ],
+        "direction": [
+          0.4930010642282629,
+          0.8685303293842386,
+          0.05103937313003225
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#36",
+      "type": "component-label",
+      "componentId": "C06",
+      "title": "Spindle Assembly",
+      "category": "Spindle System",
+      "overview": "The spindle assembly is the named rotating-tool system in the supplied model. It is a key reference for locating where the cutting tool meets the work area.",
+      "function": "Its general role is to hold and rotate a compatible cutting tool, while operating limits and the exact internal mechanism remain outside this model.",
+      "relationships": "The spindle is positioned by the machine's axis systems and approaches the work area; it also interfaces with the tool-changing system during an approved change cycle.",
+      "inspection": "With the machine safely stopped, observe the spindle nose region for damage, contamination, an unexpected tool condition, or interference with nearby parts.",
+      "safety": "Never approach a rotating tool or spindle. Tool handling, cleaning, and service require the correct stop state, authorization, and isolation defined for the installed machine.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_SPINDLE at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_SPINDLE",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.05448456481099129,
+          1.4926100373268127,
+          0.27800000458955765
+        ],
+        "direction": [
+          0.8928541958477418,
+          0.45013721758454167,
+          -0.013706578797389603
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#37",
+      "type": "component-label",
+      "componentId": "C07",
+      "title": "Tool Changer Housing",
+      "category": "Tool-Changing System",
+      "overview": "The tool changer housing is the named outer group surrounding the separately modeled rotary tool changer. It provides a useful protective and service boundary.",
+      "function": "The housing groups and shields the visible tool-changing region; this assembly view does not establish its internal drive, sensors, or change sequence.",
+      "relationships": "It contains the rotary tool changer and sits near the spindle system, where compatible tools can be exchanged during an approved automatic cycle.",
+      "inspection": "Check externally for damage, loose panels, trapped tools or chips, and interference around the housing and its access boundaries.",
+      "safety": "Tool-changing motion can start suddenly and creates impact and pinch hazards. Keep the guarding closed and isolate energy before access or service.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_TC_CASE at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_TC_CASE",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -1.3489999771118164,
+          1.5794999599456787,
+          -0.5764999985694885
+        ],
+        "direction": [
+          -0.7153467982516071,
+          0.463454252268138,
+          -0.5229618669518417
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#38",
+      "type": "component-label",
+      "componentId": "C08",
+      "title": "Operator Control Console",
+      "category": "Machine Controls",
+      "overview": "The operator console is the detailed control station visible at the machine front-right. It is presented as its own major component so learners can identify the normal operating position clearly.",
+      "function": "The console provides the interface used by an authorized operator to command and monitor the machine, subject to the installed control configuration and operating procedure.",
+      "relationships": "The console communicates operator commands and machine status while remaining physically supported beside the guarded machining region.",
+      "inspection": "From the normal operator position, check the visible display, keypad, switches, housing, and support for damage, contamination, or loose parts before use.",
+      "safety": "Use machine controls only when trained and authorized. A displayed stop indication is not proof of an isolated state; follow installed safeguards and approved isolation before access or service.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_CONTROLLER at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_CONTROLLER",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          1.9139916896820068,
+          0.7529366752132773,
+          0.9137892574071884
+        ],
+        "direction": [
+          0.8290269568810508,
+          -0.2380112270598595,
+          0.506028616342993
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#31",
+      "type": "component-label",
+      "componentId": "C10",
+      "title": "X-Axis Measurement System",
+      "category": "Position Measurement",
+      "overview": "This measurement system is a separately named child of the X-axis group. The model supports identifying its location and association, not its exact sensing technology.",
+      "function": "Its general role is to provide position-related measurement for the X-axis system so commanded and observed axis position can be compared by the machine control.",
+      "relationships": "It belongs directly to the X-axis system and should be examined as part of that motion system rather than as an unrelated external device.",
+      "inspection": "Observe accessible covers, mounting points, cable routes, and surrounding clearance for contamination, damage, or loose features without disturbing alignment.",
+      "safety": "Do not adjust or service measurement hardware without authorization. Isolate the machine and follow the maker's alignment and maintenance procedure before intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_MEASURING at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_X-AXIS > CMXV1221036_MEASURING",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.5856000185012817,
+          0.5849999785423279,
+          -0.14887500554323196
+        ],
+        "direction": [
+          0.4577502429046671,
+          -0.8712902776845638,
+          0.17696883096487287
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#30",
+      "type": "component-label",
+      "componentId": "C11",
+      "title": "Rotary Tool Changer",
+      "category": "Tool-Changing System",
+      "overview": "The rotary tool changer is the separately named moving group inside the tool changer housing. It is kept whole so its system role remains easy to recognize.",
+      "function": "Its general role is to rotate or index tools within the change mechanism; the supplied model does not establish the exact operating sequence or actuation method.",
+      "relationships": "It sits inside the tool changer housing and interfaces with the spindle region during a controlled automatic tool-change cycle.",
+      "inspection": "From outside the guarded zone, look for displaced tools, visible damage, chip buildup, or obstruction around the rotary mechanism and housing.",
+      "safety": "Keep clear whenever automatic motion is enabled. Tool-changing mechanisms can move suddenly; service requires authorization, isolation, and the installed machine's approved procedure.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_TC_ROT at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_TC_CASE > CMXV1221036_TC_ROT",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.2661999985575676,
+          1.444700002670288,
+          0.5437963008880615
+        ],
+        "direction": [
+          0.17621733105651627,
+          0.2484053833285947,
+          0.9524926339708313
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#25",
+      "type": "component-label",
+      "componentId": "C12",
+      "title": "Machine Enclosure",
+      "category": "Operator Protection",
+      "overview": "The machine enclosure is the named outer case around the machining systems. It forms a visible protective boundary between the work zone and the surrounding area.",
+      "function": "Its general purpose is to support separation and containment around machine activity, while the real installed guards and interlocks determine safe operation.",
+      "relationships": "The enclosure surrounds the work area and works with the access door; the chip conveyor passes material away from the enclosed machining region.",
+      "inspection": "Check panels, joints, windows, openings, and attachment points for visible damage, missing pieces, leakage paths, or anything that defeats the boundary.",
+      "safety": "Operate only with required guards and interlocks functional. Do not remove or bypass enclosure parts, and isolate the machine before authorized service.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_CASE at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_CONTROLLER > CMXV1221036_CASE",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          1.3739999532699585,
+          1.2115000523626804,
+          -0.5997500121593475
+        ],
+        "direction": [
+          0.7265596318548793,
+          -0.20252153379111582,
+          -0.6565791115393455
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#26",
+      "type": "component-label",
+      "componentId": "C13",
+      "title": "Access Door",
+      "category": "Access Guard",
+      "overview": "The access door is the separately named movable guard in the supplied assembly. It is grouped as one component rather than exposing its minor construction hardware.",
+      "function": "It provides controlled access to the enclosed machine region when the installed machine is in the correct authorized state.",
+      "relationships": "The door is part of the enclosure and separates the operator side from the work area and nearby moving systems.",
+      "inspection": "Check that the door, window, handle, guides, and visible interlock area appear secure, unobstructed, and free from damage before operation.",
+      "safety": "Never defeat a door interlock or enter through the opening during hazardous motion. Use the approved stop and isolation procedure before access.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_DOOR at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_CONTROLLER > CMXV1221036_DOOR",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.34075987339019775,
+          1.2411423027515411,
+          0.8522990942001343
+        ],
+        "direction": [
+          0.6034794295713654,
+          -0.06083863608252952,
+          0.7950542361649531
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#27",
+      "type": "component-label",
+      "componentId": "C14",
+      "title": "Chip Conveyor",
+      "category": "Chip Management",
+      "overview": "The chip conveyor is explicitly named in the supplied assembly and appears as a separate machine-support system. It remains one unit for clear identification.",
+      "function": "Its general role is to carry machining debris away from the work-area collection region; the model does not establish conveyor type or operating details.",
+      "relationships": "It serves the enclosed machining region and extends from the machine toward an external chip-discharge location as a separate support system.",
+      "inspection": "Look for blockages, accumulated chips, leaks, damaged covers, and obstructions around the discharge path while remaining outside all hazard zones.",
+      "safety": "Conveyors create drawing-in and pinch hazards. Never clear a jam by hand; stop and isolate the equipment using the approved procedure.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_CHIP_CONVEYOR at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_CONTROLLER > CMXV1221036_CHIP_CONVEYOR",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.6622874736785889,
+          -0.1573372185230255,
+          -0.3225000202655792
+        ],
+        "direction": [
+          -0.4085688496173872,
+          -0.9104085942989391,
+          -0.0650206624770531
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:a491eb7f568f776755995c159f7bf83bd7024288e9e6ab73fc31ee808eac812d:generated:component-label:#28",
+      "type": "component-label",
+      "componentId": "C15",
+      "title": "MZP Auxiliary Module",
+      "category": "Machine Auxiliary",
+      "overview": "The supplied assembly names this group only as MZP and does not define the abbreviation. The conservative title therefore identifies it as an auxiliary module without guessing its purpose.",
+      "function": "Because the file provides no expanded name or service documentation, this model supports locating the module but not assigning a specific mechanical, electrical, or fluid function.",
+      "relationships": "It is mounted as a separate auxiliary group within the complete machine assembly; the supplied file does not establish a more specific relationship or service role.",
+      "inspection": "Identify its location and visible interfaces, then check only for obvious damage, loose mounting, leakage, or obstruction from an authorized position.",
+      "safety": "Do not open, disconnect, adjust, or service an unidentified module. Use the installed machine documentation and approved isolation procedure before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node CMXV1221036_MZP at occurrence path CMX1100V_CMXV1221036 > CMXV1221036_ASM > CMXV1221036_CONTROLLER > CMXV1221036_MZP",
+          "publisher": "Supplied CMX 1100 V AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.14300000667572021,
+          1.3763750195503235,
+          -0.33089256286621094
+        ],
+        "direction": [
+          0.9772608705164965,
+          0.159633729688806,
+          -0.13956454887606967
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    }
+  ]
+}

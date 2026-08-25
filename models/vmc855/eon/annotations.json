@@ -1,0 +1,1634 @@
+{
+  "schema": "eon-annotations/1.0",
+  "modelId": "vmc855",
+  "annotations": [
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#487263",
+      "type": "component-label",
+      "componentId": "C01",
+      "title": "VMC855 Vertical Machining Center",
+      "category": "Machine Assembly",
+      "overview": "VMC855 Vertical Machining Center is the complete learner-facing boundary represented by the supplied assembly, grouping its structural, guarding, control, electrical, and coolant systems.",
+      "function": "It gives learners a whole-machine reference before they open the major systems and named subassemblies; the model does not establish ratings or operating limits.",
+      "relationships": "It contains the Machine Core Assembly and the separately modeled enclosure, operator, electrical, spindle-cover, piping, support, coolant-tank, and chip-conveyor groups.",
+      "inspection": "Start with the assembled view to identify the operator side, access doors, service enclosures, moving-work region, and surrounding clearance before examining individual systems.",
+      "safety": "Treat the displayed model as orientation material only. Follow installed guards, approved operating instructions, site authorization, and energy-isolation procedures before approaching or servicing the real machine.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855 C2312035-1 at occurrence path VMC855 C2312035-1",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -1.208532691001892,
+          1.3573330640792847,
+          0.18385273218154907
+        ],
+        "direction": [
+          -0.9658799404937048,
+          0.246809367712361,
+          0.0784925255123182
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190742",
+      "type": "component-label",
+      "componentId": "C02",
+      "title": "Machine Core Assembly",
+      "category": "Machine Structure",
+      "overview": "Machine Core Assembly is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Machine Core Assembly sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the machine core assembly for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 855A装配图 at occurrence path VMC855 C2312035-1 > 855A装配图",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -1.8285326957702637,
+          1.1440110206604004,
+          0.1481897532939911
+        ],
+        "direction": [
+          -0.9823018682339915,
+          -0.18723231974375792,
+          0.005205584249751933
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190743",
+      "type": "component-label",
+      "componentId": "C03",
+      "title": "Left Enclosure Group",
+      "category": "Machine Guarding",
+      "overview": "Left Enclosure Group is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Left Enclosure Group sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the left enclosure group for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-01-00    左防护 at occurrence path VMC855 C2312035-1 > VMC855A-01-00    左防护",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.747999994084239,
+          -0.07541128247976303,
+          -0.21250000596046448
+        ],
+        "direction": [
+          0.5279210737175496,
+          -0.7291247513371091,
+          0.4355185838888028
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190744",
+      "type": "component-label",
+      "componentId": "C04",
+      "title": "Left Side Door",
+      "category": "Machine Guarding",
+      "overview": "Left Side Door is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Left Side Door sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the left side door for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-07-00   侧门 at occurrence path VMC855 C2312035-1 > VMC855A-02-07-00   侧门",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0,
+          -0.0040000081062316895,
+          -0.0020000000949949026
+        ],
+        "direction": [
+          -0.38423224570135556,
+          -0.2444113442007057,
+          -0.8902969595529894
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190745",
+      "type": "component-label",
+      "componentId": "C05",
+      "title": "Right Enclosure Group",
+      "category": "Machine Guarding",
+      "overview": "Right Enclosure Group is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Right Enclosure Group sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the right enclosure group for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-00    右防护 at occurrence path VMC855 C2312035-1 > VMC855A-02-00    右防护",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.7504999935626984,
+          0.8132943697273731,
+          -0.07490000128746033
+        ],
+        "direction": [
+          0.1581665657983126,
+          -0.21460968167723524,
+          -0.9638080835902777
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190746",
+      "type": "component-label",
+      "componentId": "C06",
+      "title": "Right Side Door",
+      "category": "Machine Guarding",
+      "overview": "Right Side Door is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Right Side Door sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the right side door for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-07-00   侧门-1 at occurrence path VMC855 C2312035-1 > VMC855A-02-07-00   侧门-1",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0,
+          -0.0040000081062316895,
+          -0.0020000000949949026
+        ],
+        "direction": [
+          0.18463784371015268,
+          -0.11744871513698399,
+          -0.9757636322300277
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190747",
+      "type": "component-label",
+      "componentId": "C07",
+      "title": "Overhead Enclosure Beam",
+      "category": "Machine Guarding",
+      "overview": "Overhead Enclosure Beam is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Overhead Enclosure Beam sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the overhead enclosure beam for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-03-00   横梁 at occurrence path VMC855 C2312035-1 > VMC855A-02-03-00   横梁",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.02500000223517418,
+          0.02500000037252903,
+          0
+        ],
+        "direction": [
+          0.4668519033239303,
+          0.6833269023755699,
+          -0.5613498417677092
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190748",
+      "type": "component-label",
+      "componentId": "C08",
+      "title": "Tool-Magazine Enclosure",
+      "category": "Tool-Changing System",
+      "overview": "Tool-Magazine Enclosure is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Tool-Magazine Enclosure sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the tool-magazine enclosure for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-04-00 刀库 at occurrence path VMC855 C2312035-1 > VMC855A-02-04-00 刀库",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.08483871817588806,
+          0.1761319786310196,
+          -0.1685000043362379
+        ],
+        "direction": [
+          -0.021871729367900543,
+          0.9096591028090535,
+          0.4147793921243982
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190749",
+      "type": "component-label",
+      "componentId": "C09",
+      "title": "Operator Control Console",
+      "category": "Machine Controls",
+      "overview": "Operator Control Console is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Operator Control Console sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the operator control console for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-10-00   操作箱 at occurrence path VMC855 C2312035-1 > VMC855A-02-10-00   操作箱",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.6388984322547913,
+          0.3848733678460121,
+          0.3799801617860794
+        ],
+        "direction": [
+          0.7770216173496837,
+          -0.004241819346414856,
+          0.6294596199438962
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190750",
+      "type": "component-label",
+      "componentId": "C10",
+      "title": "Left Sliding Door",
+      "category": "Machine Guarding",
+      "overview": "Left Sliding Door is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Left Sliding Door sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the left sliding door for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-06-00   左推拉门 at occurrence path VMC855 C2312035-1 > VMC855A-02-06-00   左推拉门",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.03700000047683716,
+          -0.6599999768659472,
+          0.005500003695487976
+        ],
+        "direction": [
+          -0.8938498726088348,
+          -0.030080249957468393,
+          -0.44735621578297796
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190751",
+      "type": "component-label",
+      "componentId": "C11",
+      "title": "Right Sliding Door",
+      "category": "Machine Guarding",
+      "overview": "Right Sliding Door is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Right Sliding Door sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the right sliding door for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-06-2-00   右推拉门 at occurrence path VMC855 C2312035-1 > VMC855A-02-06-2-00   右推拉门",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.2540000081062317,
+          -0.6599999768659472,
+          0.3310000002384186
+        ],
+        "direction": [
+          -0.4360969558736991,
+          -0.015251707597867776,
+          0.8997704321064578
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190752",
+      "type": "component-label",
+      "componentId": "C12",
+      "title": "Tool-Magazine Cable Channel",
+      "category": "Machine Auxiliary",
+      "overview": "Tool-Magazine Cable Channel is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Tool-Magazine Cable Channel sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the tool-magazine cable channel for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-11-00   线槽小刀库 at occurrence path VMC855 C2312035-1 > VMC855A-02-11-00   线槽小刀库",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.7760000228881836,
+          0.40500000059604635,
+          -0.019999999552963207
+        ],
+        "direction": [
+          0.8736633153179354,
+          0.0501393701998433,
+          0.48394054905911393
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190753",
+      "type": "component-label",
+      "componentId": "C13",
+      "title": "Electrical Cabinet",
+      "category": "Electrical Enclosure",
+      "overview": "Electrical Cabinet is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Electrical Cabinet sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the electrical cabinet for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-05-00  电气箱装配图 at occurrence path VMC855 C2312035-1 > VMC855A-05-00  电气箱装配图",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.2719566822052002,
+          0.07041060924530029,
+          -0.12255384819582105
+        ],
+        "direction": [
+          -0.8741321829603326,
+          -0.0319495756654524,
+          0.4846361019649706
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190754",
+      "type": "component-label",
+      "componentId": "C14",
+      "title": "Pneumatic and Lubrication Panel",
+      "category": "Fluid Service System",
+      "overview": "Pneumatic and Lubrication Panel is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Pneumatic and Lubrication Panel sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the pneumatic and lubrication panel for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-16   气动润滑板 at occurrence path VMC855 C2312035-1 > VMC855A-02-16   气动润滑板",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.2650000178815861,
+          0.22399999399203807,
+          0.01000000350177288
+        ],
+        "direction": [
+          0.4929263479087569,
+          0.4845731843015188,
+          0.7226426811317066
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190755",
+      "type": "component-label",
+      "componentId": "C15",
+      "title": "Rear Oil Tray",
+      "category": "Fluid Containment",
+      "overview": "Rear Oil Tray is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Rear Oil Tray sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the rear oil tray for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855WT-03-05-00    光机后油盒 at occurrence path VMC855 C2312035-1 > VMC855WT-03-05-00    光机后油盒",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.009999990463256836,
+          0.11500000208616239,
+          0.08799999952316284
+        ],
+        "direction": [
+          -0.3040368115330517,
+          -0.6470092720531876,
+          0.6992428899245383
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190756",
+      "type": "component-label",
+      "componentId": "C16",
+      "title": "Spindle-Head Cover Assembly",
+      "category": "Machine Guarding",
+      "overview": "Spindle-Head Cover Assembly is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Spindle-Head Cover Assembly sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the spindle-head cover assembly for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 硬轨VMC855A-04-00  机头罩装配体 at occurrence path VMC855 C2312035-1 > 硬轨VMC855A-04-00  机头罩装配体",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.009999997913837433,
+          1.0429999828338623,
+          0.24761930108070374
+        ],
+        "direction": [
+          0.5329443944906843,
+          0.8457750222965453,
+          -0.025196905370229204
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190757",
+      "type": "component-label",
+      "componentId": "C17",
+      "title": "Chip-Flush Piping",
+      "category": "Coolant Delivery",
+      "overview": "Chip-Flush Piping is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Chip-Flush Piping sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the chip-flush piping for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 850WT冲屑管装配体2 at occurrence path VMC855 C2312035-1 > 850WT冲屑管装配体2",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.009999999776482582,
+          -0.00035064108669757843,
+          -0.2042987197637558
+        ],
+        "direction": [
+          -0.323571609604993,
+          -0.5500261594721878,
+          -0.7699172925411597
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190758",
+      "type": "component-label",
+      "componentId": "C18",
+      "title": "Electrical Cabinet Support",
+      "category": "Machine Support",
+      "overview": "Electrical Cabinet Support is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Electrical Cabinet Support sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the electrical cabinet support for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-05-04-00   硬轨电箱下支架 at occurrence path VMC855 C2312035-1 > VMC855A-05-04-00   硬轨电箱下支架",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0,
+          -0.03200000151991844,
+          0.5199999809265137
+        ],
+        "direction": [
+          0.48311741376165673,
+          -0.46783286507526883,
+          0.7400878156514358
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190759",
+      "type": "component-label",
+      "componentId": "C19",
+      "title": "Oil-Cooler and Transformer Support",
+      "category": "Machine Support",
+      "overview": "Oil-Cooler and Transformer Support is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Oil-Cooler and Transformer Support sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the oil-cooler and transformer support for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855S-201油冷机变压器组合支架装配体1 at occurrence path VMC855 C2312035-1 > VMC855S-201油冷机变压器组合支架装配体1",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.23350001871585846,
+          0,
+          -0.3920000195503218
+        ],
+        "direction": [
+          0.7272552471796514,
+          -0.5859412898175269,
+          -0.35745294842347763
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190760",
+      "type": "component-label",
+      "componentId": "C20",
+      "title": "Upper Console Support Arm",
+      "category": "Machine Support",
+      "overview": "Upper Console Support Arm is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Upper Console Support Arm sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the upper console support arm for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-08-00   操作箱上托818D at occurrence path VMC855 C2312035-1 > VMC855A-02-08-00   操作箱上托818D",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.0010000020265579224,
+          0,
+          -0.19499999284744263
+        ],
+        "direction": [
+          0.6243469097283578,
+          0.25225834437593914,
+          -0.7392947071400957
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190761",
+      "type": "component-label",
+      "componentId": "C21",
+      "title": "Lower Console Support Arm",
+      "category": "Machine Support",
+      "overview": "Lower Console Support Arm is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Lower Console Support Arm sits within VMC855 Vertical Machining Center. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the lower console support arm for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-02-09-00   操作箱下托818D at occurrence path VMC855 C2312035-1 > VMC855A-02-09-00   操作箱下托818D",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.0010000020265579224,
+          -0.0025000013411045074,
+          0.19499999284744263
+        ],
+        "direction": [
+          0.6232276136375478,
+          0.2588215572417861,
+          0.7379693375111085
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190762",
+      "type": "component-label",
+      "componentId": "C22",
+      "title": "Coolant Tank and Chip Conveyor",
+      "category": "Coolant and Chip Management",
+      "overview": "Coolant Tank and Chip Conveyor is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Coolant Tank and Chip Conveyor sits within VMC855 Vertical Machining Center. Its panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the coolant tank and chip conveyor for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VNM860链排水箱 at occurrence path VMC855 C2312035-1 > VNM860链排水箱",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          1.3260000497102737,
+          0.025499997660517693,
+          1.0734999796841294
+        ],
+        "direction": [
+          -0.342642419583303,
+          -0.9360614012033418,
+          0.07990760589165599
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1191318",
+      "type": "component-label",
+      "componentId": "C23",
+      "title": "Machine Column",
+      "category": "Machine Structure",
+      "overview": "Machine Column is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Machine Column sits within Machine Core Assembly. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the machine column for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 855WT立柱处理 at occurrence path VMC855 C2312035-1 > 855A装配图 > 855WT立柱处理",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0,
+          -0.8299999833106995,
+          0.4860000014305115
+        ],
+        "direction": [
+          -0.5241627942300765,
+          -0.03465701359979169,
+          0.8509126021826579
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1191026",
+      "type": "component-label",
+      "componentId": "C24",
+      "title": "Electrical Cabinet Door",
+      "category": "Electrical Enclosure",
+      "overview": "Electrical Cabinet Door is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Electrical Cabinet Door sits within Electrical Cabinet. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the electrical cabinet door for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-05-02  电器柜门 at occurrence path VMC855 C2312035-1 > VMC855A-05-00  电气箱装配图 > VMC855A-05-02  电器柜门",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.5510941743850708,
+          0.08293521404266357,
+          0.018499999772757292
+        ],
+        "direction": [
+          0.7693914054359243,
+          -0.0425179100799242,
+          -0.6373610378457161
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190774",
+      "type": "component-label",
+      "componentId": "C25",
+      "title": "Chip Conveyor",
+      "category": "Coolant and Chip Management",
+      "overview": "Chip Conveyor is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Chip Conveyor sits within Coolant Tank and Chip Conveyor. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the chip conveyor for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 850B排屑机装配体LP at occurrence path VMC855 C2312035-1 > VNM860链排水箱 > 850B排屑机装配体LP",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -1.0025669634342194,
+          0.5213933661580086,
+          0.3630000054836273
+        ],
+        "direction": [
+          -0.04939584040458739,
+          -0.5916978577922289,
+          0.8046450745731384
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190976",
+      "type": "component-label",
+      "componentId": "C26",
+      "title": "Main Spindle-Head Cover",
+      "category": "Machine Guarding",
+      "overview": "Main Spindle-Head Cover is a visible named assembly in the supplied VMC855 machine model. It provides a clear reference for learning the machine physical organization and nearby interfaces.",
+      "function": "Its name and placement identify a practical machine grouping, but this supplied assembly does not establish operating ratings, hidden mechanisms, or manufacturer identity.",
+      "relationships": "Main Spindle-Head Cover sits within Spindle-Head Cover Assembly. Its shown panels, brackets, fittings, and fasteners remain associated with the assembly unless another named group is selected.",
+      "inspection": "From an authorized position, examine the main spindle-head cover for secure panels, clear interfaces, visible damage, trapped chips or fluid, and clearance from adjacent parts. Record unusual conditions before use.",
+      "safety": "Keep clear of moving members and do not open, remove, or service this assembly during operation. Follow site isolation procedures and installed machine instructions before any intervention.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 硬轨VMC855A-04-01  机头护罩装配体 at occurrence path VMC855 C2312035-1 > 硬轨VMC855A-04-00  机头罩装配体 > 硬轨VMC855A-04-01  机头护罩装配体",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0,
+          1.0399999618530273,
+          0.17225000262260437
+        ],
+        "direction": [
+          0.5283171460023793,
+          0.8426269476363831,
+          -0.10421525971225434
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1191319",
+      "type": "component-label",
+      "componentId": "C27",
+      "title": "Spindle-Head Box",
+      "category": "Machine Structure",
+      "overview": "The Spindle-Head Box is a separately named core member surrounding the machine's spindle-head region. It is a useful landmark for tracing the cutting system through the machine.",
+      "function": "It houses and supports the spindle-head region. The supplied model does not identify bearings, drive elements, lubrication passages, or internal service points.",
+      "relationships": "This box sits inside the Machine Core Assembly alongside the column, saddle, worktable, and bed. The spindle-head covers surround it externally, while the tool magazine occupies a neighboring branch.",
+      "inspection": "From an authorized viewing position, look for visible damage, loose exterior attachments, accumulated chips, staining, or interference with neighboring covers. Use approved machine documentation for alignment or internal checks.",
+      "safety": "Do not reach into the spindle area or remove covers while the machine is energized. Isolate stored and electrical energy before authorized access, and treat attached tooling as a sharp-object hazard.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 855WT主轴箱处理 at occurrence path VMC855 C2312035-1 > 855A装配图 > 855WT主轴箱处理",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.3345000147819519,
+          0.2709999978542328,
+          0.29249998927116383
+        ],
+        "direction": [
+          -0.7148661191762922,
+          -0.25025331756658536,
+          0.6529469417194209
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1191320",
+      "type": "component-label",
+      "componentId": "C28",
+      "title": "Machine Saddle",
+      "category": "Machine Structure",
+      "overview": "The Machine Saddle is the separately named slide-support member within the machine core. It can be distinguished from the bed below and the worktable above when studying the stacked structural arrangement.",
+      "function": "It supports the worktable above the machine bed. Exact travel, guide type, drive arrangement, and adjustment procedures are not defined here.",
+      "relationships": "The saddle belongs to the Machine Core Assembly with the bed, column, worktable, spindle-head box, and tool magazine. Those neighboring parts remain independently selectable for comparison.",
+      "inspection": "Observe exposed interfaces for chips, visible damage, staining, or obstructions that could affect adjacent moving regions. Do not infer straightness or alignment from this simplified viewer; use approved metrology procedures.",
+      "safety": "Keep hands and tools away from slide interfaces and possible pinch zones. Stop and isolate the machine before cleaning or examining concealed surfaces, following local lockout and machine instructions.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 855WT滑座处理 at occurrence path VMC855 C2312035-1 > 855A装配图 > 855WT滑座处理",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0,
+          -0.17749999463558197,
+          0.005000002682209015
+        ],
+        "direction": [
+          -0.4651646192647892,
+          -0.7630241112862299,
+          -0.4487940313552562
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1191321",
+      "type": "component-label",
+      "componentId": "C29",
+      "title": "Machine Worktable",
+      "category": "Machine Structure",
+      "overview": "The Machine Worktable is the named table member in the machine core. Its broad upper surface provides a clear reference for understanding where workholding equipment and a workpiece would normally be positioned.",
+      "function": "It supplies the working support surface for authorized setups. The model does not define permitted load, clamping method, slot dimensions, positioning accuracy, or a particular machining operation.",
+      "relationships": "The worktable sits with the saddle and bed in the Machine Core Assembly and below the spindle-head region. Fixtures, clamps, and workpieces are not represented as separate supplied components.",
+      "inspection": "Check for chips, damage, raised debris, or objects that could prevent secure seating. Confirm cleanliness and setup requirements using the laboratory's approved procedure.",
+      "safety": "Never adjust workholding while the machine can move. Remove loose tools before operation, keep clear of pinch points, and isolate the machine before reaching into the guarded work area.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 855WT工作台处理 at occurrence path VMC855 C2312035-1 > 855A装配图 > 855WT工作台处理",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.4999999999999999,
+          0.08100000023841858,
+          0
+        ],
+        "direction": [
+          -0.546987028589987,
+          0.6367854117107132,
+          0.5434238953033944
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1191322",
+      "type": "component-label",
+      "componentId": "C30",
+      "title": "Machine Bed",
+      "category": "Machine Structure",
+      "overview": "The Machine Bed is the named lower structural member of the machine core. It forms a useful base reference when comparing the positions of the saddle, worktable, column, and surrounding enclosure.",
+      "function": "Its structural role is to support the core arrangement and provide mounting relationships for neighboring machine members. Foundation details, leveling points, stiffness values, and lifting provisions are not established here.",
+      "relationships": "The bed lies beneath the saddle and worktable and beside the column. Exterior guarding and coolant-management assemblies occupy separate branches around it.",
+      "inspection": "Observe accessible exterior regions for visible damage, contamination, loose attachments, or fluid accumulation. Any leveling, anchoring, or structural inspection must follow approved manufacturer or site documentation.",
+      "safety": "Do not enter beneath the machine or use the displayed shape to choose lifting points. Isolate the equipment and use rated handling methods before authorized work near its base.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 855WT床身处理 at occurrence path VMC855 C2312035-1 > 855A装配图 > 855WT床身处理",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0,
+          -0.39500001072883606,
+          -0.8699999805539846
+        ],
+        "direction": [
+          -0.3939648510928145,
+          -0.9077029757497709,
+          0.14445415853628785
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1191331",
+      "type": "component-label",
+      "componentId": "C31",
+      "title": "YP4024 Tool-Magazine Assembly",
+      "category": "Tool-Changing System",
+      "overview": "The YP4024 Tool-Magazine Assembly is the named magazine unit inside the machine core. It is distinct from the external tool-magazine enclosure, which appears separately.",
+      "function": "The assembly represents the machine's tool-storage and presentation mechanism. The supplied data does not confirm pocket count, indexing sequence, allowable tool mass, change timing, or service settings.",
+      "relationships": "It is nested under the Machine Core Assembly near the spindle-head region and is covered by the separate Tool-Magazine Enclosure. Small brackets, adjustments, and fasteners remain grouped within it.",
+      "inspection": "With the machine safely isolated, observe accessible magazine surfaces for damage, loose items, chip buildup, or interference. Use validated instructions for pocket, alignment, sensor, or changer checks.",
+      "safety": "Treat the magazine as an automatic moving mechanism with pinch and sharp-tool hazards. Never enter its travel area or handle stored tools unless the machine is secured for that task.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node ASM-YP4024BT-R265L75-A01 at occurrence path VMC855 C2312035-1 > 855A装配图 > ASM-YP4024BT-R265L75-A01",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.2803506478667259,
+          0.8552259206771851,
+          0.4734562672674656
+        ],
+        "direction": [
+          -0.12088995480057482,
+          0.9464305570630398,
+          -0.2994241464639403
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1191025",
+      "type": "component-label",
+      "componentId": "C32",
+      "title": "Electrical Cabinet Body Assembly",
+      "category": "Electrical Enclosure",
+      "overview": "The Electrical Cabinet Body Assembly is the named structure inside the Electrical Cabinet group. It combines cabinet panels and enclosure pieces while the door remains independently identified.",
+      "function": "It provides the physical enclosure and mounting region associated with electrical equipment. The model does not identify installed devices, circuit functions, voltage, cooling arrangement, or isolation points.",
+      "relationships": "This body assembly and the Electrical Cabinet Door are sibling components under the Electrical Cabinet. Hinges, guide posts, sheets, and small brackets remain combined within the body assembly.",
+      "inspection": "From outside the closed cabinet, look for visible deformation, damaged panels, loose attachments, blocked openings, or signs of contamination. Internal inspection requires authorized electrical procedures.",
+      "safety": "Assume hazardous voltage may be present even when the machine is stopped. Keep the enclosure closed during normal use and permit only qualified personnel to access it after verified isolation.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-05-01  电气柜装配图 at occurrence path VMC855 C2312035-1 > VMC855A-05-00  电气箱装配图 > VMC855A-05-01  电气柜装配图",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.42485493421554565,
+          0.06958931684494019,
+          0.012499995529651642
+        ],
+        "direction": [
+          -0.8323590632438259,
+          -0.04690776940783157,
+          0.5522481788155053
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190977",
+      "type": "component-label",
+      "componentId": "C33",
+      "title": "Small Spindle-Head Cover",
+      "category": "Machine Guarding",
+      "overview": "The Small Spindle-Head Cover is a separately named two-piece cover assembly around the machine-head region. It is shown independently so learners can distinguish it from the main and magazine-side covers.",
+      "function": "Its visible role is to enclose part of the spindle-head area and complete the surrounding cover set. The model does not establish an interlock, sealing level, or impact rating.",
+      "relationships": "This cover is nested under the Spindle-Head Cover Assembly beside the Main Spindle-Head Cover and Tool-Magazine-Side Spindle-Head Cover. Its individual sheets remain grouped together.",
+      "inspection": "Observe the cover for dents, gaps, loose mounting points, rubbing, or trapped chips. Confirm any required clearance or fastening condition using approved machine instructions before operation.",
+      "safety": "Do not remove or bypass a machine cover while motion or stored energy is possible. Stop and isolate the machine before authorized access to the spindle-head area.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 硬轨VMC855A-04-03  小护罩装配体 at occurrence path VMC855 C2312035-1 > 硬轨VMC855A-04-00  机头罩装配体 > 硬轨VMC855A-04-03  小护罩装配体",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0.0633203387260437,
+          0.23839658498764038,
+          -0.06650000065564604
+        ],
+        "direction": [
+          -0.225368943175466,
+          0.9445165844245279,
+          -0.2389503320755117
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190978",
+      "type": "component-label",
+      "componentId": "C34",
+      "title": "Tool-Magazine-Side Spindle-Head Cover",
+      "category": "Machine Guarding",
+      "overview": "The Tool-Magazine-Side Spindle-Head Cover is the named side-cover assembly positioned toward the tool-magazine side of the machine head. Its two cover pieces are presented as one readable component.",
+      "function": "Its visible role is to close the side of the spindle-head cover arrangement near the tool magazine. No interlock, sealing performance, or internal mechanism is claimed from this model.",
+      "relationships": "It belongs to the Spindle-Head Cover Assembly beside the main and small covers, and it faces the separately modeled tool-magazine system. The underlying head structure remains a different component.",
+      "inspection": "Look for deformation, missing attachment points, rubbing, gaps, or chip accumulation at neighboring interfaces. Use approved instructions to confirm mounting and clearance requirements.",
+      "safety": "Keep the cover installed during operation. Isolate both spindle and tool-changing energy before authorized removal, because adjacent equipment may create pinch, crush, and sharp-tool hazards.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node VMC855A-04-02  机头侧护罩装配体小刀库 at occurrence path VMC855 C2312035-1 > 硬轨VMC855A-04-00  机头罩装配体 > VMC855A-04-02  机头侧护罩装配体小刀库",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.06964834034442902,
+          0.5303907990455627,
+          0.09300000034272671
+        ],
+        "direction": [
+          0.10355761706487006,
+          0.7599170684961641,
+          0.6417179045001331
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190773",
+      "type": "component-label",
+      "componentId": "C35",
+      "title": "Coolant Tank Body Assembly",
+      "category": "Coolant and Chip Management",
+      "overview": "The Coolant Tank Body Assembly is the named tank structure within the coolant and chip-management system. Its main body, wheels, braces, and repeated plates remain combined as one practical subsystem.",
+      "function": "It forms the container and support arrangement associated with coolant collection and circulation. Capacity, compatible fluid, cleaning interval, and internal baffle arrangement are not specified by the model.",
+      "relationships": "This assembly sits under Coolant Tank and Chip Conveyor alongside the Chip Conveyor, Coolant Pump Mounting Group, and Coolant Filter Plate. Those neighboring functions remain separately selectable.",
+      "inspection": "Check accessible exterior surfaces for leaks, corrosion, damage, loose supports, accumulated chips, or obstructed service space. Follow the site's fluid-handling procedure for cleaning or draining.",
+      "safety": "Avoid skin contact with used coolant and do not enter or reach into the tank system while equipment can start. Isolate energy and manage spills with approved protective equipment.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 水箱主体组合 at occurrence path VMC855 C2312035-1 > VNM860链排水箱 > 水箱主体组合",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          1.3049999428912997,
+          -0.002000001259148121,
+          1.0310000181198113
+        ],
+        "direction": [
+          -0.3555060007422775,
+          -0.9335256347552301,
+          0.04631816804534214
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190775",
+      "type": "component-label",
+      "componentId": "C36",
+      "title": "Coolant Pump Mounting Group",
+      "category": "Coolant and Chip Management",
+      "overview": "The Coolant Pump Mounting Group is a named support within the tank system. Visible parts include a cover plate, mounting seat, and fasteners rather than a confirmed pump motor.",
+      "function": "It provides the mounting region associated with coolant-pump equipment. The supplied assembly does not prove that a pump motor, impeller, pipe connections, or electrical supply is included in this group.",
+      "relationships": "This group belongs under Coolant Tank and Chip Conveyor beside the tank body, conveyor, and filter plate. Its small fasteners remain combined so the learning tree stays readable.",
+      "inspection": "Check for loose hardware, damage, corrosion, leakage, or interference. Confirm actual pump installation and service requirements on the physical machine.",
+      "safety": "Do not treat the model as an isolation guide. Secure electrical and fluid energy before authorized work, and protect against unexpected starting, pressure release, contaminated coolant, and sharp edges.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 水泵组合 at occurrence path VMC855 C2312035-1 > VNM860链排水箱 > 水泵组合",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          -0.05431756377220154,
+          -0.027435408905148506,
+          0
+        ],
+        "direction": [
+          -0.3300369859593004,
+          -0.7874311340931717,
+          -0.5206033009496216
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    },
+    {
+      "id": "step:29c3b129bf9b56941eb817b159c7a39575ce181d3c664d00a798266909a17212:generated:component-label:#1190777",
+      "type": "component-label",
+      "componentId": "C37",
+      "title": "Coolant Filter Plate",
+      "category": "Coolant and Chip Management",
+      "overview": "The Coolant Filter Plate is a named group within the coolant and chip-management system. A filter screen and plate appear together as one selectable component.",
+      "function": "Its form and source name indicate a screening boundary in the coolant path. Mesh size, filtration rating, flow direction, replacement interval, and approved cleaning method are not supplied.",
+      "relationships": "The plate belongs under Coolant Tank and Chip Conveyor beside the tank body, chip conveyor, and pump mounting group. It is kept separate because it is a clear inspection point.",
+      "inspection": "Look for visible blockage, deformation, corrosion, damage, or an improperly seated plate from an authorized position. Use site instructions to determine when and how it may be cleaned.",
+      "safety": "Stop and isolate the system before removal. Handle collected chips as sharp contaminated material, wear required protective equipment, and dispose of coolant residue according to laboratory procedures.",
+      "confidence": "geometry-derived",
+      "evidence": [
+        {
+          "kind": "source-cad",
+          "title": "Source CAD node 过滤网板 at occurrence path VMC855 C2312035-1 > VNM860链排水箱 > 过滤网板",
+          "publisher": "Supplied VMC855 AP203 assembly and derived GLB inventory",
+          "supports": [
+            "category",
+            "function",
+            "inspection",
+            "overview",
+            "relationships",
+            "safety",
+            "title"
+          ]
+        }
+      ],
+      "anchor": {
+        "space": "component-local",
+        "units": "m",
+        "position": [
+          0,
+          0,
+          5.684342156072553e-17
+        ],
+        "direction": [
+          0.2641447236362515,
+          -0.5755453693709894,
+          0.7739348117062185
+        ],
+        "positionMethod": "outward-local-bounds-face"
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schema": "eon-interactions/1.0",
+  "modelId": "conventional-lathe",
+  "overview": {
+    "id": "overview",
+    "componentIds": [
+      "C01",
+      "C02",
+      "C06",
+      "C09",
+      "C11",
+      "C12",
+      "C13"
+    ],
+    "steps": [
+      {
+        "componentId": "C01",
+        "outwardDirection": [
+          0.9771791594049775,
+          -0.046453322650770915,
+          -0.207275129331247
+        ]
+      },
+      {
+        "componentId": "C02",
+        "outwardDirection": [
+          -0.9944586547502052,
+          -0.00816503450832858,
+          0.10481085918877796
+        ]
+      },
+      {
+        "componentId": "C06",
+        "outwardDirection": [
+          0.8128097117369307,
+          1.2934748582626643e-16,
+          0.582529288968484
+        ]
+      },
+      {
+        "componentId": "C09",
+        "outwardDirection": [
+          0.9804188235946568,
+          0.06317166441286218,
+          0.18651614181238524
+        ]
+      },
+      {
+        "componentId": "C11",
+        "outwardDirection": [
+          -0.4243187761482933,
+          0.26035208484887934,
+          0.8672775611779983
+        ]
+      },
+      {
+        "componentId": "C12",
+        "outwardDirection": [
+          0.2920130276169766,
+          0.4979926216756673,
+          0.8165364293517848
+        ]
+      },
+      {
+        "componentId": "C13",
+        "outwardDirection": [
+          -0.9877340412265578,
+          0.13980895198681081,
+          -0.06953359437424489
+        ]
+      }
+    ]
+  },
+  "subsystems": [
+    {
+      "id": "subsystem:C02",
+      "componentId": "C02",
+      "componentIds": [
+        "C03",
+        "C04",
+        "C05"
+      ],
+      "steps": [
+        {
+          "componentId": "C03",
+          "outwardDirection": [
+            -0.7528541598690268,
+            0.1863275967951328,
+            0.6312627350322941
+          ]
+        },
+        {
+          "componentId": "C04",
+          "outwardDirection": [
+            -0.9519400886899644,
+            -0.2580109965452534,
+            0.16504663948916892
+          ]
+        },
+        {
+          "componentId": "C05",
+          "outwardDirection": [
+            -0.8647906033205557,
+            0.14375928485280465,
+            0.4811137915577554
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subsystem:C06",
+      "componentId": "C06",
+      "componentIds": [
+        "C07",
+        "C08"
+      ],
+      "steps": [
+        {
+          "componentId": "C07",
+          "outwardDirection": [
+            0.654619056664923,
+            1.6785660001345284e-16,
+            0.7559589212722646
+          ]
+        },
+        {
+          "componentId": "C08",
+          "outwardDirection": [
+            0.7030188142880871,
+            -0.6888094081594199,
+            -0.17693542886613128
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subsystem:C09",
+      "componentId": "C09",
+      "componentIds": [
+        "C10"
+      ],
+      "steps": [
+        {
+          "componentId": "C10",
+          "outwardDirection": [
+            0.9746351140456136,
+            0.0627990047003801,
+            0.21480847161584468
+          ]
+        }
+      ]
+    }
+  ]
+}
